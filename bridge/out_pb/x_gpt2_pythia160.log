@@ -1,0 +1,59 @@
+== gpt2_pythia160: A=openai-community/gpt2 B=EleutherAI/pythia-160m  P_A=118  test windows=512  articles=58
+  shared token strings: 36938
+    step 0 KL/token 1.8020
+    step 200 KL/token 0.7455
+    step 299 KL/token 0.6630
+  validation: L_A=1 -> L_B=1  CE 4.3164
+    step 0 KL/token 1.7955
+    step 200 KL/token 0.7941
+    step 299 KL/token 0.7246
+  validation: L_A=2 -> L_B=1  CE 4.3230
+    step 0 KL/token 1.9392
+    step 200 KL/token 0.4477
+    step 299 KL/token 0.3245
+  validation: L_A=3 -> L_B=1  CE 3.9441
+    step 0 KL/token 1.9537
+    step 200 KL/token 0.4272
+    step 299 KL/token 0.3255
+  validation: L_A=4 -> L_B=1  CE 3.9396
+  chose L_A=4, L_B=1
+  no context 4.9236   text 3.5717
+  receiver-state reference                 matched 3.8361  other 4.8759  same 4.3004
+  random map                               matched 8.0083  other 8.0176  same 8.0142
+  weight-only anchors                      matched 5.9264  other 5.9436  same 5.9326
+    step 0 KL/token 1.9537
+    step 200 KL/token 0.4272
+    step 400 KL/token 0.2826
+    step 599 KL/token 0.1803
+  comm_real_s0                             matched 3.8335  other 4.8834  same 4.3143
+    (2123 s)
+    step 0 KL/token 2.0631
+    step 200 KL/token 0.4340
+    step 400 KL/token 0.2410
+    step 599 KL/token 0.1629
+  comm_Claude_s0                           matched 4.2045  other 5.0780  same 4.5769
+    (2057 s)
+    step 0 KL/token 1.1943
+    step 200 KL/token 0.4854
+    step 400 KL/token 0.2623
+    step 599 KL/token 0.2592
+  comm_self-sampled_s0                     matched 4.3179  other 5.0253  same 4.6462
+    (2039 s)
+    step 0 KL/token 2.0579
+    step 200 KL/token 0.3712
+    step 400 KL/token 0.3419
+    step 599 KL/token 0.2330
+  comm_real_s1                             matched 3.8332  other 4.9016  same 4.3134
+    (2116 s)
+    step 0 KL/token 1.8257
+    step 200 KL/token 0.3707
+    step 400 KL/token 0.2088
+    step 599 KL/token 0.1712
+  comm_Claude_s1                           matched 4.1174  other 5.0567  same 4.5490
+    (1683 s)
+    step 0 KL/token 1.3022
+    step 200 KL/token 0.2979
+    step 400 KL/token 0.2182
+    step 599 KL/token 0.2309
+  comm_self-sampled_s1                     matched 4.3472  other 5.0893  same 4.6857
+    (792 s)

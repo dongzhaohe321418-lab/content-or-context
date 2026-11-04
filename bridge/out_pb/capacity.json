@@ -1,0 +1,26 @@
+{
+ "real rank16 | matched": {
+  "acc": 27.34,
+  "ce": 4.3677
+ },
+ "real rank64 | matched": {
+  "acc": 29.7,
+  "ce": 4.0894
+ },
+ "real mlp2048 | matched": {
+  "acc": 32.55,
+  "ce": 3.8322
+ },
+ "Claude rank16 | matched": {
+  "acc": 24.93,
+  "ce": 4.6662
+ },
+ "Claude rank64 | matched": {
+  "acc": 25.99,
+  "ce": 4.4561
+ },
+ "Claude mlp2048 | matched": {
+  "acc": 29.28,
+  "ce": 4.0779
+ }
+}

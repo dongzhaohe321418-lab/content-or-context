@@ -1,0 +1,42 @@
+{
+ "A alone (pythia-70m)": {
+  "acc": 0.2579,
+  "loss": 4.6552
+ },
+ "B alone (pythia-160m)": {
+  "acc": 0.3102,
+  "loss": 4.1129
+ },
+ "random bridge": {
+  "acc": 0.0015,
+  "loss": 12.5332
+ },
+ "token-embedding anchors, least squares (data-free)": {
+  "acc": 0.0025,
+  "loss": 14.2474
+ },
+ "embedding + unembedding anchors, least squares (data-free)": {
+  "acc": 0.003,
+  "loss": 12.4822
+ },
+ "KL fit on real wikitext (upper bound)": {
+  "acc": 0.2139,
+  "loss": 4.8316
+ },
+ "KL fit on text sampled from A and B (data-free, no corpus)": {
+  "acc": 0.107,
+  "loss": 6.6192
+ },
+ "KL fit on Claude-written Wikipedia-style text (no corpus)": {
+  "acc": 0.143,
+  "loss": 5.8368
+ },
+ "KL fit on real wikitext, same amount as Claude's text (126.5k chars)": {
+  "acc": 0.1831,
+  "loss": 5.2966
+ },
+ "KL fit on Claude-written Wikipedia-style text, 3x amount (no corpus)": {
+  "acc": 0.1721,
+  "loss": 5.4845
+ }
+}

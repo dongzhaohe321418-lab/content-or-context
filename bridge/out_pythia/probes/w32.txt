@@ -1,0 +1,96 @@
+= Pyrocharis vellmanni =
+
+Pyrocharis vellmanni, commonly known as Vellmann's ember beetle or the cinder jewel beetle, is a species of metallic wood-boring beetle in the family Buprestidae. It is endemic to the high-elevation pine and juniper woodlands of the eastern Anatolian plateau and the southern Caucasus, where it occurs at altitudes between 1,600 and 2,700 metres. The species is notable for its strong attraction to recently burned forest, a trait it shares with a small number of other pyrophilous beetles, and for the paired infrared-sensitive pit organs on the underside of its thorax that allow adults to locate active fires from considerable distances.
+
+The species was first described in 1911 by the German entomologist Heinrich Vellmann from specimens collected near Lake Van. For most of the twentieth century it was known from fewer than forty museum specimens and was regarded as one of the rarest buprestids in the western Palearctic. Systematic surveys of burned forest beginning in the 1990s showed that the beetle is locally common in the years immediately following wildfires but is almost undetectable in unburned habitat, which accounts for its apparent rarity in earlier collections.
+
+= = Taxonomy = =
+
+Pyrocharis vellmanni is the type species of the genus Pyrocharis, which was erected for it by Vellmann in the original description. The genus is placed in the subfamily Buprestinae, tribe Melanophilini, a group that contains several other fire-associated beetles. Early authors disputed whether the genus was distinct from related Melanophilini genera. In 1934 the Austrian coleopterist Ferdinand Strobl treated it as a subgenus, arguing that the differences in antennal structure described by Vellmann fell within the range of variation seen in related species. Strobl's arrangement was followed in most regional catalogues until 1978, when a revision by the Soviet entomologist Galina Ostrovskaya restored Pyrocharis to full generic rank on the basis of male genital characters and the unique arrangement of the thoracic sensory pits.
+
+Molecular studies published in 2009 and 2016, using mitochondrial and nuclear gene sequences, supported Ostrovskaya's conclusion and recovered Pyrocharis as a distinct lineage that diverged from its closest relatives during the late Miocene, approximately 8 to 11 million years ago. The genus currently contains three species: P. vellmanni, P. zagrosica from the Zagros Mountains of western Iran, and P. hyrcana, described in 2013 from a single burned locality in the Alborz range. P. vellmanni is the largest and most widely distributed of the three.
+
+Two subspecies have been proposed. The nominate subspecies, P. v. vellmanni, occupies the Anatolian portion of the range, while P. v. caucasica was described in 1952 from populations in Armenia and southern Georgia. The validity of the Caucasian subspecies remains uncertain; genetic data show only shallow divergence between the two populations, and some authors treat caucasica as a synonym.
+
+= = = Etymology = = =
+
+The generic name Pyrocharis is derived from the Ancient Greek pŷr ("fire") and kháris ("grace" or "delight"), which Vellmann explained as a reference to the beetle's apparent attraction to smoke and burned wood, reported to him by local guides. The specific epithet honours Vellmann himself; the name was assigned by his colleague Otto Reinhardt, who prepared the manuscript for publication after Vellmann fell ill during the expedition. The common name "ember beetle" refers both to the species' association with fire and to the coppery-red reflections visible on the elytra in direct sunlight.
+
+= = Description = =
+
+Adult Pyrocharis vellmanni measure 11 to 16 millimetres in length, with females on average slightly larger than males. The body is elongate and somewhat flattened, typical of buprestids, and tapers toward the rear. The upper surface is predominantly dull black to dark bronze, but when viewed at an angle the elytra show a deep coppery-red sheen, most intense along the lateral margins. Each elytron bears four shallow longitudinal ridges and a variable number of small, irregular golden punctures, usually between three and seven. The pattern of these punctures differs between individuals and has been used in mark-recapture studies to identify beetles without tagging.
+
+The head is broad, with large, kidney-shaped compound eyes and short, serrate antennae of eleven segments. The pronotum is wider than long, finely sculptured, and bordered by a narrow raised rim. The underside of the body is shining black with a faint greenish tint.
+
+The most distinctive feature of the species is a pair of shallow, oval pits located on the mesothorax, immediately behind the bases of the middle legs. Each pit is roughly 0.3 millimetres across and contains around 60 to 80 dome-shaped sensilla. These structures are sensitive to infrared radiation and are thought to allow adults to detect the heat of forest fires. Compared with related fire beetles, the pits in P. vellmanni are positioned further forward and are partially shielded by a fringe of short bristles, an arrangement that has been suggested to reduce interference from sunlight.
+
+Males can be distinguished from females by the shape of the last visible abdominal segment, which is shallowly notched in males and rounded in females, and by a small patch of dense golden hairs on the inner surface of the front tibiae.
+
+= = = Larva = = =
+
+The larva is a pale, legless grub of the flat-headed borer type, reaching up to 32 millimetres in length when fully grown. The first thoracic segment is greatly expanded and flattened, giving the larva the characteristic hammer-headed appearance of buprestid larvae. The mandibles are dark brown and strongly sclerotised. The larva can be separated from those of co-occurring species by the presence of two narrow V-shaped grooves on the upper plate of the expanded thoracic segment, whereas related species typically show a single groove.
+
+= = Distribution and habitat = =
+
+Pyrocharis vellmanni is restricted to a relatively narrow belt of montane woodland extending from the vicinity of Erzurum and Kars in eastern Turkey eastward through Armenia and into the Javakheti plateau of southern Georgia, with isolated records from the Nakhchivan region. Its total range has been estimated at around 48,000 square kilometres, although suitable habitat within this area is fragmented and much of it is unforested steppe.
+
+The species inhabits open woodland dominated by Scots pine (Pinus sylvestris), oriental spruce (Picea orientalis) at the western margin of its range, and several species of juniper, especially Juniperus excelsa and J. polycarpos. It is most frequently encountered on south- and west-facing slopes, where wildfires tend to be more frequent and intense. Populations have been recorded at elevations from 1,580 metres near the Çoruh valley up to 2,740 metres on the slopes of Mount Aragats, though the majority of records fall between 1,900 and 2,400 metres.
+
+Outside of burned areas, the species persists at very low densities in standing dead trees killed by lightning, drought, or bark beetle outbreaks. Surveys conducted in unburned forest in the Kars province between 2004 and 2007 recorded an average of fewer than one adult per hectare per season, while surveys of the same region in the first summer following a large fire in 2006 recorded densities exceeding 200 adults per hectare in the most heavily burned stands.
+
+= = Ecology and behaviour = =
+
+= = = Fire attraction = = =
+
+Like several other members of the tribe Melanophilini, P. vellmanni is strongly pyrophilous. Adults are attracted to active fires and to smouldering forest, and have been observed arriving at burning stands while flames are still present. Field observations made during a controlled burn in Armenia in 2011 recorded the first adults arriving within 40 minutes of ignition, with numbers peaking during the following two days.
+
+The beetles appear to use at least two senses to locate fires. The thoracic pit organs detect infrared radiation, and laboratory experiments have shown that they respond to heat sources equivalent to a forest fire at distances that researchers have estimated at several kilometres, although the precise detection range in natural conditions remains debated. The antennae also bear chemoreceptors that are highly sensitive to certain compounds in wood smoke, particularly guaiacol derivatives produced by the burning of conifer wood. Experiments in which smoke extracts were released from traps in unburned forest attracted adults from distances of up to 1.2 kilometres.
+
+The adaptive value of fire attraction is believed to lie in the availability of freshly killed trees, which provide ideal larval habitat. Trees killed by fire lose their chemical defences, particularly resin flow, which would otherwise kill or repel the young larvae. Burned forests also offer reduced competition from other wood-boring insects in the first season after a fire and lower numbers of predators and parasitoids.
+
+= = = Life cycle = = =
+
+Adults are active from late May to early September, with peak numbers in July. Mating takes place on the trunks of burned trees, often while the bark is still warm. Males establish small territories on sun-exposed sections of trunk and approach other beetles landing nearby; mating attempts on other males are frequent and are generally terminated within a few seconds. Courtship is brief and consists mainly of the male tapping the female's elytra with his antennae and front legs.
+
+Females lay eggs singly or in small groups of two to four in cracks in the charred bark, preferring trees with a trunk diameter of 15 to 40 centimetres and bark that has been scorched but not entirely consumed. A single female may lay between 40 and 90 eggs over her lifespan. The eggs hatch after approximately ten to fourteen days.
+
+Newly hatched larvae bore through the bark and feed in the phloem and outer sapwood, creating broad, winding galleries packed with fine, tightly compressed frass. The galleries are characteristically arranged in a zigzag pattern and can extend more than a metre in length. Development usually takes two years, though larvae in trees at the highest elevations or in heavily shaded stands may require three. In the final year, the mature larva excavates a pupal chamber in the sapwood, typically 1 to 3 centimetres beneath the surface, and overwinters there. Pupation occurs in the following spring, and adults emerge through a distinctive D-shaped exit hole about 4 to 5 millimetres wide.
+
+Because larval development requires two or more years, the first generation of adults to emerge from a burned stand appears in the second or third summer after the fire. These emerging adults then disperse in search of new burned areas. In the absence of recent fires within flight range, some adults lay eggs in the same stand, but the quality of the timber declines rapidly as fungi and other insects colonise the dead trees, and local populations typically collapse within six to eight years of a fire.
+
+= = = Diet = = =
+
+Larvae feed exclusively on dead or dying coniferous wood. Pine is preferred where available, and larvae reared in pine reach a larger final size than those reared in juniper or spruce. Adults feed occasionally on pollen and on the needles of young conifers, and have been observed taking fluids from the sap that seeps from fire-damaged trees. Some observers have reported adults feeding on the bodies of other insects killed by fire, but this behaviour appears to be uncommon.
+
+= = = Predators and parasites = = =
+
+The principal predators of adult beetles are birds, particularly the great spotted woodpecker, the Eurasian hoopoe, and several species of shrikes, which take advantage of the high concentration of beetles in recently burned areas. The black woodpecker has been recorded excavating larvae from burned pine trunks during winter. Larvae are parasitised by several species of braconid wasps, the most important of which is an undescribed species in the genus Atanycolus that, according to a study in eastern Turkey, attacked up to 34 percent of larvae in some stands.
+
+= = Population and conservation = =
+
+The global population of Pyrocharis vellmanni is difficult to estimate because its numbers fluctuate dramatically depending on the frequency and extent of wildfires. The species was listed as Vulnerable on the IUCN Red List in 1996, based largely on the small number of known records at the time. Following the surveys of the late 1990s and 2000s, which demonstrated that the species was more widespread than previously thought, it was reassessed as Near Threatened in 2014.
+
+The principal threats to the species are the suppression of wildfire, the salvage logging of burned timber, and the long-term reduction of montane conifer woodland through grazing and fuelwood collection. Salvage logging is considered especially damaging, as the removal of burned trees in the first year after a fire eliminates both larval habitat and the developing larvae themselves. A study in Armenia in 2018 found that stands subjected to salvage logging within twelve months of a fire produced fewer than five percent of the emerging adults recorded from comparable unlogged stands.
+
+Climate change has been identified as a potential threat in both directions. Warmer and drier conditions are expected to increase the frequency of wildfires, which may temporarily favour the species, but are also projected to reduce the area of suitable high-elevation conifer woodland over the longer term. Modelling published in 2021 suggested that the species' climatically suitable range may shrink by between 30 and 55 percent by 2080 under moderate emissions scenarios.
+
+In Armenia, the species is listed in the national Red Book and is protected within the Dilijan National Park and several smaller reserves. In Georgia, a management plan for burned forest in the Borjomi region, adopted in 2017 after a major fire, included the retention of groups of standing dead trees specifically to provide habitat for P. vellmanni and other fire-dependent insects. No species-specific protection exists in Turkey, although part of its range falls within the Sarıkamış-Allahuekber Mountains National Park.
+
+= = History of study = =
+
+Heinrich Vellmann collected the first specimens in August 1909 during an expedition to the region around Lake Van, organised by the Berlin Zoological Museum. According to his field notes, local shepherds told him that "black beetles come to the fire" and directed him to a hillside that had burned earlier that summer, where he collected seven specimens from the trunks of charred pines. Vellmann contracted typhus shortly afterward and did not return to entomological work; the description was completed by Otto Reinhardt and published under Vellmann's name in 1911. The holotype and four paratypes are held in the Museum für Naturkunde in Berlin. Two further paratypes, originally deposited in Dresden, were lost during the Second World War.
+
+Over the following decades, only scattered specimens were collected, most of them from single individuals found by chance. A specimen taken near Kars in 1928 and another from Mount Aragats in 1947 extended the known range considerably. The species attracted renewed attention in the 1960s, when research on the infrared sense of related fire beetles in Europe and North America led several entomologists to examine the thoracic structures of P. vellmanni. In 1971, the Armenian entomologist Ruben Hakobyan published the first detailed account of the pit organs and suggested, correctly, that they were more highly developed than in any other Palearctic species.
+
+The modern understanding of the species' ecology dates from a series of field studies led by researchers at Atatürk University in Erzurum and the Institute of Zoology in Yerevan beginning in 1994. These studies established that the beetle's apparent rarity was the result of sampling methods that failed to target burned forest at the appropriate time. Since 2008, the species has been the subject of several studies in sensory biology, and its pit organs have been examined as a potential model for the design of uncooled infrared detectors. A collaborative project between a German engineering institute and Georgian entomologists, running from 2015 to 2019, produced a prototype sensor based on the arrangement of sensilla in the beetle's pits, though the device did not achieve the sensitivity attributed to the insect.
+
+= = In culture = =
+
+In parts of eastern Anatolia, the beetle is known in local dialects by names that translate as "fire messenger" or "ash child." A folk belief recorded in several villages around Kars in the 1970s held that the appearance of large numbers of the beetles foretold a dry summer and a high risk of fire, an association that likely arose because adults emerge in large numbers in the years following major fires. In Armenia, an illustration of P. vellmanni appeared on a postage stamp issued in 2005 as part of a series depicting the country's endemic and rare insects.
+
+= = See also = =
+
+* Pyrophilous insects
+* Melanophilini
+* List of Buprestidae of the Caucasus
+* Fire ecology

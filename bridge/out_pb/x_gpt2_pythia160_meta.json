@@ -1,0 +1,9 @@
+{
+ "A": "openai-community/gpt2",
+ "B": "EleutherAI/pythia-160m",
+ "L_A": 4,
+ "L_B": 1,
+ "P_A": 118,
+ "n_test": 512,
+ "shared_tokens": 36938
+}

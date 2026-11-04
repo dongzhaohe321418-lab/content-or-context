@@ -1,0 +1,36 @@
+    step 0 KL/token 1.7447
+    step 200 KL/token 0.9380
+    step 400 KL/token 0.9318
+    step 599 KL/token 0.7155
+  real rank16 | matched                                        acc  27.34  ce 4.3677
+    (1186 s)
+    step 0 KL/token 1.6246
+    step 200 KL/token 0.8142
+    step 400 KL/token 0.7042
+    step 599 KL/token 0.4809
+  real rank64 | matched                                        acc  29.70  ce 4.0894
+    (1181 s)
+    step 0 KL/token 1.5145
+    step 200 KL/token 0.7451
+    step 400 KL/token 0.3994
+    step 599 KL/token 0.2737
+  real mlp2048 | matched                                       acc  32.55  ce 3.8322
+    (1220 s)
+    step 0 KL/token 1.6122
+    step 200 KL/token 0.8689
+    step 400 KL/token 0.6288
+    step 599 KL/token 0.4872
+  Claude rank16 | matched                                      acc  24.93  ce 4.6662
+    (1189 s)
+    step 0 KL/token 1.5522
+    step 200 KL/token 0.7179
+    step 400 KL/token 0.4206
+    step 599 KL/token 0.3064
+  Claude rank64 | matched                                      acc  25.99  ce 4.4561
+    (1210 s)
+    step 0 KL/token 1.4464
+    step 200 KL/token 0.6506
+    step 400 KL/token 0.2249
+    step 599 KL/token 0.1469
+  Claude mlp2048 | matched                                     acc  29.28  ce 4.0779
+    (1250 s)

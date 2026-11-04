@@ -1,0 +1,143 @@
+The slatefin lanternshark (Etmopterus lithovagus) is a small deep-water shark of the family Etmopteridae, distinguished by its broad pectoral fins, slate-grey dorsal surface and paired bands of light-producing organs along the abdomen. It inhabits continental slopes and submarine plateaux in the south-western Indian Ocean, principally at depths of 420–1,180 metres. Adults usually measure 38–47 centimetres in length. Females are generally larger than males, with the largest recorded specimen measuring 56 centimetres.
+
+The species feeds mainly on small crustaceans, squid and midwater fishes. It spends daylight hours close to the seabed and moves into the water column at night. Its bioluminescence is thought to provide camouflage against downwelling light and to assist recognition between individuals. Reproduction is aplacental viviparous, with females producing three to seven young after a gestation period estimated at approximately eighteen months.
+
+Slatefin lanternsharks occur unevenly across their range, forming local concentrations around rocky terraces and the margins of submarine channels. They have no commercial value but are caught incidentally in deep-water fisheries. Their slow growth, low reproductive output and fragmented distribution make them susceptible to sustained fishing pressure.
+
+= = Taxonomy and naming = =
+
+The slatefin lanternshark was formally described in 1986 by marine zoologists Helena Voss and Karim Delaunay, following a survey of deep-water fishes around the southern Mascarene Plateau. The description was based on eleven specimens collected by bottom trawl between 1979 and 1983. The type specimen, a mature female measuring 44.6 centimetres, was taken at a depth of 760 metres on a terrace of volcanic gravel.
+
+The generic name Etmopterus refers to the characteristic fin spines of lanternsharks. The specific name lithovagus combines Greek-derived elements meaning “stone” and “wandering”, referring to the association of the species with broken rocky ground. The common name describes the colour of the dorsal and pectoral fins in freshly collected specimens. Preserved individuals typically become uniformly brown.
+
+Early survey records confused the species with other small lanternsharks because its lateral markings fade rapidly after death. Subsequent examination identified a combination of distinguishing characters, including a short caudal peduncle, widely spaced upper teeth and an interrupted row of enlarged dermal denticles behind each eye.
+
+The species is placed among lanternsharks with elongated flank markings and relatively sparse dorsal denticles. Genetic comparisons suggest that its closest relatives are slope-dwelling species of the western Indian Ocean, although relationships within this group remain incompletely resolved.
+
+= = Description = =
+
+The slatefin lanternshark has a slender body, a moderately flattened head and a short, broadly rounded snout. The eyes are large and oval, with a narrow reflective rim that appears green under artificial illumination. Small spiracles lie immediately behind the eyes. There are five pairs of gill openings, the last positioned above the origin of the pectoral fin.
+
+The mouth is gently arched. Upper teeth have a slender central cusp and one or two small lateral cusplets. Lower teeth are broader and interlock to form a continuous cutting edge. This arrangement allows the shark to hold small prey with the upper jaw while cutting with the lower jaw. Tooth counts vary slightly with body size, but adults usually have 25–29 upper and 29–33 lower tooth rows.
+
+Two dorsal fins each bear a grooved spine. The second dorsal fin is larger than the first, and its spine is more strongly curved. The pectoral fins are unusually broad for a lanternshark of this size. An anal fin is absent. The caudal fin has a long upper lobe and a small, distinct lower lobe.
+
+The skin is covered with minute denticles whose narrow crowns point backwards. Denticles are sparse around the mouth and on the lower abdomen, but become closely packed along the tail. An irregular patch of larger denticles between the dorsal fins gives this region a rough texture.
+
+The upper body is grey to charcoal, becoming darker towards the fin margins. The underside is nearly black. Pale grey patches occur beneath the jaw and around the pelvic-fin bases. Juveniles have more sharply defined markings than adults and proportionally longer tails.
+
+= = Bioluminescence = =
+
+Light-producing organs, or photophores, are distributed across the underside, lower flanks and tail. The densest concentrations form two abdominal bands separated by a narrow dark strip. Additional groups occur behind the pelvic fins and beneath the caudal peduncle. Their light is blue-green.
+
+The abdominal photophores are associated with counterillumination. By producing light on its lower surface, the shark reduces the contrast of its silhouette when viewed from below against faint light descending from the surface. Observations in pressure-controlled aquaria indicate that light output changes gradually in response to surrounding illumination. Adjustment is slower than in many luminous bony fishes.
+
+The flank markings may have a separate signalling function. Their arrangement is consistent among adults, while their apparent brightness changes with viewing angle. Individuals swimming beside one another would therefore see a different pattern from predators approaching from below.
+
+A small concentration of photophores occurs near the base of each dorsal spine. It has been proposed that these make the spines visible to potential predators, although this interpretation has not been demonstrated experimentally.
+
+Newborn sharks possess functional photophores. Their light output is weaker than that of adults, but the main abdominal pattern is already present. Luminescence persists briefly after capture and can disappear before specimens reach the surface.
+
+= = Distribution and habitat = =
+
+The known distribution extends from the southern Mascarene Plateau to isolated banks east of Madagascar. Records are concentrated along the outer margins of elevated seabed features rather than on the intervening abyssal plains. The northernmost confirmed population occupies the slopes of the Aveline Bank, while southern records approach the northern edge of the subtropical convergence.
+
+Most specimens have been collected between 600 and 950 metres. Shallower occurrences are associated with cold-water incursions, particularly on exposed southern slopes. The deepest confirmed record is from 1,180 metres, although acoustic observations suggest that individuals occasionally descend farther.
+
+The species favours mixed seabeds containing volcanic rubble, coarse sediment and scattered outcrops. It is less frequently encountered over extensive soft mud. Occupied sites commonly have moderate bottom currents and nearby access to deeper water.
+
+Water temperatures at collection sites range from 4.2 to 8.7 °C. Salinity varies little across the occupied depth range. Dissolved oxygen appears to influence local distribution: catches decline sharply where low-oxygen water intersects the slope.
+
+Juveniles occur disproportionately on gently inclined terraces with abundant small crustaceans. Adults occupy a wider variety of terrain, including steep channel walls. The apparent separation may reduce competition for food, but differences in the vulnerability of age groups to sampling gear have not been excluded.
+
+= = Behaviour and movement = =
+
+The slatefin lanternshark usually swims slowly, using shallow movements of the tail while holding its pectoral fins away from the body. Near the seabed, it follows the contours of rocks and ledges rather than maintaining a constant depth. Video observations show individuals passing through narrow gaps between boulders without contacting the substrate.
+
+During daylight, most observed sharks remain within several metres of the bottom. After dusk, some rise 80–200 metres into the water column. These movements coincide with the redistribution of small fishes and crustaceans. Not all individuals migrate each night, and the extent of movement varies with season and local topography.
+
+Short tracking studies indicate repeated use of particular slope sections over several weeks. Individuals nevertheless move between neighbouring terraces, especially where channels interrupt suitable habitat. There is no evidence of regular long-distance migration.
+
+Small groups of two to six sharks have been recorded around prominent outcrops. Such gatherings are generally loose, with individuals maintaining distances of one or more body lengths. They may reflect a shared response to prey or current conditions rather than stable social associations.
+
+When disturbed, the shark makes a brief acceleration and turns towards deeper or more obstructed ground. It does not maintain high swimming speeds for long periods. Captured individuals often bend the body sharply, bringing the dorsal spines close to the source of restraint.
+
+= = Feeding = =
+
+The diet consists predominantly of small crustaceans, supplemented by squid and fishes. Stomach-content studies identify deep-water shrimps, mysids and euphausiids as the most frequent prey. Lanternfishes and juvenile slickheads contribute a larger proportion of the food mass in adult sharks.
+
+Diet changes with size. Individuals shorter than 25 centimetres feed mainly on small crustaceans, whereas larger sharks consume more fishes and cephalopods. This transition is gradual and varies between locations. On shrimp-rich terraces, even large adults may retain a predominantly crustacean diet.
+
+The shark locates prey using vision, smell and sensitivity to water movement. Its large eyes are suited to detecting weak light, including the luminescence of potential prey. Electroreception probably becomes important at close range, especially when prey are partly concealed among stones.
+
+Most prey are swallowed whole. Larger fishes may be cut into pieces by the interlocking lower teeth. Some stomachs contain detached squid arms without other remains, suggesting that the shark occasionally removes tissue from animals too large to consume.
+
+Feeding intensity appears greatest during the first half of the night. Empty stomachs are more frequent in daytime samples, although capture-related regurgitation complicates interpretation. Small stones and fragments of sponge occur occasionally and are considered incidental rather than deliberate components of the diet.
+
+= = Reproduction and development = =
+
+The slatefin lanternshark is aplacentally viviparous. Embryos develop within the mother and obtain nourishment primarily from yolk sacs, without forming a placental connection. Females have two functional uteri, usually containing a similar number of embryos.
+
+Males mature at approximately 32–35 centimetres and females at 39–43 centimetres. These lengths vary between sampled populations. Maturity in males is indicated by the enlargement and calcification of the claspers. In females, it is associated with enlarged ovaries and a widening of the reproductive tract.
+
+Litters contain three to seven pups, with five being the most frequently recorded number. Larger females tend to carry more embryos, although litter size varies substantially among individuals of similar length. Young measure 13–16 centimetres at birth.
+
+Gestation is estimated at fifteen to twenty months. The estimate is based on changes in embryo size across seasonal samples rather than on continuous observation of pregnant females. Females carrying near-term embryos are most common from late winter to early summer, but births probably occur over an extended period.
+
+A resting interval may separate pregnancies. Mature females with enlarged ovaries but no uterine embryos have been collected throughout the year. Consequently, annual production of young is likely to be lower than litter size alone suggests.
+
+Newborn sharks retain a small external yolk-sac scar. They are capable of active swimming and feeding shortly after birth. No parental care has been observed.
+
+= = Growth and longevity = =
+
+Growth estimates have been obtained from bands in the dorsal-fin spines. These bands are provisionally interpreted as annual, although their periodicity has not been fully validated. Spine wear in larger specimens introduces additional uncertainty.
+
+Available estimates suggest rapid growth during the first two years, followed by a marked decline. Males may reach maturity at seven to nine years and females at ten to thirteen years. The oldest examined individuals have estimated ages of twenty-one years for males and twenty-seven years for females.
+
+Females attain both greater lengths and greater ages. Their larger abdominal capacity may permit increased reproductive output, while differences in energy allocation contribute to the divergence in growth after maturity.
+
+Growth varies among sampling sites. Sharks from warmer, shallower terraces generally reach a given length sooner than those from deeper slopes. Food availability may also contribute, but its effect is difficult to separate from temperature.
+
+Age estimates remain a major uncertainty in assessments of the species. If spine bands form less frequently than assumed, population turnover would be slower than current calculations indicate.
+
+= = Predators and parasites = =
+
+Larger deep-water sharks and predatory bony fishes consume slatefin lanternsharks. Identifiable remains have been recovered from the stomachs of sixgill sharks and large wreckfish. Juveniles are probably vulnerable to a wider range of predators than adults.
+
+The dorsal spines may deter attacks, although healed injuries show that they do not provide complete protection. Some specimens bear semicircular scars on the tail or missing portions of pectoral fins. The causes of most injuries cannot be established from their appearance alone.
+
+Recorded parasites include spiral-valve tapeworms, stomach nematodes and copepods attached near the gill openings. Parasite communities differ between northern and southern populations, possibly reflecting variation in diet and limited exchange between regions.
+
+Heavy parasite burdens are uncommon in collected specimens. Their effects on growth and reproduction have not been measured.
+
+= = Ecological role = =
+
+The slatefin lanternshark links small midwater prey with larger predators associated with the continental slope. Its nightly movements transfer food-derived material between the water column and the seabed community.
+
+Local abundance suggests that it can be an important consumer of shrimps around isolated terraces. However, estimates of its total contribution to prey mortality are limited by uncertainty about population density and feeding frequency.
+
+The species shares its habitat with small catsharks, grenadiers and deep-water eels. Differences in prey size, feeding height and activity may reduce competition. Slatefin lanternsharks tend to take more freely swimming crustaceans than neighbouring bottom-feeding fishes.
+
+Its patchy distribution also makes it a useful subject for studying connectivity between submarine banks. Genetic differences among sampled populations are modest but consistent with restricted movement across deep intervening basins.
+
+= = Relationship with humans = =
+
+The species is too small and occurs too deep to present a danger to swimmers. Its dorsal spines can cause puncture wounds during handling. There is no directed fishery, and captured specimens are usually discarded.
+
+Incidental capture occurs in deep-water trawls and on longlines targeting larger fishes. Trawls operating across terrace margins sometimes take several dozen individuals in a single haul. Longline catches are less frequent and consist mainly of larger adults.
+
+Post-release survival is unknown. Individuals brought rapidly to the surface often show impaired swimming, abrasions or damage from compression within the catch. The absence of a gas-filled swim bladder prevents some forms of pressure-related injury but does not eliminate the effects of capture and decompression.
+
+The species has occasionally been maintained in chilled research aquaria, usually for short periods. Its requirements for low light, stable temperature and appropriate pressure make long-term husbandry difficult.
+
+= = Conservation and research = =
+
+The conservation status of the slatefin lanternshark is uncertain because surveys cover only a small fraction of suitable habitat. Catch records frequently group it with other lanternsharks, obscuring changes in abundance.
+
+Its principal known threat is incidental capture in expanding deep-water fisheries. Low reproductive output and delayed maturity could limit recovery after depletion. Local populations may be particularly vulnerable where fishing repeatedly targets isolated terraces.
+
+Several occupied slopes fall within areas closed to bottom trawling. These closures protect part of the habitat, although their effectiveness depends on the extent to which sharks move beyond their boundaries. Unfished rocky ground may provide additional refuges where fishing gear cannot operate safely.
+
+Research priorities include validating age estimates, measuring discard survival and determining the degree of connectivity among banks. Improved photographic identification and separate reporting in fisheries surveys would help establish population trends.
+
+Environmental monitoring is also needed to assess changes in bottom-water temperature and oxygen. Such changes could alter the depth and extent of suitable habitat, but their long-term effects on the species remain unresolved.

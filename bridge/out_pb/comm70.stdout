@@ -1,0 +1,132 @@
+W1103 13:02:47.221000 26015 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 2386.25it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1884.05it/s]
+== comm70: pythia-70m L2 -> pythia-160m L1, prefix 128, suffix 32
+  B full context (upper bound)                                 acc  36.08  ce 3.5717
+  B no context (suffix only)                                   acc  22.85  ce 4.9236
+  A full context                                               acc  30.77  ce 4.1307
+  A no context (suffix only)                                   acc  19.68  ce 5.4120
+  oracle message: B's own prefix states (protocol ceiling)     acc  32.86  ce 3.8361
+  random bridge                                                acc  17.36  ce 5.6811
+  random bridge | mismatched message                           acc  17.16  ce 5.6824
+  embedding anchors, no fit (data-free)                        acc  19.59  ce 5.3956
+  embedding anchors, no fit (data-free) | mismatched message   acc  19.78  ce 5.4065
+[transformers] The attention mask is not set with a batched input, and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+    step 0 KL/token 5.2515
+    step 200 KL/token 0.8354
+    step 400 KL/token 0.6892
+    step 599 KL/token 0.4452
+  fit[full] on real wikitext | seed 0                          acc  29.86  ce 4.0493
+  fit[full] on real wikitext | seed 0 | mismatched message     acc  26.82  ce 4.4520
+    (288 s)
+    step 0 KL/token 5.7170
+    step 200 KL/token 0.6494
+    step 400 KL/token 0.3853
+    step 599 KL/token 0.3026
+  fit[full] on Claude text 383k | seed 0                       acc  27.48  ce 4.3046
+  fit[full] on Claude text 383k | seed 0 | mismatched message  acc  24.97  ce 4.6552
+    (287 s)
+    step 0 KL/token 5.6100
+    step 200 KL/token 1.1420
+    step 400 KL/token 0.6346
+    step 599 KL/token 0.5381
+  fit[full] on self-sampled | seed 0                           acc  26.38  ce 4.4290
+  fit[full] on self-sampled | seed 0 | mismatched message      acc  24.18  ce 4.7190
+    (278 s)
+    step 0 KL/token 1.5145
+    step 200 KL/token 0.6038
+    step 400 KL/token 0.3195
+    step 599 KL/token 0.2426
+  fit[comm] on real wikitext | seed 0                          acc  32.26  ce 3.8605
+  fit[comm] on real wikitext | seed 0 | mismatched message     acc  28.16  ce 4.3402
+    (334 s)
+    step 0 KL/token 1.4464
+    step 200 KL/token 0.3831
+    step 400 KL/token 0.2317
+    step 599 KL/token 0.1568
+  fit[comm] on Claude text 383k | seed 0                       acc  28.37  ce 4.1428
+  fit[comm] on Claude text 383k | seed 0 | mismatched message  acc  25.64  ce 4.5522
+    (328 s)
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+    step 0 KL/token 5.2160
+    step 200 KL/token 1.0367
+    step 400 KL/token 0.5750
+    step 599 KL/token 0.4747
+  fit[full] on real wikitext | seed 1                          acc  29.39  ce 4.0953
+  fit[full] on real wikitext | seed 1 | mismatched message     acc  26.28  ce 4.4697
+    (264 s)
+    step 0 KL/token 5.6348
+    step 200 KL/token 0.6586
+    step 400 KL/token 0.3974
+    step 599 KL/token 0.2848
+  fit[full] on Claude text 383k | seed 1                       acc  27.23  ce 4.3429
+  fit[full] on Claude text 383k | seed 1 | mismatched message  acc  24.97  ce 4.6698
+    (285 s)
+    step 0 KL/token 6.7215
+    step 200 KL/token 1.3434
+    step 400 KL/token 0.8188
+    step 599 KL/token 0.5832
+  fit[full] on self-sampled | seed 1                           acc  25.98  ce 4.4211
+  fit[full] on self-sampled | seed 1 | mismatched message      acc  23.95  ce 4.7031
+    (291 s)
+    step 0 KL/token 1.4920
+    step 200 KL/token 0.3206
+    step 400 KL/token 0.2112
+    step 599 KL/token 0.2367
+  fit[comm] on real wikitext | seed 1                          acc  32.96  ce 3.8029
+  fit[comm] on real wikitext | seed 1 | mismatched message     acc  28.13  ce 4.3284
+    (332 s)
+    step 0 KL/token 1.2849
+    step 200 KL/token 0.3366
+    step 400 KL/token 0.2010
+    step 599 KL/token 0.1640
+  fit[comm] on Claude text 383k | seed 1                       acc  28.11  ce 4.1679
+  fit[comm] on Claude text 383k | seed 1 | mismatched message  acc  25.38  ce 4.5733
+    (333 s)
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+    step 0 KL/token 5.1000
+    step 200 KL/token 0.8673
+    step 400 KL/token 0.6292
+    step 599 KL/token 0.5243
+  fit[full] on real wikitext | seed 2                          acc  29.82  ce 4.0469
+  fit[full] on real wikitext | seed 2 | mismatched message     acc  26.53  ce 4.4527
+    (277 s)
+    step 0 KL/token 5.6720
+    step 200 KL/token 0.6809
+    step 400 KL/token 0.3988
+    step 599 KL/token 0.3200
+  fit[full] on Claude text 383k | seed 2                       acc  27.38  ce 4.3356
+  fit[full] on Claude text 383k | seed 2 | mismatched message  acc  24.91  ce 4.6743
+    (257 s)
+    step 0 KL/token 5.2769
+    step 200 KL/token 1.0242
+    step 400 KL/token 0.5857
+    step 599 KL/token 0.4481
+  fit[full] on self-sampled | seed 2                           acc  26.51  ce 4.3562
+  fit[full] on self-sampled | seed 2 | mismatched message      acc  24.24  ce 4.6747
+    (257 s)
+    step 0 KL/token 1.4155
+    step 200 KL/token 0.4202
+    step 400 KL/token 0.2375
+    step 599 KL/token 0.1944
+  fit[comm] on real wikitext | seed 2                          acc  32.74  ce 3.8181
+  fit[comm] on real wikitext | seed 2 | mismatched message     acc  28.23  ce 4.3402
+    (323 s)
+    step 0 KL/token 1.1124
+    step 200 KL/token 0.2330
+    step 400 KL/token 0.1845
+    step 599 KL/token 0.1414
+  fit[comm] on Claude text 383k | seed 2                       acc  28.78  ce 4.0995
+  fit[comm] on Claude text 383k | seed 2 | mismatched message  acc  25.89  ce 4.5274
+    (333 s)

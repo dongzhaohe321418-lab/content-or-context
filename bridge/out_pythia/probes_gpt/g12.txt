@@ -1,0 +1,212 @@
+Velorium
+
+Velorium is a fictional chemical element with the symbol Vl, described within an invented chemical system in which atomic structures differ from those of known elements. It is a dense, silver-grey metal that forms compounds principally in the +2 and +4 oxidation states. Its characteristic compounds include velorium dioxide, a refractory ceramic; velorium(IV) chloride, a moisture-sensitive liquid; and velorium(II) sulphate, a crystalline salt. The element, geographical names, historical accounts and experimental measurements in these articles are invented.
+
+In this fictional setting, velorium occurs mainly in oxide and silicate minerals. The principal commercial mineral is velorite, a mixed oxide found in metamorphosed limestone and certain alkaline igneous rocks. Metallic velorium is used in specialised electrical contacts, corrosion-resistant components and alloys requiring dimensional stability at elevated temperatures. Its compounds have applications in ceramics, chemical synthesis and optical materials.
+
+= = Properties = =
+
+Velorium is a lustrous metal with a density of 10.8 g/cm³ at room temperature. Freshly polished surfaces are nearly white but develop a faint blue-grey tint after exposure to air. This change results from the formation of a thin oxide film that limits further oxidation under ordinary conditions.
+
+The metal melts at approximately 1,460 °C and boils at approximately 3,180 °C. Below 620 °C, its atoms form a hexagonal crystal structure. Above this temperature, a body-centred cubic structure is stable. The transformation produces a small increase in volume and contributes to cracking during repeated heating and cooling.
+
+Pure velorium is moderately ductile. Small quantities of oxygen or nitrogen substantially increase its hardness while reducing its ability to deform without fracture. Commercial grades are therefore classified partly by their interstitial impurity content.
+
+Velorium conducts electricity less effectively than copper but retains relatively stable electrical resistance over a broad temperature range. Its thermal expansion is low for a metal of comparable melting point. These properties account for its use in precision components, although its cost restricts widespread adoption.
+
+= = Chemical behaviour = =
+
+Velorium is resistant to dry air and cold water. In moist environments, its protective surface film contains both oxide and hydroxyl groups. Scratches in the film usually repair themselves when oxygen is available.
+
+Finely divided velorium oxidises more readily than solid pieces. Powder heated in air burns with a pale green-white light, producing predominantly velorium dioxide. At higher temperatures, the metal also reacts with nitrogen, sulphur and the halogens.
+
+The +4 oxidation state is favoured in oxygen-rich environments. Compounds containing velorium(IV) are generally colourless or pale yellow unless their optical properties are affected by defects or other elements. Velorium(II) compounds are commonly violet or blue and are readily oxidised in aerated solutions.
+
+Dilute hydrochloric acid attacks the metal slowly after the surface film has been disrupted. Nitric acid usually strengthens the passive layer. Hot alkaline solutions cause gradual corrosion, particularly when they contain substances capable of stabilising dissolved velorium complexes.
+
+The metal does not form a persistent simple +3 oxidation state in ordinary aqueous solution. Materials with an average oxidation state of +3 generally contain separate velorium(II) and velorium(IV) sites.
+
+= = Occurrence = =
+
+Velorium has an estimated average abundance of 1.6 parts per million in the continental crust of the fictional setting. It rarely occurs in concentrated deposits and has not been identified as a naturally occurring native metal.
+
+Velorite, approximately represented by CaVl₂O₅, is the principal ore mineral. It forms black, flattened crystals with a brown streak. Natural specimens commonly contain iron and manganese, which substitute into the structure and alter its magnetic behaviour.
+
+Other velorium-bearing minerals include the silicate neravite and the hydrated phosphate belsinite. These are generally unsuitable as primary ores because their velorium content is low or because processing produces large volumes of waste.
+
+The largest described deposits occur in the Mereth uplands, where mineral-bearing fluids passed through limestone near intrusive rocks. Weathering has locally concentrated resistant velorite grains in stream sediments. Such deposits supported early small-scale extraction but supply only a minor proportion of modern production.
+
+= = History = =
+
+Velorium compounds were initially mistaken for impure titanium minerals. In 1878, the mineral analyst Elian Voss reported that a black mineral from Mereth produced a violet solution after prolonged treatment under reducing conditions. The colour could not be attributed to the elements then identified in the sample.
+
+In 1883, Mara Selden separated a pale oxide from the mineral and demonstrated that its mass relationships differed consistently from those of known oxides. She proposed the name velorium after the Vela valley, where the analysed specimens had been collected.
+
+Early attempts to isolate the metal produced brittle mixtures containing carbon and oxygen. A reasonably pure metallic specimen was prepared in 1912 by reducing a purified chloride with magnesium in a sealed vessel.
+
+Commercial production began during the 1930s, initially for electrical switching equipment. Improvements in vacuum melting later allowed the manufacture of ductile sheet and wire. Demand subsequently expanded into industrial ceramics and instruments operated at high temperatures.
+
+= = Production = =
+
+Velorite concentrates are first treated to remove carbonate material and readily soluble impurities. The remaining mineral fraction is converted into an oxide-rich intermediate, from which velorium is separated through chloride processing or selective dissolution.
+
+In the chloride route, the intermediate is converted into volatile velorium(IV) chloride. Fractional purification separates it from less volatile contaminants and from chlorides with different boiling ranges. Reduction then produces a porous metallic mass.
+
+The metal is consolidated under vacuum or an inert atmosphere. Additional refining may be required for electrical and optical applications, where small impurity concentrations can affect performance.
+
+Manufacturing scrap is an important secondary source. Clean metallic scrap can be remelted, whereas mixed ceramic waste generally requires chemical processing. Recycling rates are highest for large industrial components with well-documented compositions.
+
+= = Uses and environmental behaviour = =
+
+Velorium alloys are used in furnace fixtures, precision mounts and electrical contacts exposed to corrosive atmospheres. The metal is rarely used in ordinary structural engineering because less expensive materials offer adequate performance.
+
+Its protective oxide film makes it useful in selected chemical-processing equipment. However, this resistance depends on operating conditions and does not extend to all acidic or alkaline environments.
+
+In soils, velorium is usually associated with oxide particles and mineral surfaces. Dissolved concentrations are low in neutral, oxygenated water. Acidic conditions and naturally occurring complexing substances can increase its mobility.
+
+Biological studies within the fictional setting have identified no essential role for velorium. Soluble salts show greater biological activity than the metal or its dioxide. Occupational exposure is therefore controlled chiefly by limiting inhalation of dust and contact with soluble processing intermediates.
+
+
+Velorium dioxide
+
+Velorium dioxide is a fictional inorganic compound with the formula VlO₂. It is the most stable oxide of velorium under ordinary atmospheric conditions and the principal constituent of the protective film on the metal. In its pure, fully oxidised form, it is a white crystalline solid. Oxygen-deficient material may appear grey, blue or nearly black.
+
+The compound is used in refractory ceramics, electrical components and optical coatings. Its properties depend strongly on crystal structure, grain size and oxygen content.
+
+= = Structure = =
+
+Velorium dioxide has two principal crystalline forms at ordinary pressure. The low-temperature alpha form has a distorted tetragonal structure in which each velorium atom is surrounded by six oxygen atoms. These coordination units share edges and corners to form a continuous three-dimensional framework.
+
+Above approximately 980 °C, the beta form becomes stable. Its structure has higher symmetry and a slightly lower density. The transformation between the two forms involves a measurable volume change, which can weaken large ceramic objects during thermal cycling.
+
+Small additions of selected metal oxides can retain the beta structure at room temperature. Such additives also introduce defects that influence the movement of oxygen ions through the solid.
+
+A third, denser form has been described under high pressure. It reverts slowly after pressure is released and has no established commercial application.
+
+= = Physical and chemical properties = =
+
+Dense velorium dioxide has a melting point of approximately 2,380 °C. It is hard, brittle and resistant to abrasion. Its thermal conductivity is low compared with that of metallic velorium.
+
+The fully oxidised compound is a poor electrical conductor at room temperature. Conductivity increases with temperature and with the concentration of oxygen vacancies. In some modified compositions, oxygen-ion transport contributes substantially to the measured current.
+
+Velorium dioxide is insoluble in water and reacts slowly with most dilute acids. Strongly acidic or alkaline processing conditions can dissolve it by forming soluble complexes.
+
+Reduction removes oxygen progressively rather than immediately producing the metal. Intermediate materials are commonly represented as VlO₂−x, where x describes the oxygen deficiency. At greater levels of reduction, separate lower-oxide phases appear.
+
+The colour of a sample is not a reliable measure of its purity. Darkening may result from oxygen vacancies, trace metals, small particle size or combinations of these factors.
+
+= = Preparation = =
+
+Velorium dioxide is commonly prepared by heating a hydrated oxide obtained from purified velorium solutions. The initial precipitate contains variable amounts of water and residual anions. Washing and controlled heating remove these components and promote crystallisation.
+
+Powder intended for dense ceramics is processed to obtain a narrow particle-size distribution. Uneven particles can pack poorly and produce persistent pores during firing.
+
+Thin films are prepared from volatile precursors or by transferring material from a solid oxide source. Film properties depend on the temperature of the supporting surface and the oxygen available during deposition.
+
+Direct oxidation of velorium metal produces strongly adherent layers but is generally unsuitable for manufacturing large quantities of powder.
+
+= = Applications = =
+
+Velorium dioxide is used in furnace supports and protective ceramic coatings where resistance to oxidation and low thermal conductivity are valuable. Components must be designed to accommodate its brittleness and structural transformation.
+
+Modified dioxide ceramics serve as oxygen-sensitive resistive elements. Their electrical response depends on temperature as well as oxygen concentration, so practical instruments require calibration and temperature control.
+
+Optical grades are used in multilayer coatings. The material has a relatively high refractive index and low visible-light absorption when sufficiently pure and fully oxidised.
+
+Research applications include catalyst supports and membranes for oxygen transport. Performance varies substantially with preparation history, and results obtained from powders cannot always be transferred directly to dense industrial components.
+
+= = Environmental behaviour = =
+
+Velorium dioxide is relatively persistent in soils and sediments. Larger particles tend to settle or become incorporated into mineral aggregates. Very fine particles may remain suspended for longer periods.
+
+Its low solubility limits the immediate release of dissolved velorium, although acidic conditions can increase dissolution. Environmental assessment therefore distinguishes bulk ceramic fragments from fine processing dust and chemically modified particles.
+
+
+Velorium(IV) chloride
+
+Velorium(IV) chloride is a fictional inorganic compound with the formula VlCl₄. It is a colourless to pale yellow liquid used chiefly as an intermediate in velorium purification and in the preparation of oxide coatings. It reacts readily with atmospheric moisture, producing hydrogen chloride and hydrated velorium oxides.
+
+The compound is commonly called velorium tetrachloride. Its volatility allows purification by distillation but also requires closed handling equipment.
+
+= = Structure and properties = =
+
+In the gas phase, velorium(IV) chloride consists predominantly of discrete tetrahedral molecules. In the liquid, weak associations between molecules produce a structure that changes continuously with temperature.
+
+The compound freezes at approximately −14 °C and boils at approximately 162 °C under standard atmospheric pressure. The liquid has a density of 2.18 g/cm³ at 20 °C.
+
+Pure material is nearly colourless. A yellow tint can arise from dissolved chlorine or small quantities of other metal chlorides. Prolonged exposure to light may alter impurity-related colour without substantially changing the bulk compound.
+
+Velorium(IV) chloride dissolves in several dry organic solvents. Solvents containing electron-donating atoms can form coordination compounds with it, changing its volatility and chemical reactivity.
+
+= = Reactions = =
+
+Hydrolysis is the most characteristic reaction of velorium(IV) chloride. Contact with excess water ultimately gives a hydrated oxide and an acidic solution. The process is more complex than a single direct conversion, because partially hydrolysed chlorides form as intermediates.
+
+A simplified overall equation is:
+
+VlCl₄ + 2H₂O → VlO₂ + 4HCl
+
+In practice, the oxide initially contains water and hydroxyl groups. The final composition depends on temperature, acidity and the rate at which the reactants are mixed.
+
+With chloride-rich salts, velorium(IV) chloride forms complex anions, including hexachlorovelorate(IV), [VlCl₆]²⁻. These complexes are generally less volatile than the neutral chloride.
+
+Reaction with alcohols can replace chloride groups with alkoxide groups. Partial substitution produces mixed chloroalkoxides, while more complete substitution gives compounds used as oxide precursors.
+
+Reduction can produce velorium(II) chloride or metallic velorium, depending on the reducing conditions. Intermediate products may contain mixtures of oxidation states.
+
+= = Manufacture and uses = =
+
+Industrial velorium(IV) chloride is obtained by chlorinating oxide-bearing material under conditions that favour oxygen removal. The crude product contains other volatile chlorides and must be purified before use.
+
+Distillation is the principal purification method. High-purity grades require additional treatment because some contaminants have similar volatility or form associated species.
+
+The largest use is in the manufacture of velorium metal. The purified chloride provides a convenient separation stage between mineral processing and metallic reduction.
+
+A second use is the deposition of velorium dioxide films. Controlled reactions at a surface convert the volatile precursor into a non-volatile oxide coating. Residual chlorine can affect the coating’s electrical properties and must be minimised.
+
+The compound is also used as a Lewis acid in chemical research. Its practical use is limited by moisture sensitivity and the difficulty of separating velorium-containing residues from reaction products.
+
+= = Handling = =
+
+Velorium(IV) chloride fumes in humid air. The visible cloud consists mainly of hydrolysis products and condensed acidic droplets.
+
+Storage vessels are kept dry and protected from atmospheric moisture. Equipment compatibility depends on both the chloride and the acidic products that may form if water enters the system.
+
+Waste treatment converts the reactive chloride into less mobile oxide or hydroxide material while managing the accompanying acidity. Untreated residues are unsuitable for direct release into water systems.
+
+
+Velorium(II) sulphate
+
+Velorium(II) sulphate is a fictional inorganic salt with the formula VlSO₄. It is most commonly encountered as the violet hexahydrate, VlSO₄·6H₂O. The compound provides a convenient source of velorium in the +2 oxidation state but gradually oxidises when exposed to moist air.
+
+Its principal uses are in laboratory chemistry, electrochemical studies and the preparation of other velorium compounds.
+
+= = Structure and appearance = =
+
+The hexahydrate forms violet monoclinic crystals. Each velorium ion is coordinated by six water molecules, while sulphate ions occupy positions between the hydrated metal centres. Hydrogen bonding connects these units throughout the crystal.
+
+The colour arises from electronic transitions associated with the velorium(II) ion. Crystal size, illumination and partial oxidation influence the observed shade.
+
+Several lower hydrates have been reported. Their formation depends on temperature and water-vapour pressure. Rapid drying commonly produces mixtures rather than a single well-defined hydrate.
+
+Anhydrous velorium(II) sulphate is pale lavender. It absorbs moisture readily and is less convenient to handle than the hexahydrate.
+
+= = Preparation and reactions = =
+
+The salt is prepared by dissolving metallic velorium in oxygen-depleted sulphuric acid or by reducing a suitable velorium(IV) solution. Crystallisation is carried out under conditions that limit contact with air.
+
+Aqueous solutions are violet when freshly prepared. Dissolved oxygen gradually converts velorium(II) into velorium(IV), accompanied by changes in acidity and the possible formation of hydrated oxide particles.
+
+The oxidation rate depends on temperature, pH and the presence of other dissolved substances. A solution that remains clear is not necessarily chemically unchanged, because oxidised velorium can remain dissolved under sufficiently acidic conditions.
+
+Adding alkali initially produces a hydroxide-rich precipitate. In contact with air, this material darkens and changes composition as oxidation proceeds.
+
+Heating the hydrated salt removes water in several stages. Stronger heating eventually decomposes the sulphate, leaving oxide-containing solids and releasing sulphur oxides.
+
+= = Uses and storage = =
+
+Velorium(II) sulphate is used to investigate electron-transfer reactions and the stability of lower oxidation states. Its visible colour allows reaction progress to be followed spectroscopically, although quantitative measurements require correction for other absorbing species.
+
+The salt has also been studied in experimental electrodeposition baths. Deposits are sensitive to oxygen contamination and may contain oxide inclusions.
+
+Crystals are stored in tightly closed containers with limited exposure to moisture and air. Laboratory solutions are usually prepared shortly before use. Their effective velorium(II) concentration is established by analysis rather than inferred solely from the mass of salt dissolved.

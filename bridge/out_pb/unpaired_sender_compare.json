@@ -1,0 +1,38 @@
+{
+ "real": {
+  "delta_content": 0.0325,
+  "delta_content_ci": [
+   -0.0181,
+   0.0849
+  ],
+  "delta_net": -0.0109,
+  "delta_net_ci": [
+   -0.0512,
+   0.0269
+  ]
+ },
+ "Claude": {
+  "delta_content": 0.0746,
+  "delta_content_ci": [
+   0.0379,
+   0.11
+  ],
+  "delta_net": -0.0268,
+  "delta_net_ci": [
+   -0.0723,
+   0.0151
+  ]
+ },
+ "self-sampled": {
+  "delta_content": 0.1111,
+  "delta_content_ci": [
+   0.0028,
+   0.2131
+  ],
+  "delta_net": -0.003,
+  "delta_net_ci": [
+   -0.0979,
+   0.1021
+  ]
+ }
+}

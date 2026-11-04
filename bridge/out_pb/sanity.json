@@ -1,0 +1,22 @@
+{
+ "B full context": {
+  "acc": 38.53,
+  "ce": 3.4311
+ },
+ "identity bridge B->B (= oracle message; below full context by design)": {
+  "acc": 25.34,
+  "ce": 4.3568
+ },
+ "identity bridge B->B (= oracle message; below full context by design) | mismatched message": {
+  "acc": 23.54,
+  "ce": 4.6913
+ },
+ "B alone (full setting)": {
+  "acc": 31.02,
+  "ce": 3.9899
+ },
+ "identity bridge, full setting (must equal B alone)": {
+  "acc": 31.02,
+  "ce": 3.9899
+ }
+}

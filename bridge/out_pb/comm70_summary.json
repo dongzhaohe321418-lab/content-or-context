@@ -1,0 +1,472 @@
+{
+ "B full context (upper bound)": {
+  "n_seeds": 1,
+  "acc": [
+   36.084,
+   35.2173,
+   36.9202
+  ],
+  "ce": [
+   3.5717,
+   3.5146,
+   3.6296
+  ]
+ },
+ "B no context (suffix only)": {
+  "n_seeds": 1,
+  "acc": [
+   22.8516,
+   22.1375,
+   23.5779
+  ],
+  "ce": [
+   4.9236,
+   4.8661,
+   4.9806
+  ]
+ },
+ "A full context": {
+  "n_seeds": 1,
+  "acc": [
+   30.7739,
+   29.9803,
+   31.5857
+  ],
+  "ce": [
+   4.1307,
+   4.0717,
+   4.1918
+  ]
+ },
+ "A no context (suffix only)": {
+  "n_seeds": 1,
+  "acc": [
+   19.6777,
+   19.0186,
+   20.343
+  ],
+  "ce": [
+   5.412,
+   5.3528,
+   5.4701
+  ]
+ },
+ "oracle message: B's own prefix states (protocol ceiling)": {
+  "n_seeds": 1,
+  "acc": [
+   32.8552,
+   32.0312,
+   33.6914
+  ],
+  "ce": [
+   3.8361,
+   3.7769,
+   3.8983
+  ]
+ },
+ "random bridge": {
+  "n_seeds": 1,
+  "acc": [
+   17.3645,
+   16.7297,
+   17.9871
+  ],
+  "ce": [
+   5.6811,
+   5.6245,
+   5.7415
+  ],
+  "doc_specific_ce_gain": [
+   0.0014,
+   -0.0092,
+   0.0122
+  ],
+  "doc_specific_acc_gain": [
+   0.2014,
+   -0.061,
+   0.4578
+  ],
+  "generic_ce_gain": [
+   -0.7588,
+   -0.786,
+   -0.7307
+  ],
+  "share_of_full_context_ce_gain": [
+   -0.5603,
+   -0.5904,
+   -0.5325
+  ]
+ },
+ "random bridge | mismatched message": {
+  "n_seeds": 1,
+  "acc": [
+   17.1631,
+   16.5466,
+   17.7858
+  ],
+  "ce": [
+   5.6824,
+   5.6267,
+   5.7412
+  ]
+ },
+ "embedding anchors, no fit (data-free)": {
+  "n_seeds": 1,
+  "acc": [
+   19.5923,
+   18.9209,
+   20.2515
+  ],
+  "ce": [
+   5.3956,
+   5.3391,
+   5.4529
+  ],
+  "doc_specific_ce_gain": [
+   0.0109,
+   -0.0002,
+   0.0219
+  ],
+  "doc_specific_acc_gain": [
+   -0.1831,
+   -0.4822,
+   0.1099
+  ],
+  "generic_ce_gain": [
+   -0.4829,
+   -0.5056,
+   -0.4618
+  ],
+  "share_of_full_context_ce_gain": [
+   -0.3491,
+   -0.3697,
+   -0.33
+  ]
+ },
+ "embedding anchors, no fit (data-free) | mismatched message": {
+  "n_seeds": 1,
+  "acc": [
+   19.7754,
+   19.1039,
+   20.4407
+  ],
+  "ce": [
+   5.4065,
+   5.352,
+   5.463
+  ]
+ },
+ "fit[full] on real wikitext": {
+  "n_seeds": 3,
+  "acc": [
+   29.6875,
+   28.9591,
+   30.4342
+  ],
+  "ce": [
+   4.0638,
+   4.0095,
+   4.1198
+  ],
+  "acc_seed_values": [
+   29.86,
+   29.39,
+   29.82
+  ],
+  "doc_specific_ce_gain": [
+   0.3944,
+   0.3588,
+   0.4339
+  ],
+  "doc_specific_acc_gain": [
+   3.1433,
+   2.6937,
+   3.6154
+  ],
+  "generic_ce_gain": [
+   0.4655,
+   0.4252,
+   0.5008
+  ],
+  "share_of_full_context_ce_gain": [
+   0.636,
+   0.6255,
+   0.6466
+  ]
+ },
+ "fit[full] on real wikitext | mismatched message": {
+  "n_seeds": 3,
+  "acc": [
+   26.5442,
+   25.8076,
+   27.2929
+  ],
+  "ce": [
+   4.4582,
+   4.3961,
+   4.5258
+  ],
+  "acc_seed_values": [
+   26.82,
+   26.28,
+   26.53
+  ]
+ },
+ "fit[full] on Claude text 383k": {
+  "n_seeds": 3,
+  "acc": [
+   27.3621,
+   26.6316,
+   28.0966
+  ],
+  "ce": [
+   4.3277,
+   4.2714,
+   4.3893
+  ],
+  "acc_seed_values": [
+   27.48,
+   27.23,
+   27.38
+  ],
+  "doc_specific_ce_gain": [
+   0.3387,
+   0.3098,
+   0.3685
+  ],
+  "doc_specific_acc_gain": [
+   2.4109,
+   2.0142,
+   2.8239
+  ],
+  "generic_ce_gain": [
+   0.2572,
+   0.2163,
+   0.2914
+  ],
+  "share_of_full_context_ce_gain": [
+   0.4408,
+   0.4226,
+   0.4555
+  ]
+ },
+ "fit[full] on Claude text 383k | mismatched message": {
+  "n_seeds": 3,
+  "acc": [
+   24.9512,
+   24.2431,
+   25.6714
+  ],
+  "ce": [
+   4.6664,
+   4.6035,
+   4.7339
+  ],
+  "acc_seed_values": [
+   24.97,
+   24.97,
+   24.91
+  ]
+ },
+ "fit[full] on self-sampled": {
+  "n_seeds": 3,
+  "acc": [
+   26.2878,
+   25.5858,
+   27.004
+  ],
+  "ce": [
+   4.4021,
+   4.3476,
+   4.4582
+  ],
+  "acc_seed_values": [
+   26.38,
+   25.98,
+   26.51
+  ],
+  "doc_specific_ce_gain": [
+   0.2968,
+   0.269,
+   0.3237
+  ],
+  "doc_specific_acc_gain": [
+   2.1647,
+   1.8046,
+   2.5391
+  ],
+  "generic_ce_gain": [
+   0.2247,
+   0.2009,
+   0.248
+  ],
+  "share_of_full_context_ce_gain": [
+   0.3858,
+   0.3727,
+   0.3975
+  ]
+ },
+ "fit[full] on self-sampled | mismatched message": {
+  "n_seeds": 3,
+  "acc": [
+   24.1231,
+   23.4373,
+   24.8454
+  ],
+  "ce": [
+   4.6989,
+   4.6433,
+   4.7544
+  ],
+  "acc_seed_values": [
+   24.18,
+   23.95,
+   24.24
+  ]
+ },
+ "fit[comm] on real wikitext": {
+  "n_seeds": 3,
+  "acc": [
+   32.6518,
+   31.901,
+   33.4107
+  ],
+  "ce": [
+   3.8272,
+   3.7724,
+   3.8819
+  ],
+  "acc_seed_values": [
+   32.26,
+   32.96,
+   32.74
+  ],
+  "doc_specific_ce_gain": [
+   0.5091,
+   0.4672,
+   0.5506
+  ],
+  "doc_specific_acc_gain": [
+   4.4759,
+   3.955,
+   5.0069
+  ],
+  "generic_ce_gain": [
+   0.5873,
+   0.5475,
+   0.6273
+  ],
+  "share_of_full_context_ce_gain": [
+   0.811,
+   0.8013,
+   0.8207
+  ]
+ },
+ "fit[comm] on real wikitext | mismatched message": {
+  "n_seeds": 3,
+  "acc": [
+   28.1759,
+   27.4129,
+   28.9429
+  ],
+  "ce": [
+   4.3363,
+   4.2766,
+   4.3961
+  ],
+  "acc_seed_values": [
+   28.16,
+   28.13,
+   28.23
+  ]
+ },
+ "fit[comm] on Claude text 383k": {
+  "n_seeds": 3,
+  "acc": [
+   28.42,
+   27.6957,
+   29.1646
+  ],
+  "ce": [
+   4.1367,
+   4.0833,
+   4.191
+  ],
+  "acc_seed_values": [
+   28.37,
+   28.11,
+   28.78
+  ],
+  "doc_specific_ce_gain": [
+   0.4142,
+   0.3787,
+   0.4493
+  ],
+  "doc_specific_acc_gain": [
+   2.7852,
+   2.3417,
+   3.2349
+  ],
+  "generic_ce_gain": [
+   0.3727,
+   0.3377,
+   0.4076
+  ],
+  "share_of_full_context_ce_gain": [
+   0.5821,
+   0.5703,
+   0.5942
+  ]
+ },
+ "fit[comm] on Claude text 383k | mismatched message": {
+  "n_seeds": 3,
+  "acc": [
+   25.6348,
+   24.9268,
+   26.3611
+  ],
+  "ce": [
+   4.551,
+   4.4927,
+   4.6097
+  ],
+  "acc_seed_values": [
+   25.64,
+   25.38,
+   25.89
+  ]
+ },
+ "_contrasts_doc_specific_ce_gain": {
+  "full: Claude text 383k minus self-sampled": [
+   0.0419,
+   0.0246,
+   0.0672
+  ],
+  "full: real wikitext minus Claude text 383k": [
+   0.0556,
+   0.042,
+   0.0719
+  ],
+  "full: real wikitext minus self-sampled": [
+   0.0975,
+   0.073,
+   0.1356
+  ],
+  "full: Claude / real ratio": [
+   0.859,
+   0.8277,
+   0.8878
+  ],
+  "comm: real wikitext minus Claude text 383k": [
+   0.0949,
+   0.0819,
+   0.1078
+  ],
+  "comm: Claude / real ratio": [
+   0.8136,
+   0.7921,
+   0.8351
+  ]
+ },
+ "_note": "doc_specific = mismatched-message CE minus matched-message CE (>0: the bridge carries information about this particular prefix); generic = no-context CE minus mismatched CE; share_of_full_context = (no-context CE - CE) / (no-context CE - full-context CE)"
+}

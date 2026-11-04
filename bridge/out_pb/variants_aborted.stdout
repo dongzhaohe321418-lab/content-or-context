@@ -1,0 +1,10 @@
+W1103 22:03:06.191000 79383 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 1157.55it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights:  81%|████████  | 120/148 [00:00<00:00, 1182.50it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1189.93it/s]
+claudewiki: 391516 chars, 89577 tokens
+gptwiki: 428974 chars, 83094 tokens
+claudefiction: 309162 chars, 79643 tokens
+    step 0 KL/token 1.3681
+/opt/homebrew/Cellar/python@3.12/3.12.14/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

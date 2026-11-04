@@ -1,0 +1,67 @@
+{
+ "B full context": {
+  "n_seeds": 1,
+  "acc": [
+   38.5254,
+   36.0828,
+   41.0156
+  ],
+  "ce": [
+   3.4311,
+   3.2745,
+   3.5876
+  ]
+ },
+ "identity bridge B->B (= oracle message; below full context by design)": {
+  "n_seeds": 1,
+  "acc": [
+   25.3418,
+   23.4375,
+   27.2949
+  ],
+  "ce": [
+   4.3568,
+   4.2118,
+   4.5069
+  ]
+ },
+ "identity bridge B->B (= oracle message; below full context by design) | mismatched message": {
+  "n_seeds": 1,
+  "acc": [
+   23.5352,
+   21.6309,
+   25.5371
+  ],
+  "ce": [
+   4.6913,
+   4.5432,
+   4.8415
+  ]
+ },
+ "B alone (full setting)": {
+  "n_seeds": 1,
+  "acc": [
+   31.0181,
+   29.7607,
+   32.312
+  ],
+  "ce": [
+   3.9899,
+   3.8951,
+   4.0853
+  ]
+ },
+ "identity bridge, full setting (must equal B alone)": {
+  "n_seeds": 1,
+  "acc": [
+   31.0181,
+   29.7607,
+   32.312
+  ],
+  "ce": [
+   3.9899,
+   3.8951,
+   4.0853
+  ]
+ }
+}

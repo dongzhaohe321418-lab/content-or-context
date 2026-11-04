@@ -1,0 +1,121 @@
+**Merkisaurus** is a genus of herbivorous hadrosauroid ornithopod dinosaur that lived during the Late Cretaceous period, about 85 to 83 million years ago, in what is now southern Kazakhstan. It is known from the partial remains of at least four individuals recovered from the Bostobe Formation in the Kyzylorda Region. The genus contains a single species, *Merkisaurus bolatovi*, which was named in 2014. *Merkisaurus* was a medium-sized, mostly quadrupedal animal, estimated at 6 to 7 metres (20 to 23 ft) in length. It is notable for a combination of primitive and advanced features in its skull and dentition. These features have made it relevant to discussions of how hadrosaurids originated in Asia.
+
+= = History of discovery = =
+
+The first fossils later assigned to *Merkisaurus* were found in 1987 by a geological survey team mapping clay deposits near the village of Shieli, on the northern bank of the Syr Darya. The team collected several large vertebrae and a fragment of a lower jaw. These were deposited in the collections of the Institute of Zoology in Almaty, where they were catalogued as "Ornithopoda indet." and received little further attention for nearly two decades.
+
+In 2006, a joint Kazakh–Japanese expedition led by paleontologist Askar Bolatov returned to the area to relocate the original site. The team identified a bonebed approximately 3 kilometres (1.9 mi) east of the 1987 locality, exposed along the eroded flank of a low escarpment. Excavations continued during the field seasons of 2006, 2008 and 2010 and produced a partially articulated skeleton, designated the holotype. The team also recovered disarticulated material belonging to at least three additional individuals of varying sizes. The holotype skeleton was found lying on its left side. It preserves much of the skull, the lower jaws, a nearly complete series of cervical and dorsal vertebrae, parts of the pectoral girdle, both forelimbs, the pelvis, and the right hindlimb.
+
+Preparation of the material took place partly in Almaty and partly at the Fukui Prefectural Dinosaur Museum. In 2014, Kenji Morita, Askar Bolatov, Yerlan Sarsenbayev and colleagues formally described the genus and species in the journal *Cretaceous Research*. The generic name combines *Merki*, a Kazakh word that the authors translated as "distinguished" or "notable", with the Greek *sauros* ("lizard"). The specific name honours Bolatov. He had died in 2012 before the description was completed, and his co-authors credited him with recognising the significance of the original 1987 specimens.
+
+The holotype is catalogued as IZK 2008/14. Referred specimens include a partial juvenile skull (IZK 2010/3), an isolated adult braincase (IZK 2010/7), and a large right femur (IZK 2006/22), which may represent the largest known individual. The 1987 vertebrae and jaw fragment were later also referred to *Merkisaurus*, based on matching details of tooth morphology and the shape of the neural spines.
+
+= = Description = =
+
+*Merkisaurus* was a moderately large ornithopod. Based on the holotype, Morita and colleagues estimated a total body length of about 6.2 metres (20 ft) and a body mass of roughly 1.8 to 2.2 tonnes. The isolated femur IZK 2006/22 is about 18 percent longer than that of the holotype, which suggests that some individuals reached 7 metres (23 ft) or slightly more. Like many other hadrosauroids, it probably moved mainly on all fours but could rise onto its hindlimbs to move faster or to reach higher vegetation.
+
+= = = Skull = = =
+
+The skull of the holotype measures approximately 72 centimetres (28 in) from the tip of the snout to the back of the quadrate. The snout is long and moderately expanded at the front, forming a broad, flattened beak. This beak was covered in life by a keratinous sheath. The broadening is less pronounced than in hadrosaurids such as *Edmontosaurus* or *Shantungosaurus*, but greater than in more basal iguanodontians. The premaxilla carries a row of small, irregular denticles along its oral margin. These were probably covered by the beak and may have helped anchor it.
+
+The nasal openings, or external nares, are elongated and are surrounded mostly by the premaxilla. There is no evidence of a hollow crest or a solid bony ornament on the skull roof. However, the nasal bones are slightly thickened and form a low, rounded ridge above the orbits. The describers suggested that this ridge may have supported a soft-tissue structure, but noted that this could not be tested with the available material.
+
+The skull is distinctive in its jugal, the bone below the eye. The jugal bears a pronounced, downward-projecting flange beneath the lower temporal opening. A similar flange is seen in some hadrosaurids, but in *Merkisaurus* it is unusually rugose. Its surface is covered in fine grooves and pits. The authors interpreted this texture as an attachment area for a thickened cheek tissue or a strong jaw muscle.
+
+The braincase is well preserved in both the holotype and IZK 2010/7. CT scanning of the latter showed a relatively large floccular lobe of the cerebellum and well-developed olfactory bulbs. These features have been tentatively linked to good balance and a keen sense of smell. However, researchers have cautioned that such inferences from endocasts are uncertain.
+
+= = = Dentition = = =
+
+The teeth of *Merkisaurus* are among its most frequently discussed features. Like hadrosaurids, it possessed dental batteries in both the upper and lower jaws, with multiple replacement teeth stacked beneath each functional tooth. Each tooth position in the dentary holds up to three teeth, a functional tooth and two replacements. Hadrosaurids such as *Edmontosaurus* commonly have five or more teeth per position. In *Merkisaurus*, only one tooth in each position formed part of the grinding surface at any time. In derived hadrosaurids, two or three teeth per position often participated in chewing.
+
+The crowns of the dentary teeth are lozenge-shaped and bear a single prominent median ridge on the lingual (tongue-facing) surface. The margins of the crowns carry small, tongue-shaped denticles. These denticles are reduced compared with those of more basal forms like *Probactrosaurus*, but are still clearly visible. The maxillary teeth are narrower and lack a strong median ridge, a condition also seen in several Asian hadrosauroids.
+
+The describers counted 31 tooth positions in the left dentary of the holotype and estimated about 29 in the maxilla. These figures are intermediate between those of basal hadrosauroids and those of hadrosaurids.
+
+= = = Postcranial skeleton = = =
+
+The neck of *Merkisaurus* consisted of at least 13 cervical vertebrae, with strongly opisthocoelous centra. In these vertebrae, the front of each centrum is convex and the back is concave. The dorsal vertebrae have tall neural spines, roughly three times the height of their centra. These would have supported a moderately deep ridge of muscle and connective tissue along the back. The tail is incompletely known, but its preserved portions bear ossified tendons arranged in a criss-cross lattice. This arrangement is typical of hadrosauroids and is thought to have stiffened the tail.
+
+The forelimbs are robust. The humerus has a long and prominent deltopectoral crest, which extends for about half the length of the bone. The hand is only partially preserved but shows the reduced, hoof-like unguals typical of weight-bearing forelimbs in hadrosauroids. The thumb spike, a characteristic feature of *Iguanodon* and its close relatives, is absent. A small, conical first metacarpal is present, however, and this suggests the spike had been greatly reduced rather than lost entirely.
+
+The hindlimbs are long and powerful. The femur of the holotype measures 86 centimetres (34 in). It has a well-developed fourth trochanter, the attachment site for the tail muscles that pulled the leg backwards. The ilium has a long, slightly downturned preacetabular process and a prominent antitrochanter. The pubis bears a broad, paddle-shaped anterior blade.
+
+= = = Distinguishing features = = =
+
+In their original description, Morita and colleagues diagnosed *Merkisaurus* by a unique combination of features. These include:
+
+* a rugose, ventrally projecting flange on the jugal beneath the lower temporal opening;
+* a low, rounded supraorbital ridge formed by the nasals;
+* dentary tooth crowns with a single median ridge and reduced marginal denticles, combined with a maximum of three teeth per tooth position;
+* a deltopectoral crest extending to about half the length of the humerus;
+* a reduced first metacarpal without an enlarged ungual spike.
+
+The jugal flange and the supraorbital ridge were considered autapomorphies, meaning features unique to the genus.
+
+= = Classification = =
+
+*Merkisaurus* was assigned to Hadrosauroidea, the broad group that includes hadrosaurids and their closest relatives. The phylogenetic analysis in the original description placed it outside Hadrosauridae as a close relative of the family. In that analysis, it formed part of a series of increasingly derived Asian forms. These include *Bactrosaurus*, *Gilmoreosaurus* and *Tanius*. *Merkisaurus* was found to be more closely related to Hadrosauridae than *Bactrosaurus*, but less closely related than the North American *Eotrachodon*.
+
+A 2017 analysis by Ruiz-Pereira and Nakamura incorporated additional characters from the referred braincase. It recovered *Merkisaurus* in a slightly different position, as the sister taxon to a clade made up of *Tanius* and Hadrosauridae. The authors noted that this result depended heavily on how the dental battery characters were coded. They also pointed out that support for the relationships among non-hadrosaurid hadrosauroids remained weak. In 2020, a larger study of Asian ornithopods by Chen, Wu and Sarsenbayev placed *Merkisaurus* within a loose grouping of Central Asian hadrosauroids. That grouping also included several fragmentary taxa from Uzbekistan and Mongolia. However, this grouping collapsed when poorly known taxa were removed from the analysis.
+
+Despite the uncertainties, studies have generally agreed that *Merkisaurus* lies very close to the base of Hadrosauridae. Its dentition is intermediate in structure, and its geological age falls around the time hadrosaurids are thought to have diversified. Together, these have made it a frequently cited example of the anatomy expected in the immediate ancestors of the group.
+
+The cladogram below follows the results of Ruiz-Pereira and Nakamura (2017):
+
+* Hadrosauroidea
+  * *Probactrosaurus*
+  * *Bactrosaurus*
+  * *Gilmoreosaurus*
+  * unnamed clade
+    * *Merkisaurus*
+    * unnamed clade
+      * *Tanius*
+      * Hadrosauridae
+
+= = Paleobiology = =
+
+= = = Feeding = = =
+
+Microwear studies of the dentary teeth of *Merkisaurus* were conducted by Hayashi and colleagues in 2016. They found a high density of fine, parallel scratches and relatively few pits on the chewing surfaces. The authors interpreted this pattern as evidence of a diet dominated by tough, fibrous plant material, such as horsetails, ferns and the leaves of low-growing conifers. Hard fruits and seeds seem to have been less important. The scratches are oriented at a steep angle to the tooth row. This suggests that the jaws moved through a combination of vertical and slightly backward motion during chewing, rather than the strong sideways grinding inferred for some hadrosaurids.
+
+The rugose jugal flange has been suggested as an attachment site for an enlarged portion of the jaw-closing musculature. If this interpretation is correct, *Merkisaurus* may have had a relatively strong bite for its size. This would compensate in part for the less complex dental battery. An alternative hypothesis holds that the flange supported a fleshy cheek that helped retain food in the mouth during chewing. These two interpretations are not mutually exclusive.
+
+= = = Growth and ontogeny = = =
+
+Histological sections were taken from the femur of the holotype, the large referred femur, and a tibia associated with the juvenile skull. These showed that *Merkisaurus* grew rapidly during its early years. The bone of the juvenile is composed mostly of fibrolamellar tissue with abundant blood vessels, a pattern associated with fast growth. The holotype shows seven lines of arrested growth. The outermost of these are closely spaced, which indicates that growth had slowed substantially. The individual was estimated to be about 9 or 10 years old at death and close to its maximum size. The large femur IZK 2006/22 preserves an external fundamental system, a layer of bone that forms once growth has stopped. This specimen therefore represents a fully mature adult.
+
+The juvenile skull IZK 2010/3 is about 40 percent of the length of the holotype skull. It has a proportionally shorter snout and larger orbits, as is common in young dinosaurs. The jugal flange is present in the juvenile but is smooth rather than rugose. This suggests that the roughened texture developed with age. The supraorbital ridge is barely detectable in the juvenile.
+
+= = = Social behaviour = = =
+
+The remains of at least four individuals of different ages were found in a single bonebed. This has led to suggestions that *Merkisaurus* lived in groups. The bones in the main quarry show little evidence of weathering, and they occur within a single sedimentary layer. This indicates that the animals died and were buried over a short period, possibly during a single event. Sarsenbayev and colleagues (2019) noted, however, that the small number of individuals made the bonebed difficult to interpret. They also argued that the assemblage could equally represent animals that died separately and whose remains were concentrated by water currents. Associations of this kind are well documented for other hadrosauroids, such as *Maiasaura* and *Bactrosaurus*. These are commonly interpreted as evidence of gregarious behaviour.
+
+= = Paleoenvironment = =
+
+The fossils of *Merkisaurus* were found in the lower part of the Bostobe Formation. This unit consists of sandstones, siltstones and variegated clays deposited across a broad coastal lowland during the Santonian stage of the Late Cretaceous. Based on fossil pollen and the position of the beds relative to marine layers elsewhere in the region, the *Merkisaurus*-bearing beds are thought to be between about 85 and 83 million years old.
+
+At that time, the region lay near the northern shore of an arm of the Tethys Sea. The landscape included meandering rivers, oxbow lakes and seasonally flooded plains. Fossil plants from nearby localities in the same formation include horsetails, ferns, cycads and several types of conifer. Early flowering plants also appear, including leaves resembling those of modern plane trees. Paleosols in the formation show signs of alternating wet and dry conditions. This suggests a warm climate with a pronounced dry season.
+
+*Merkisaurus* shared its environment with a variety of other animals. Isolated teeth indicate the presence of at least one large tyrannosauroid and one or more smaller dromaeosaurid theropods. Fragmentary sauropod remains, possibly belonging to a titanosaur, have also been recovered from the formation. The rivers and lakes supported turtles, crocodyliforms, freshwater sharks and a range of bony fishes. Fragmentary bones of an azhdarchid pterosaur were reported from a locality about 20 kilometres (12 mi) from the *Merkisaurus* quarry. Eggshell fragments of uncertain identity have also been found in the formation. Some of these have been tentatively attributed to hadrosauroids, but none has been directly associated with *Merkisaurus*.
+
+= = = Taphonomy = = =
+
+The holotype was buried in a lens of fine-grained grey sandstone, interpreted as the deposit of a crevasse splay. This type of deposit forms when a river breaks through its levee during a flood. The articulated condition of much of the skeleton suggests that the carcass was buried quickly, before scavengers or decay could separate it. Several bones of the holotype bear shallow grooves interpreted as tooth marks. Their spacing matches the teeth of a medium-sized theropod. Most of these marks are on the ribs and the pelvis, which is consistent with scavenging rather than an attack on a living animal. A shed theropod tooth was recovered within 30 centimetres (12 in) of the holotype's left ilium.
+
+= = Significance = =
+
+*Merkisaurus* has been described as one of the best-preserved non-hadrosaurid hadrosauroids from Central Asia. The region has historically produced fewer dinosaur fossils than Mongolia or northern China, and most earlier finds from Kazakhstan were isolated bones and teeth. The discovery of a largely complete skeleton was therefore considered an important contribution to knowledge of Late Cretaceous faunas in the area.
+
+The genus has also figured in debates over where hadrosaurids originated. Some researchers have argued that the family arose in Asia and later spread to North America. Others have proposed an origin in North America, or along the shores of the Western Interior Seaway. *Merkisaurus* combines a hadrosaurid-like dental battery with a more primitive count of replacement teeth, and it comes from the Santonian of Central Asia. It has therefore been cited in support of an Asian origin. Critics of this view have noted that its age broadly overlaps that of early hadrosaurids in North America. They argue that it cannot by itself establish the direction of dispersal.
+
+= = Display = =
+
+A cast of the reconstructed holotype skeleton has been on display at the Central State Museum of Kazakhstan in Almaty since 2016. It is shown in a four-legged walking pose alongside a reconstructed juvenile. A second cast is exhibited at the Fukui Prefectural Dinosaur Museum in Japan as part of a gallery on Asian ornithopods. The original fossils are housed in the research collections of the Institute of Zoology. They are available to researchers by appointment.
+
+In 2018, Kazpost issued a commemorative postage stamp featuring *Merkisaurus* as part of a series on the prehistoric animals of Kazakhstan. The genus also appeared in a 2021 documentary on Central Asian dinosaurs produced for Kazakh national television.
+
+= = See also = =
+
+* Timeline of hadrosaur research
+* List of dinosaurs of Asia
+* Bostobe Formation

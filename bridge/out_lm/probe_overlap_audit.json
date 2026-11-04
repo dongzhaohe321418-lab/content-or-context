@@ -1,0 +1,19 @@
+{
+ "p0": {
+  "chars": 17554,
+  "windows50": 351,
+  "verbatim_in_stdlib": 4,
+  "share": 0.0114,
+  "verbatim_in_training_split": 3,
+  "share_training": 0.0085
+ },
+ "p2": {
+  "chars": 31802,
+  "windows50": 636,
+  "verbatim_in_stdlib": 6,
+  "share": 0.0094,
+  "verbatim_in_training_split": 6,
+  "share_training": 0.0094
+ },
+ "non_code_share_of_all": 0.0455
+}

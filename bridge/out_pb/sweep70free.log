@@ -1,0 +1,105 @@
+  oracle at B L1                                               acc  38.23  ce 3.4237
+    step 0 KL/token 1.4269
+  oracle at B L1                                               acc  38.23  ce 3.4237
+    step 0 KL/token 1.4269
+    step 200 KL/token 0.7360
+    step 200 KL/token 0.7360
+    step 299 KL/token 0.3822
+  A L1 -> B L1, fit[comm] LLM text 300 steps                   acc  33.24  ce 3.8037
+    step 299 KL/token 0.3822
+  A L1 -> B L1, fit[comm] LLM text 300 steps | batch-rolled message acc  31.01  ce 4.0440
+    step 0 KL/token 1.4464
+  A L1 -> B L1, fit[comm] LLM text 300 steps                   acc  33.24  ce 3.8037
+  A L1 -> B L1, fit[comm] LLM text 300 steps | batch-rolled message acc  31.01  ce 4.0440
+    step 0 KL/token 1.4464
+    step 200 KL/token 0.3831
+    step 200 KL/token 0.3831
+    step 299 KL/token 0.1858
+  A L2 -> B L1, fit[comm] LLM text 300 steps                   acc  36.27  ce 3.5305
+  A L2 -> B L1, fit[comm] LLM text 300 steps | batch-rolled message acc  32.10  ce 3.9680
+    step 0 KL/token 1.4685
+    step 299 KL/token 0.1858
+  A L2 -> B L1, fit[comm] LLM text 300 steps                   acc  36.27  ce 3.5305
+  A L2 -> B L1, fit[comm] LLM text 300 steps | batch-rolled message acc  32.10  ce 3.9680
+    step 0 KL/token 1.4685
+    step 200 KL/token 0.5812
+    step 200 KL/token 0.5812
+    step 299 KL/token 0.2451
+  A L3 -> B L1, fit[comm] LLM text 300 steps                   acc  34.99  ce 3.6235
+  A L3 -> B L1, fit[comm] LLM text 300 steps | batch-rolled message acc  31.51  ce 4.0014
+    step 299 KL/token 0.2451
+    step 0 KL/token 1.4852
+  A L3 -> B L1, fit[comm] LLM text 300 steps                   acc  34.99  ce 3.6235
+  A L3 -> B L1, fit[comm] LLM text 300 steps | batch-rolled message acc  31.51  ce 4.0014
+    step 0 KL/token 1.4852
+    step 200 KL/token 0.6887
+    step 200 KL/token 0.6887
+    step 299 KL/token 0.3021
+  A L4 -> B L1, fit[comm] LLM text 300 steps                   acc  34.35  ce 3.6994
+    step 299 KL/token 0.3021
+  A L4 -> B L1, fit[comm] LLM text 300 steps | batch-rolled message acc  31.53  ce 4.0304
+    step 0 KL/token 1.4827
+  A L4 -> B L1, fit[comm] LLM text 300 steps                   acc  34.35  ce 3.6994
+  A L4 -> B L1, fit[comm] LLM text 300 steps | batch-rolled message acc  31.53  ce 4.0304
+    step 0 KL/token 1.4827
+    step 200 KL/token 0.5600
+    step 200 KL/token 0.5600
+    step 299 KL/token 0.2448
+  A L5 -> B L1, fit[comm] LLM text 300 steps                   acc  34.94  ce 3.6328
+    step 299 KL/token 0.2448
+  A L5 -> B L1, fit[comm] LLM text 300 steps | batch-rolled message acc  31.88  ce 4.0239
+  A L5 -> B L1, fit[comm] LLM text 300 steps                   acc  34.94  ce 3.6328
+    step 0 KL/token 5.8372
+  A L5 -> B L1, fit[comm] LLM text 300 steps | batch-rolled message acc  31.88  ce 4.0239
+    step 0 KL/token 5.8372
+    step 200 KL/token 1.0414
+    step 200 KL/token 1.0414
+    step 299 KL/token 0.7383
+    step 299 KL/token 0.7383
+  A L6 -> B L1, fit[comm] LLM text 300 steps                   acc  31.10  ce 4.0839
+  A L6 -> B L1, fit[comm] LLM text 300 steps                   acc  31.10  ce 4.0839
+  A L6 -> B L1, fit[comm] LLM text 300 steps | batch-rolled message acc  31.13  ce 4.0850
+  A L6 -> B L1, fit[comm] LLM text 300 steps | batch-rolled message acc  31.13  ce 4.0850
+  oracle at B L2                                               acc  37.70  ce 3.4572
+    step 0 KL/token 1.4645
+  oracle at B L2                                               acc  37.70  ce 3.4572
+    step 0 KL/token 1.4645
+    step 200 KL/token 0.5621
+    step 200 KL/token 0.5621
+    step 299 KL/token 0.2615
+  A L1 -> B L2, fit[comm] LLM text 300 steps                   acc  35.19  ce 3.6335
+  A L1 -> B L2, fit[comm] LLM text 300 steps | batch-rolled message acc  32.37  ce 3.9811
+    step 0 KL/token 1.6837
+    step 299 KL/token 0.2615
+  A L1 -> B L2, fit[comm] LLM text 300 steps                   acc  35.19  ce 3.6335
+  A L1 -> B L2, fit[comm] LLM text 300 steps | batch-rolled message acc  32.37  ce 3.9811
+    step 0 KL/token 1.6837
+    step 200 KL/token 0.5321
+    step 200 KL/token 0.5321
+    step 299 KL/token 0.2531
+  A L2 -> B L2, fit[comm] LLM text 300 steps                   acc  35.39  ce 3.5930
+  A L2 -> B L2, fit[comm] LLM text 300 steps | batch-rolled message acc  32.48  ce 3.9700
+    step 0 KL/token 1.7528
+    step 299 KL/token 0.2531
+  A L2 -> B L2, fit[comm] LLM text 300 steps                   acc  35.39  ce 3.5930
+  A L2 -> B L2, fit[comm] LLM text 300 steps | batch-rolled message acc  32.48  ce 3.9700
+    step 0 KL/token 1.7528
+    step 200 KL/token 0.6293
+    step 299 KL/token 0.2808
+  A L3 -> B L2, fit[comm] LLM text 300 steps                   acc  35.07  ce 3.6360
+  A L3 -> B L2, fit[comm] LLM text 300 steps | batch-rolled message acc  31.91  ce 3.9852
+    step 0 KL/token 1.7686
+    step 200 KL/token 0.7105
+    step 299 KL/token 0.3266
+  A L4 -> B L2, fit[comm] LLM text 300 steps                   acc  34.47  ce 3.6919
+  A L4 -> B L2, fit[comm] LLM text 300 steps | batch-rolled message acc  31.70  ce 4.0001
+    step 0 KL/token 1.8613
+    step 200 KL/token 0.7133
+    step 299 KL/token 0.3446
+  A L5 -> B L2, fit[comm] LLM text 300 steps                   acc  34.07  ce 3.7382
+  A L5 -> B L2, fit[comm] LLM text 300 steps | batch-rolled message acc  31.45  ce 4.0286
+    step 0 KL/token 5.6931
+    step 200 KL/token 1.0571
+    step 299 KL/token 0.7139
+  A L6 -> B L2, fit[comm] LLM text 300 steps                   acc  31.14  ce 4.0755
+  A L6 -> B L2, fit[comm] LLM text 300 steps | batch-rolled message acc  31.19  ce 4.0783

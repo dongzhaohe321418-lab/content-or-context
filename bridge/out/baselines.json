@@ -1,0 +1,27 @@
+{
+ "same": {
+  "A_alone": 0.9595959595959596,
+  "B_alone": 0.9595959595959596,
+  "random(mean of 20)": 0.09957912457912459,
+  "identity (no alignment)": 0.10606060606060606,
+  "cosine-match (data-free)": 0.32323232323232326,
+  "weight-LSQ (data-free)": 0.8434343434343434,
+  "data-fit ridge (upper bound)": 0.9528619528619529
+ },
+ "width": {
+  "A_alone": 0.9646464646464646,
+  "B_alone": 0.9747474747474747,
+  "random(mean of 20)": 0.1047979797979798,
+  "cosine-match (data-free)": 0.3383838383838384,
+  "weight-LSQ (data-free)": 0.898989898989899,
+  "data-fit ridge (upper bound)": 0.968013468013468
+ },
+ "hetero": {
+  "A_alone": 0.9595959595959596,
+  "B_alone": 0.9646464646464646,
+  "random(mean of 20)": 0.0845959595959596,
+  "cosine-match (data-free)": 0.4006734006734007,
+  "weight-LSQ (data-free)": 0.9006734006734006,
+  "data-fit ridge (upper bound)": 0.9410774410774411
+ }
+}

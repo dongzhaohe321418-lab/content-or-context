@@ -1,0 +1,714 @@
+```python
+"""Simple in-memory event bus with topic-based subscriptions."""
+
+import logging
+import threading
+from collections import defaultdict
+from typing import Callable, List
+
+logger = logging.getLogger(__name__)
+
+
+class EventBus:
+    """Thread-safe publish/subscribe dispatcher."""
+
+    def __init__(self):
+        self._subscribers = defaultdict(list)
+        self._lock = threading.RLock()
+
+    def subscribe(self, topic: str, handler: Callable) -> None:
+        with self._lock:
+            self._subscribers[topic].append(handler)
+
+    def unsubscribe(self, topic: str, handler: Callable) -> None:
+        with self._lock:
+            try:
+                self._subscribers[topic].remove(handler)
+            except ValueError:
+                logger.warning("handler not registered for %s", topic)
+
+    def publish(self, topic: str, *args, **kwargs) -> int:
+        with self._lock:
+            handlers = list(self._subscribers.get(topic, []))
+        count = 0
+        for handler in handlers:
+            try:
+                handler(*args, **kwargs)
+                count += 1
+            except Exception:
+                logger.exception("handler failed for topic %r", topic)
+        return count
+
+
+def test_publish_counts_handlers():
+    bus = EventBus()
+    seen = []
+    bus.subscribe("tick", lambda n: seen.append(n))
+    assert bus.publish("tick", 1) == 1
+    assert seen == [1]
+```
+
+```python
+"""Geometry helpers for 2D points and axis-aligned bounding boxes."""
+
+import math
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class Point:
+    x: float
+    y: float
+
+    def distance_to(self, other: "Point") -> float:
+        """Return the Euclidean distance to *other*."""
+        return math.hypot(self.x - other.x, self.y - other.y)
+
+    def translate(self, dx: float, dy: float) -> "Point":
+        return Point(self.x + dx, self.y + dy)
+
+
+@dataclass(frozen=True)
+class Box:
+    left: float
+    bottom: float
+    right: float
+    top: float
+
+    @property
+    def width(self) -> float:
+        return self.right - self.left
+
+    @property
+    def height(self) -> float:
+        return self.top - self.bottom
+
+    @property
+    def area(self) -> float:
+        return self.width * self.height
+
+    def contains(self, p: Point) -> bool:
+        return self.left <= p.x <= self.right and self.bottom <= p.y <= self.top
+
+    def intersects(self, other: "Box") -> bool:
+        return not (
+            self.right < other.left
+            or self.left > other.right
+            or self.top < other.bottom
+            or self.bottom > other.top
+        )
+
+
+def bounding_box(points):
+    """Compute the smallest Box enclosing all given points."""
+    xs = [p.x for p in points]
+    ys = [p.y for p in points]
+    if not xs:
+        raise ValueError("cannot bound an empty set of points")
+    return Box(min(xs), min(ys), max(xs), max(ys))
+```
+
+```python
+"""Least-recently-used cache decorator with a fixed capacity."""
+
+import functools
+from collections import OrderedDict
+
+
+class LRUCache:
+    def __init__(self, capacity: int = 128):
+        if capacity <= 0:
+            raise ValueError("capacity must be positive")
+        self.capacity = capacity
+        self._store = OrderedDict()
+        self.hits = 0
+        self.misses = 0
+
+    def get(self, key, default=None):
+        if key in self._store:
+            self._store.move_to_end(key)
+            self.hits += 1
+            return self._store[key]
+        self.misses += 1
+        return default
+
+    def put(self, key, value):
+        self._store[key] = value
+        self._store.move_to_end(key)
+        if len(self._store) > self.capacity:
+            self._store.popitem(last=False)
+
+    def __len__(self):
+        return len(self._store)
+
+
+def memoize(capacity=128):
+    """Decorator caching function results by positional arguments."""
+    def decorator(func):
+        cache = LRUCache(capacity)
+
+        @functools.wraps(func)
+        def wrapper(*args):
+            cached = cache.get(args, _MISSING)
+            if cached is _MISSING:
+                cached = func(*args)
+                cache.put(args, cached)
+            return cached
+
+        wrapper.cache = cache
+        return wrapper
+    return decorator
+
+
+_MISSING = object()
+
+
+@memoize()
+def fib(n):
+    return n if n < 2 else fib(n - 1) + fib(n - 2)
+```
+
+```python
+"""Tokenizer for a tiny arithmetic expression language."""
+
+import re
+
+TOKEN_SPEC = [
+    ("NUMBER", r"\d+(\.\d+)?"),
+    ("PLUS", r"\+"),
+    ("MINUS", r"-"),
+    ("STAR", r"\*"),
+    ("SLASH", r"/"),
+    ("LPAREN", r"\("),
+    ("RPAREN", r"\)"),
+    ("SKIP", r"[ \t]+"),
+]
+
+_MASTER = re.compile("|".join(f"(?P<{n}>{p})" for n, p in TOKEN_SPEC))
+
+
+class Token:
+    __slots__ = ("kind", "value", "position")
+
+    def __init__(self, kind, value, position):
+        self.kind = kind
+        self.value = value
+        self.position = position
+
+    def __repr__(self):
+        return f"Token({self.kind!r}, {self.value!r})"
+
+
+def tokenize(text):
+    """Yield Token objects for the given expression string."""
+    pos = 0
+    while pos < len(text):
+        match = _MASTER.match(text, pos)
+        if match is None:
+            raise SyntaxError(f"unexpected character {text[pos]!r} at {pos}")
+        kind = match.lastgroup
+        value = match.group()
+        if kind != "SKIP":
+            if kind == "NUMBER":
+                value = float(value) if "." in value else int(value)
+            yield Token(kind, value, pos)
+        pos = match.end()
+```
+
+```python
+"""Retry helper with exponential backoff and optional jitter."""
+
+import random
+import time
+
+DEFAULT_EXCEPTIONS = (ConnectionError, TimeoutError)
+
+
+def retry(attempts=3, base_delay=0.5, factor=2.0, jitter=True,
+          exceptions=DEFAULT_EXCEPTIONS):
+    """Return a decorator that retries the wrapped callable.
+
+    The delay between attempts grows geometrically. When *jitter* is
+    enabled, a small random fraction is added to avoid thundering herds.
+    """
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            delay = base_delay
+            last_exc = None
+            for attempt in range(1, attempts + 1):
+                try:
+                    return func(*args, **kwargs)
+                except exceptions as exc:
+                    last_exc = exc
+                    if attempt == attempts:
+                        break
+                    sleep_for = delay
+                    if jitter:
+                        sleep_for += random.uniform(0, delay * 0.1)
+                    time.sleep(sleep_for)
+                    delay *= factor
+            raise last_exc
+        return wrapper
+    return decorator
+```
+
+```python
+"""A minimal observer-pattern temperature sensor model."""
+
+from abc import ABC, abstractmethod
+
+
+class Observer(ABC):
+    @abstractmethod
+    def update(self, temperature: float) -> None:
+        ...
+
+
+class Sensor:
+    def __init__(self, name):
+        self.name = name
+        self._observers = []
+        self._temperature = 0.0
+
+    def attach(self, observer: Observer):
+        if observer not in self._observers:
+            self._observers.append(observer)
+
+    def detach(self, observer: Observer):
+        self._observers.remove(observer)
+
+    @property
+    def temperature(self):
+        return self._temperature
+
+    @temperature.setter
+    def temperature(self, value):
+        self._temperature = float(value)
+        self._notify()
+
+    def _notify(self):
+        for obs in self._observers:
+            obs.update(self._temperature)
+
+
+class ThresholdAlarm(Observer):
+    def __init__(self, limit):
+        self.limit = limit
+        self.triggered = False
+
+    def update(self, temperature):
+        self.triggered = temperature > self.limit
+```
+
+```python
+"""String case-conversion utilities (snake, camel, kebab)."""
+
+import re
+
+_WORD_BOUNDARY = re.compile(r"[\s_\-]+|(?<=[a-z0-9])(?=[A-Z])")
+
+
+def _words(text):
+    parts = _WORD_BOUNDARY.split(text.strip())
+    return [p for p in parts if p]
+
+
+def to_snake(text):
+    return "_".join(w.lower() for w in _words(text))
+
+
+def to_kebab(text):
+    return "-".join(w.lower() for w in _words(text))
+
+
+def to_camel(text, upper_first=False):
+    words = _words(text)
+    if not words:
+        return ""
+    head = words[0].capitalize() if upper_first else words[0].lower()
+    tail = "".join(w.capitalize() for w in words[1:])
+    return head + tail
+
+
+if __name__ == "__main__":
+    for sample in ["hello world", "fooBarBaz", "a-b_c"]:
+        print(sample, "->", to_snake(sample), to_camel(sample))
+```
+
+```python
+"""Breadth-first and depth-first traversal over adjacency maps."""
+
+from collections import deque
+
+
+def bfs(graph, start):
+    """Yield nodes reachable from *start* in breadth-first order."""
+    seen = {start}
+    queue = deque([start])
+    while queue:
+        node = queue.popleft()
+        yield node
+        for neighbor in graph.get(node, ()):
+            if neighbor not in seen:
+                seen.add(neighbor)
+                queue.append(neighbor)
+
+
+def dfs(graph, start):
+    seen = set()
+    stack = [start]
+    while stack:
+        node = stack.pop()
+        if node in seen:
+            continue
+        seen.add(node)
+        yield node
+        stack.extend(reversed(graph.get(node, [])))
+
+
+def shortest_path(graph, start, goal):
+    """Return a shortest path from start to goal, or None."""
+    parents = {start: None}
+    queue = deque([start])
+    while queue:
+        node = queue.popleft()
+        if node == goal:
+            path = []
+            while node is not None:
+                path.append(node)
+                node = parents[node]
+            return path[::-1]
+        for neighbor in graph.get(node, ()):
+            if neighbor not in parents:
+                parents[neighbor] = node
+                queue.append(neighbor)
+    return None
+```
+
+```python
+"""Running statistics accumulator using Welford's algorithm."""
+
+import math
+
+
+class RunningStats:
+    """Compute mean and variance in a single pass."""
+
+    def __init__(self):
+        self._count = 0
+        self._mean = 0.0
+        self._m2 = 0.0
+
+    def push(self, value):
+        self._count += 1
+        delta = value - self._mean
+        self._mean += delta / self._count
+        delta2 = value - self._mean
+        self._m2 += delta * delta2
+
+    @property
+    def count(self):
+        return self._count
+
+    @property
+    def mean(self):
+        return self._mean if self._count else float("nan")
+
+    @property
+    def variance(self):
+        if self._count < 2:
+            return float("nan")
+        return self._m2 / (self._count - 1)
+
+    @property
+    def stddev(self):
+        var = self.variance
+        return math.sqrt(var) if var == var else float("nan")
+
+
+def summarize(values):
+    stats = RunningStats()
+    for v in values:
+        stats.push(v)
+    return {"n": stats.count, "mean": stats.mean, "std": stats.stddev}
+```
+
+```python
+"""File-based key/value store with JSON serialization."""
+
+import json
+import os
+import tempfile
+
+
+class JSONStore:
+    def __init__(self, path):
+        self.path = path
+        self._data = {}
+        self._load()
+
+    def _load(self):
+        if os.path.exists(self.path):
+            with open(self.path, "r", encoding="utf-8") as fh:
+                self._data = json.load(fh)
+
+    def _flush(self):
+        directory = os.path.dirname(self.path) or "."
+        fd, tmp = tempfile.mkstemp(dir=directory)
+        try:
+            with os.fdopen(fd, "w", encoding="utf-8") as fh:
+                json.dump(self._data, fh, indent=2, sort_keys=True)
+            os.replace(tmp, self.path)
+        except BaseException:
+            os.unlink(tmp)
+            raise
+
+    def get(self, key, default=None):
+        return self._data.get(key, default)
+
+    def set(self, key, value):
+        self._data[key] = value
+        self._flush()
+
+    def delete(self, key):
+        self._data.pop(key, None)
+        self._flush()
+
+    def keys(self):
+        return list(self._data)
+```
+
+```python
+"""Simple state machine for a traffic light controller."""
+
+import enum
+
+
+class Light(enum.Enum):
+    RED = "red"
+    GREEN = "green"
+    YELLOW = "yellow"
+
+
+TRANSITIONS = {
+    Light.RED: Light.GREEN,
+    Light.GREEN: Light.YELLOW,
+    Light.YELLOW: Light.RED,
+}
+
+DURATIONS = {
+    Light.RED: 30,
+    Light.GREEN: 25,
+    Light.YELLOW: 5,
+}
+
+
+class TrafficLight:
+    def __init__(self, initial=Light.RED):
+        self.state = initial
+        self.elapsed = 0
+
+    def tick(self, seconds=1):
+        self.elapsed += seconds
+        if self.elapsed >= DURATIONS[self.state]:
+            self.state = TRANSITIONS[self.state]
+            self.elapsed = 0
+        return self.state
+
+
+def test_cycle_returns_to_red():
+    light = TrafficLight(Light.RED)
+    for _ in range(sum(DURATIONS.values())):
+        light.tick()
+    assert light.state == Light.RED
+```
+
+```python
+"""Pagination helper for slicing sequences into pages."""
+
+from dataclasses import dataclass
+
+
+@dataclass
+class Page:
+    items: list
+    number: int
+    total_pages: int
+
+    @property
+    def has_next(self):
+        return self.number < self.total_pages
+
+    @property
+    def has_previous(self):
+        return self.number > 1
+
+
+def paginate(items, page_size, page_number=1):
+    """Return a Page object for the requested slice of *items*."""
+    if page_size <= 0:
+        raise ValueError("page_size must be positive")
+    total = len(items)
+    total_pages = max(1, (total + page_size - 1) // page_size)
+    page_number = max(1, min(page_number, total_pages))
+    start = (page_number - 1) * page_size
+    end = start + page_size
+    return Page(items[start:end], page_number, total_pages)
+```
+
+```python
+"""Temperature unit conversions with a tiny registry."""
+
+
+def celsius_to_fahrenheit(c):
+    return c * 9 / 5 + 32
+
+
+def fahrenheit_to_celsius(f):
+    return (f - 32) * 5 / 9
+
+
+def celsius_to_kelvin(c):
+    return c + 273.15
+
+
+def kelvin_to_celsius(k):
+    return k - 273.15
+
+
+_CONVERSIONS = {
+    ("C", "F"): celsius_to_fahrenheit,
+    ("F", "C"): fahrenheit_to_celsius,
+    ("C", "K"): celsius_to_kelvin,
+    ("K", "C"): kelvin_to_celsius,
+}
+
+
+def convert(value, from_unit, to_unit):
+    """Convert *value* between temperature units.
+
+    Units are the single letters C, F, or K.
+    """
+    if from_unit == to_unit:
+        return value
+    try:
+        func = _CONVERSIONS[(from_unit, to_unit)]
+    except KeyError:
+        # Route through Celsius as an intermediate step.
+        celsius = convert(value, from_unit, "C")
+        return convert(celsius, "C", to_unit)
+    return func(value)
+```
+
+```python
+"""Command-line argument parsing for a small backup tool."""
+
+import argparse
+import sys
+
+
+def build_parser():
+    parser = argparse.ArgumentParser(description="Back up directories.")
+    parser.add_argument("source", help="directory to back up")
+    parser.add_argument("dest", help="destination archive path")
+    parser.add_argument("--exclude", action="append", default=[],
+                        help="glob pattern to skip (repeatable)")
+    parser.add_argument("--compress", choices=["gzip", "bzip2", "none"],
+                        default="gzip")
+    parser.add_argument("-v", "--verbose", action="count", default=0)
+    parser.add_argument("--dry-run", action="store_true")
+    return parser
+
+
+def main(argv=None):
+    args = build_parser().parse_args(argv)
+    if args.verbose:
+        print(f"backing up {args.source} -> {args.dest}", file=sys.stderr)
+    if args.dry_run:
+        print("dry run: no files written")
+        return 0
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+```
+
+```python
+"""Priority queue wrapper around heapq with stable ordering."""
+
+import heapq
+import itertools
+
+
+class PriorityQueue:
+    """A min-priority queue that preserves insertion order for ties."""
+
+    def __init__(self):
+        self._heap = []
+        self._counter = itertools.count()
+
+    def push(self, item, priority=0):
+        entry = (priority, next(self._counter), item)
+        heapq.heappush(self._heap, entry)
+
+    def pop(self):
+        if not self._heap:
+            raise IndexError("pop from an empty priority queue")
+        priority, _, item = heapq.heappop(self._heap)
+        return item
+
+    def peek(self):
+        return self._heap[0][2]
+
+    def __len__(self):
+        return len(self._heap)
+
+    def __bool__(self):
+        return bool(self._heap)
+```
+
+```python
+"""Validation helpers returning structured error lists."""
+
+import re
+
+EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+
+
+class Validator:
+    def __init__(self):
+        self.errors = []
+
+    def require(self, field, value):
+        if value is None or value == "":
+            self.errors.append(f"{field} is required")
+        return self
+
+    def email(self, field, value):
+        if value and not EMAIL_RE.match(value):
+            self.errors.append(f"{field} is not a valid email")
+        return self
+
+    def length(self, field, value, minimum=0, maximum=None):
+        if value is None:
+            return self
+        if len(value) < minimum:
+            self.errors.append(f"{field} is too short")
+        if maximum is not None and len(value) > maximum:
+            self.errors.append(f"{field} is too long")
+        return self
+
+    @property
+    def ok(self):
+        return not self.errors
+
+
+def validate_signup(form):
+    v = Validator()
+    v.require("username", form.get("username"))
+    v.length("username", form.get("username"), minimum=3, maximum=32)
+    v.require("email", form.get("email"))
+    v.email("email", form.get("email"))
+    return v.ok, v.errors
+```

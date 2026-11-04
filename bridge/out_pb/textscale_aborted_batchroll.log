@@ -1,0 +1,57 @@
+  B full context (upper bound)                                 acc  36.08  ce 3.5717
+  B no context (suffix only)                                   acc  22.85  ce 4.9236
+  A full context                                               acc  30.77  ce 4.1307
+  A no context (suffix only)                                   acc  19.68  ce 5.4120
+  oracle message: B's own prefix states (protocol ceiling)     acc  32.86  ce 3.8361
+Claude text total 1030250 chars from 64 files
+    step 0 KL/token 1.3283
+    step 200 KL/token 0.4235
+    step 400 KL/token 0.2058
+    step 599 KL/token 0.1555
+  Claude text 127k chars | seed 0                              acc  26.72  ce 4.2872
+  Claude text 127k chars | seed 0 | mismatched message         acc  24.65  ce 4.6265
+    (272 s)
+    step 0 KL/token 1.2047
+    step 200 KL/token 0.3496
+    step 400 KL/token 0.2241
+    step 599 KL/token 0.1740
+  real text 127k chars | seed 0                                acc  31.34  ce 3.9680
+  real text 127k chars | seed 0 | mismatched message           acc  27.97  ce 4.3804
+    (270 s)
+    step 0 KL/token 1.3407
+    step 200 KL/token 0.3045
+    step 400 KL/token 0.2122
+    step 599 KL/token 0.1333
+  Claude text 383k chars | seed 0                              acc  28.30  ce 4.1909
+  Claude text 383k chars | seed 0 | mismatched message         acc  25.52  ce 4.5900
+    (269 s)
+    step 0 KL/token 1.5221
+    step 200 KL/token 0.3575
+    step 400 KL/token 0.2912
+    step 599 KL/token 0.2451
+  real text 383k chars | seed 0                                acc  31.30  ce 3.9562
+  real text 383k chars | seed 0 | mismatched message           acc  27.63  ce 4.3838
+    (268 s)
+    step 0 KL/token 1.3159
+    step 200 KL/token 0.3336
+    step 400 KL/token 0.2465
+    step 599 KL/token 0.1730
+  Claude text 1030k chars | seed 0                             acc  28.08  ce 4.1961
+  Claude text 1030k chars | seed 0 | mismatched message        acc  25.22  ce 4.6083
+    (275 s)
+    step 0 KL/token 1.4864
+    step 200 KL/token 0.4313
+    step 400 KL/token 0.2724
+    step 599 KL/token 0.2030
+  real text 1030k chars | seed 0                               acc  32.20  ce 3.8800
+  real text 1030k chars | seed 0 | mismatched message          acc  27.93  ce 4.3574
+    (269 s)
+    step 0 KL/token 1.1972
+    step 200 KL/token 0.3648
+    step 400 KL/token 0.1888
+    step 599 KL/token 0.1697
+  Claude text 127k chars | seed 1                              acc  27.01  ce 4.2630
+  Claude text 127k chars | seed 1 | mismatched message         acc  24.73  ce 4.6064
+    (280 s)
+    step 0 KL/token 1.4658
+    step 200 KL/token 0.4061

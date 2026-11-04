@@ -1,0 +1,106 @@
+{
+ "oracle at B L1": {
+  "acc": 31.96,
+  "ce": 3.9081
+ },
+ "A L1 -> B L1, fit[comm] real 300 steps": {
+  "acc": 27.64,
+  "ce": 4.2348
+ },
+ "A L1 -> B L1, fit[comm] real 300 steps | mismatched message": {
+  "acc": 25.83,
+  "ce": 4.4746
+ },
+ "A L2 -> B L1, fit[comm] real 300 steps": {
+  "acc": 30.3,
+  "ce": 4.0307
+ },
+ "A L2 -> B L1, fit[comm] real 300 steps | mismatched message": {
+  "acc": 26.49,
+  "ce": 4.4663
+ },
+ "A L3 -> B L1, fit[comm] real 300 steps": {
+  "acc": 29.46,
+  "ce": 4.1058
+ },
+ "A L3 -> B L1, fit[comm] real 300 steps | mismatched message": {
+  "acc": 26.14,
+  "ce": 4.485
+ },
+ "A L4 -> B L1, fit[comm] real 300 steps": {
+  "acc": 27.89,
+  "ce": 4.1945
+ },
+ "A L4 -> B L1, fit[comm] real 300 steps | mismatched message": {
+  "acc": 25.99,
+  "ce": 4.5046
+ },
+ "A L5 -> B L1, fit[comm] real 300 steps": {
+  "acc": 28.49,
+  "ce": 4.1264
+ },
+ "A L5 -> B L1, fit[comm] real 300 steps | mismatched message": {
+  "acc": 26.2,
+  "ce": 4.4948
+ },
+ "A L6 -> B L1, fit[comm] real 300 steps": {
+  "acc": 24.39,
+  "ce": 4.6412
+ },
+ "A L6 -> B L1, fit[comm] real 300 steps | mismatched message": {
+  "acc": 24.37,
+  "ce": 4.64
+ },
+ "oracle at B L2": {
+  "acc": 31.07,
+  "ce": 3.9695
+ },
+ "A L1 -> B L2, fit[comm] real 300 steps": {
+  "acc": 29.88,
+  "ce": 4.083
+ },
+ "A L1 -> B L2, fit[comm] real 300 steps | mismatched message": {
+  "acc": 26.53,
+  "ce": 4.4876
+ },
+ "A L2 -> B L2, fit[comm] real 300 steps": {
+  "acc": 30.15,
+  "ce": 4.0864
+ },
+ "A L2 -> B L2, fit[comm] real 300 steps | mismatched message": {
+  "acc": 26.67,
+  "ce": 4.4934
+ },
+ "A L3 -> B L2, fit[comm] real 300 steps": {
+  "acc": 29.2,
+  "ce": 4.1025
+ },
+ "A L3 -> B L2, fit[comm] real 300 steps | mismatched message": {
+  "acc": 25.95,
+  "ce": 4.5103
+ },
+ "A L4 -> B L2, fit[comm] real 300 steps": {
+  "acc": 28.31,
+  "ce": 4.1761
+ },
+ "A L4 -> B L2, fit[comm] real 300 steps | mismatched message": {
+  "acc": 26.01,
+  "ce": 4.5221
+ },
+ "A L5 -> B L2, fit[comm] real 300 steps": {
+  "acc": 28.28,
+  "ce": 4.187
+ },
+ "A L5 -> B L2, fit[comm] real 300 steps | mismatched message": {
+  "acc": 25.87,
+  "ce": 4.5089
+ },
+ "A L6 -> B L2, fit[comm] real 300 steps": {
+  "acc": 25.54,
+  "ce": 4.5546
+ },
+ "A L6 -> B L2, fit[comm] real 300 steps | mismatched message": {
+  "acc": 25.48,
+  "ce": 4.5579
+ }
+}

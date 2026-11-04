@@ -1,0 +1,73 @@
+{
+ "reviews_total": 25000,
+ "reviews_eligible_ge_2_windows": 7440,
+ "share": 0.2976,
+ "dom_code_comm70": {
+  "windows": 512,
+  "documents": 157,
+  "with_same_doc": 509,
+  "decomp_windows": 509,
+  "decomp_docs": 154
+ },
+ "dom_reviews_comm70": {
+  "windows": 512,
+  "documents": 501,
+  "with_same_doc": 22,
+  "decomp_windows": 512,
+  "decomp_docs": 501
+ },
+ "gpt2_prefix_tokens": {
+  "min": 118,
+  "median": 127.0,
+  "max": 151,
+  "truncated_windows": 511,
+  "mean_kept_share": 0.93
+ },
+ "gpt2_into_qwen_prefix_tokens": {
+  "min": 90,
+  "median": 123.0,
+  "max": 146,
+  "mean_kept_share": 0.742,
+  "digit_share_shortest": 0.159,
+  "digit_share_median": 0.013,
+  "corr_length_digits": -0.848
+ },
+ "cross_family_filtering": {
+  "gpt2_pythia160": {
+   "P_A": 118,
+   "validation_256": 253,
+   "seed0": {
+    "real_4096": 4076,
+    "llm_4096": 4090
+   },
+   "seed1": {
+    "real_4096": 4077,
+    "llm_4096": 4090
+   }
+  },
+  "gpt2_qwen05": {
+   "P_A": 90,
+   "validation_256": 256,
+   "seed0": {
+    "real_4096": 4091,
+    "llm_4096": 4092
+   },
+   "seed1": {
+    "real_4096": 4094,
+    "llm_4096": 4090
+   }
+  },
+  "opt125_gpt2": {
+   "P_A": 128,
+   "validation_256": 256,
+   "seed0": {
+    "real_4096": 4093,
+    "llm_4096": 4029
+   },
+   "seed1": {
+    "real_4096": 4093,
+    "llm_4096": 4041
+   }
+  }
+ }
+}

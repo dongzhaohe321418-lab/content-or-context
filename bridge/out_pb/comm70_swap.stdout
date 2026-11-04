@@ -1,0 +1,27 @@
+W1103 18:42:17.022000 61244 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{'n_windows': 512, 'n_articles': 58, 'windows_with_same_article_partner': 508, 'windows_within_one_article': 497, 'donor_assignments': 5}
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 2541.56it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 2224.89it/s]
+text                         matched 3.5717  other 4.8975  same 4.1881
+receiver-state reference     matched 3.8361  other 4.8829  same 4.2946
+random map                   matched 5.6162  other 5.6097  same 5.6130
+weight-only anchors          matched 5.3956  other 5.4168  same 5.4046
+comm_Claude_s0               matched 4.1428  other 4.9805  same 4.5158
+comm_Claude_s1               matched 4.1679  other 5.0207  same 4.5385
+comm_Claude_s2               matched 4.0995  other 4.9872  same 4.4883
+comm_real_s0                 matched 3.8605  other 4.8473  same 4.2907
+comm_real_s1                 matched 3.8029  other 4.8634  same 4.2772
+comm_real_s2                 matched 3.8181  other 4.8748  same 4.2893
+comm_self-sampled_s0         matched 4.5913  other 5.0509  same 4.7740
+comm_self-sampled_s1         matched 4.5727  other 5.0285  same 4.7553
+comm_self-sampled_s2         matched 4.5996  other 5.0810  same 4.7931
+full_Claude_s0               matched 4.3046  other 5.0158  same 4.6120
+full_Claude_s1               matched 4.3429  other 5.0190  same 4.6299
+full_Claude_s2               matched 4.3356  other 5.0267  same 4.6343
+full_real_s0                 matched 4.0493  other 4.8465  same 4.4013
+full_real_s1                 matched 4.0953  other 4.8745  same 4.4285
+full_real_s2                 matched 4.0469  other 4.8745  same 4.4064
+full_self-sampled_s0         matched 4.4290  other 5.0361  same 4.6963
+full_self-sampled_s1         matched 4.4211  other 5.0076  same 4.6828
+full_self-sampled_s2         matched 4.3562  other 5.0073  same 4.6511

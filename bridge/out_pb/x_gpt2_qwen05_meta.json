@@ -1,0 +1,9 @@
+{
+ "A": "openai-community/gpt2",
+ "B": "Qwen/Qwen2.5-0.5B",
+ "L_A": 4,
+ "L_B": 1,
+ "P_A": 90,
+ "n_test": 512,
+ "shared_tokens": 42257
+}

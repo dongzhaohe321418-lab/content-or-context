@@ -1,0 +1,16 @@
+real text (upper bound)                seed 0: {'acc': 0.5571, 'loss': 1.7041}
+real text (upper bound)                seed 1: {'acc': 0.5553, 'loss': 1.7089}
+real text (upper bound)                seed 2: {'acc': 0.5551, 'loss': 1.7025}
+Claude-written probe text              seed 0: {'acc': 0.4972, 'loss': 2.0217}
+Claude-written probe text              seed 1: {'acc': 0.499, 'loss': 2.0412}
+Claude-written probe text              seed 2: {'acc': 0.4978, 'loss': 2.0356}
+self-sampled from A and B (no LLM)     seed 0: {'acc': 0.5489, 'loss': 1.7436}
+self-sampled from A and B (no LLM)     seed 1: {'acc': 0.5496, 'loss': 1.7443}
+self-sampled from A and B (no LLM)     seed 2: {'acc': 0.55, 'loss': 1.7416}
+shuffled probe characters (control)    seed 0: {'acc': 0.2682, 'loss': 3.3428}
+shuffled probe characters (control)    seed 1: {'acc': 0.2703, 'loss': 3.3054}
+shuffled probe characters (control)    seed 2: {'acc': 0.268, 'loss': 3.3378}
+real text (upper bound)                mean 0.5558  sd 0.0011  [0.5571, 0.5553, 0.5551]
+Claude-written probe text              mean 0.4980  sd 0.0009  [0.4972, 0.499, 0.4978]
+self-sampled from A and B (no LLM)     mean 0.5495  sd 0.0006  [0.5489, 0.5496, 0.55]
+shuffled probe characters (control)    mean 0.2688  sd 0.0013  [0.2682, 0.2703, 0.268]

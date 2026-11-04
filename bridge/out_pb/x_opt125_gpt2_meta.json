@@ -1,0 +1,9 @@
+{
+ "A": "facebook/opt-125m",
+ "B": "openai-community/gpt2",
+ "L_A": 1,
+ "L_B": 1,
+ "P_A": 128,
+ "n_test": 512,
+ "shared_tokens": 50257
+}

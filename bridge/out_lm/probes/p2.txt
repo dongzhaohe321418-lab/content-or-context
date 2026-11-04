@@ -1,0 +1,1082 @@
+```python
+"""
+ratelimit.py - Token bucket and sliding window rate limiters.
+
+This module provides simple, thread-safe rate limiting primitives that can
+be used to throttle outgoing requests or protect internal resources.
+"""
+
+import threading
+import time
+from collections import deque
+from functools import wraps
+
+__all__ = ["TokenBucket", "SlidingWindow", "RateLimitExceeded", "rate_limited"]
+
+
+class RateLimitExceeded(Exception):
+    """Raised when a call is rejected by a limiter in non-blocking mode."""
+
+    def __init__(self, retry_after):
+        super().__init__("rate limit exceeded; retry after %.3fs" % retry_after)
+        self.retry_after = retry_after
+
+
+class TokenBucket:
+    """A classic token bucket.
+
+    Tokens are added at ``rate`` per second up to ``capacity``.  Each call
+    to :meth:`acquire` consumes one or more tokens.
+
+    >>> bucket = TokenBucket(rate=10, capacity=5)
+    >>> bucket.try_acquire()
+    True
+    """
+
+    def __init__(self, rate, capacity=None, clock=time.monotonic):
+        if rate <= 0:
+            raise ValueError("rate must be positive")
+        self.rate = float(rate)
+        self.capacity = float(capacity if capacity is not None else rate)
+        self._clock = clock
+        self._tokens = self.capacity
+        self._last = clock()
+        self._lock = threading.Lock()
+
+    def __repr__(self):
+        return "%s(rate=%r, capacity=%r)" % (
+            type(self).__name__, self.rate, self.capacity)
+
+    def _refill(self):
+        now = self._clock()
+        elapsed = now - self._last
+        self._last = now
+        self._tokens = min(self.capacity, self._tokens + elapsed * self.rate)
+
+    @property
+    def available(self):
+        with self._lock:
+            self._refill()
+            return self._tokens
+
+    def try_acquire(self, tokens=1):
+        """Consume ``tokens`` if available.  Return True on success."""
+        if tokens > self.capacity:
+            raise ValueError("requested more tokens than bucket capacity")
+        with self._lock:
+            self._refill()
+            if self._tokens >= tokens:
+                self._tokens -= tokens
+                return True
+            return False
+
+    def time_until(self, tokens=1):
+        """Return seconds until ``tokens`` would be available."""
+        with self._lock:
+            self._refill()
+            deficit = tokens - self._tokens
+            return max(0.0, deficit / self.rate)
+
+    def acquire(self, tokens=1, blocking=True, timeout=None):
+        deadline = None if timeout is None else self._clock() + timeout
+        while True:
+            if self.try_acquire(tokens):
+                return True
+            wait = self.time_until(tokens)
+            if not blocking:
+                raise RateLimitExceeded(wait)
+            if deadline is not None:
+                remaining = deadline - self._clock()
+                if remaining <= 0:
+                    return False
+                wait = min(wait, remaining)
+            time.sleep(wait)
+
+
+class SlidingWindow:
+    """Allow at most ``limit`` events within any ``window`` seconds."""
+
+    def __init__(self, limit, window, clock=time.monotonic):
+        self.limit = int(limit)
+        self.window = float(window)
+        self._clock = clock
+        self._events = deque()
+        self._lock = threading.Lock()
+
+    def _evict(self, now):
+        cutoff = now - self.window
+        events = self._events
+        while events and events[0] <= cutoff:
+            events.popleft()
+
+    def try_acquire(self):
+        with self._lock:
+            now = self._clock()
+            self._evict(now)
+            if len(self._events) < self.limit:
+                self._events.append(now)
+                return True
+            return False
+
+    def retry_after(self):
+        with self._lock:
+            now = self._clock()
+            self._evict(now)
+            if len(self._events) < self.limit:
+                return 0.0
+            return self._events[0] + self.window - now
+
+
+def rate_limited(limiter, blocking=True):
+    """Decorator that gates a function behind ``limiter``."""
+
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            if isinstance(limiter, TokenBucket):
+                limiter.acquire(blocking=blocking)
+            elif not limiter.try_acquire():
+                raise RateLimitExceeded(limiter.retry_after())
+            return func(*args, **kwargs)
+        wrapper.limiter = limiter
+        return wrapper
+    return decorator
+
+
+# ---------------------------------------------------------------------------
+# test_ratelimit.py
+# ---------------------------------------------------------------------------
+
+import unittest
+
+
+class FakeClock:
+    def __init__(self, start=0.0):
+        self.now = start
+
+    def __call__(self):
+        return self.now
+
+    def advance(self, seconds):
+        self.now += seconds
+
+
+class TokenBucketTests(unittest.TestCase):
+
+    def setUp(self):
+        self.clock = FakeClock()
+        self.bucket = TokenBucket(rate=2, capacity=4, clock=self.clock)
+
+    def test_starts_full(self):
+        self.assertEqual(self.bucket.available, 4)
+
+    def test_drains_and_refills(self):
+        for _ in range(4):
+            self.assertTrue(self.bucket.try_acquire())
+        self.assertFalse(self.bucket.try_acquire())
+        self.clock.advance(0.5)
+        self.assertTrue(self.bucket.try_acquire())
+
+    def test_time_until(self):
+        self.bucket.try_acquire(4)
+        self.assertAlmostEqual(self.bucket.time_until(1), 0.5)
+
+    def test_non_blocking_raises(self):
+        self.bucket.try_acquire(4)
+        with self.assertRaises(RateLimitExceeded) as cm:
+            self.bucket.acquire(blocking=False)
+        self.assertGreater(cm.exception.retry_after, 0)
+
+    def test_rejects_oversized_request(self):
+        with self.assertRaises(ValueError):
+            self.bucket.try_acquire(10)
+
+
+class SlidingWindowTests(unittest.TestCase):
+
+    def test_window_expires(self):
+        clock = FakeClock()
+        sw = SlidingWindow(limit=2, window=1.0, clock=clock)
+        self.assertTrue(sw.try_acquire())
+        self.assertTrue(sw.try_acquire())
+        self.assertFalse(sw.try_acquire())
+        clock.advance(1.01)
+        self.assertTrue(sw.try_acquire())
+
+
+if __name__ == "__main__":
+    unittest.main()
+```
+
+```python
+# -*- coding: utf-8 -*-
+"""
+graphs.utils
+~~~~~~~~~~~~
+
+Small collection of graph algorithms operating on adjacency mappings.
+
+A graph is represented as a dict mapping each node to an iterable of
+neighbours, or for weighted graphs, to a dict of ``{neighbour: weight}``.
+"""
+
+from __future__ import annotations
+
+import heapq
+from collections import defaultdict, deque
+from typing import Dict, Hashable, Iterable, Iterator, List, Mapping, Optional, Set, Tuple
+
+Node = Hashable
+Graph = Mapping[Node, Iterable[Node]]
+WeightedGraph = Mapping[Node, Mapping[Node, float]]
+
+
+class CycleError(ValueError):
+    """Raised by :func:`topological_sort` when the graph has a cycle."""
+
+    def __init__(self, cycle: List[Node]):
+        self.cycle = cycle
+        path = " -> ".join(map(str, cycle))
+        super().__init__(f"graph contains a cycle: {path}")
+
+
+def nodes(graph: Graph) -> Set[Node]:
+    """Return every node mentioned in ``graph``, including sinks."""
+    result = set(graph)
+    for targets in graph.values():
+        result.update(targets)
+    return result
+
+
+def reverse(graph: Graph) -> Dict[Node, List[Node]]:
+    """Return a new graph with all edges reversed."""
+    rev: Dict[Node, List[Node]] = {n: [] for n in nodes(graph)}
+    for src, targets in graph.items():
+        for dst in targets:
+            rev[dst].append(src)
+    return rev
+
+
+def bfs(graph: Graph, start: Node) -> Iterator[Node]:
+    """Yield nodes reachable from ``start`` in breadth-first order."""
+    seen = {start}
+    queue = deque([start])
+    while queue:
+        node = queue.popleft()
+        yield node
+        for nbr in graph.get(node, ()):
+            if nbr not in seen:
+                seen.add(nbr)
+                queue.append(nbr)
+
+
+def shortest_path(graph: Graph, start: Node, goal: Node) -> Optional[List[Node]]:
+    """Unweighted shortest path using BFS.  Returns None if unreachable."""
+    if start == goal:
+        return [start]
+    parents: Dict[Node, Node] = {}
+    queue = deque([start])
+    seen = {start}
+    while queue:
+        node = queue.popleft()
+        for nbr in graph.get(node, ()):
+            if nbr in seen:
+                continue
+            parents[nbr] = node
+            if nbr == goal:
+                path = [goal]
+                while path[-1] != start:
+                    path.append(parents[path[-1]])
+                path.reverse()
+                return path
+            seen.add(nbr)
+            queue.append(nbr)
+    return None
+
+
+def dijkstra(graph: WeightedGraph, source: Node) -> Tuple[Dict[Node, float], Dict[Node, Node]]:
+    """Compute single-source shortest paths.
+
+    Returns a pair ``(dist, prev)`` where ``dist[n]`` is the distance from
+    ``source`` to ``n`` and ``prev[n]`` is the predecessor on that path.
+    Negative edge weights are not supported.
+    """
+    dist: Dict[Node, float] = {source: 0.0}
+    prev: Dict[Node, Node] = {}
+    heap = [(0.0, 0, source)]
+    counter = 1  # tie-breaker so nodes need not be comparable
+    done: Set[Node] = set()
+
+    while heap:
+        d, _, node = heapq.heappop(heap)
+        if node in done:
+            continue
+        done.add(node)
+        for nbr, weight in graph.get(node, {}).items():
+            if weight < 0:
+                raise ValueError(f"negative weight on edge {node!r}->{nbr!r}")
+            nd = d + weight
+            if nd < dist.get(nbr, float("inf")):
+                dist[nbr] = nd
+                prev[nbr] = node
+                heapq.heappush(heap, (nd, counter, nbr))
+                counter += 1
+    return dist, prev
+
+
+def topological_sort(graph: Graph) -> List[Node]:
+    """Return nodes in an order where every edge points forward.
+
+    Uses Kahn's algorithm.  On failure a :class:`CycleError` is raised
+    containing one offending cycle.
+    """
+    indegree: Dict[Node, int] = defaultdict(int)
+    all_nodes = nodes(graph)
+    for n in all_nodes:
+        indegree.setdefault(n, 0)
+    for targets in graph.values():
+        for t in targets:
+            indegree[t] += 1
+
+    ready = deque(sorted((n for n in all_nodes if indegree[n] == 0), key=str))
+    order: List[Node] = []
+    while ready:
+        node = ready.popleft()
+        order.append(node)
+        for nbr in graph.get(node, ()):
+            indegree[nbr] -= 1
+            if indegree[nbr] == 0:
+                ready.append(nbr)
+
+    if len(order) != len(all_nodes):
+        remaining = {n for n in all_nodes if indegree[n] > 0}
+        raise CycleError(_find_cycle(graph, remaining))
+    return order
+
+
+def _find_cycle(graph: Graph, candidates: Set[Node]) -> List[Node]:
+    start = next(iter(candidates))
+    stack = [start]
+    index = {start: 0}
+    while True:
+        node = stack[-1]
+        for nbr in graph.get(node, ()):
+            if nbr in candidates:
+                break
+        else:  # pragma: no cover - cannot happen for a true cycle remainder
+            return stack
+        if nbr in index:
+            return stack[index[nbr]:] + [nbr]
+        index[nbr] = len(stack)
+        stack.append(nbr)
+
+
+def connected_components(graph: Graph) -> List[Set[Node]]:
+    """Return weakly connected components, largest first."""
+    undirected: Dict[Node, Set[Node]] = defaultdict(set)
+    for src, targets in graph.items():
+        undirected[src]
+        for dst in targets:
+            undirected[src].add(dst)
+            undirected[dst].add(src)
+    seen: Set[Node] = set()
+    components = []
+    for node in undirected:
+        if node in seen:
+            continue
+        comp = set(bfs(undirected, node))
+        seen |= comp
+        components.append(comp)
+    components.sort(key=len, reverse=True)
+    return components
+```
+
+```python
+"""Tests for graphs.utils."""
+
+import pytest
+
+from graphs.utils import (
+    CycleError,
+    connected_components,
+    dijkstra,
+    reverse,
+    shortest_path,
+    topological_sort,
+)
+
+
+@pytest.fixture
+def dag():
+    return {
+        "shirt": ["tie", "belt"],
+        "tie": ["jacket"],
+        "trousers": ["shoes", "belt"],
+        "belt": ["jacket"],
+        "socks": ["shoes"],
+    }
+
+
+def test_topological_sort_respects_edges(dag):
+    order = topological_sort(dag)
+    position = {node: i for i, node in enumerate(order)}
+    for src, targets in dag.items():
+        for dst in targets:
+            assert position[src] < position[dst]
+
+
+def test_topological_sort_detects_cycle():
+    with pytest.raises(CycleError) as excinfo:
+        topological_sort({"a": ["b"], "b": ["c"], "c": ["a"]})
+    cycle = excinfo.value.cycle
+    assert cycle[0] == cycle[-1]
+    assert set(cycle) == {"a", "b", "c"}
+
+
+def test_reverse_roundtrip(dag):
+    twice = reverse(reverse(dag))
+    for src, targets in dag.items():
+        assert sorted(twice[src]) == sorted(targets)
+
+
+@pytest.mark.parametrize("start,goal,expected", [
+    (1, 4, [1, 2, 4]),
+    (1, 1, [1]),
+    (4, 1, None),
+])
+def test_shortest_path(start, goal, expected):
+    graph = {1: [2, 3], 2: [4], 3: [4], 4: []}
+    assert shortest_path(graph, start, goal) == expected
+
+
+def test_dijkstra_prefers_cheaper_route():
+    graph = {
+        "a": {"b": 1, "c": 5},
+        "b": {"c": 1},
+        "c": {},
+    }
+    dist, prev = dijkstra(graph, "a")
+    assert dist["c"] == 2
+    assert prev["c"] == "b"
+
+
+def test_dijkstra_rejects_negative_weights():
+    with pytest.raises(ValueError, match="negative weight"):
+        dijkstra({"a": {"b": -1}}, "a")
+
+
+def test_connected_components():
+    graph = {1: [2], 2: [], 3: [4], 5: []}
+    comps = connected_components(graph)
+    assert {frozenset(c) for c in comps} == {
+        frozenset({1, 2}), frozenset({3, 4}), frozenset({5})}
+```
+
+```python
+#!/usr/bin/env python3
+"""
+csvreport - summarise numeric columns in CSV files.
+
+Usage:
+    csvreport.py [options] FILE [FILE ...]
+
+Prints count, mean, min, max, and standard deviation for every column
+that looks numeric.  Non-numeric columns are reported with the number of
+distinct values instead.
+"""
+
+import argparse
+import csv
+import logging
+import math
+import os
+import sys
+from dataclasses import dataclass, field
+
+log = logging.getLogger("csvreport")
+
+MISSING = {"", "na", "n/a", "null", "none", "-"}
+
+
+@dataclass
+class ColumnStats:
+    name: str
+    count: int = 0
+    missing: int = 0
+    total: float = 0.0
+    total_sq: float = 0.0
+    minimum: float = math.inf
+    maximum: float = -math.inf
+    non_numeric: int = 0
+    distinct: set = field(default_factory=set)
+
+    def add(self, raw):
+        value = raw.strip()
+        if value.lower() in MISSING:
+            self.missing += 1
+            return
+        if len(self.distinct) < 10_000:
+            self.distinct.add(value)
+        try:
+            x = float(value.replace(",", ""))
+        except ValueError:
+            self.non_numeric += 1
+            return
+        if math.isnan(x):
+            self.missing += 1
+            return
+        self.count += 1
+        self.total += x
+        self.total_sq += x * x
+        self.minimum = min(self.minimum, x)
+        self.maximum = max(self.maximum, x)
+
+    @property
+    def is_numeric(self):
+        # Tolerate a few stray labels, e.g. footer rows.
+        return self.count > 0 and self.non_numeric <= 0.05 * (self.count + self.non_numeric)
+
+    @property
+    def mean(self):
+        return self.total / self.count if self.count else float("nan")
+
+    @property
+    def stdev(self):
+        if self.count < 2:
+            return 0.0
+        var = (self.total_sq - self.total ** 2 / self.count) / (self.count - 1)
+        return math.sqrt(max(var, 0.0))
+
+
+def sniff_dialect(handle, sample_size=4096):
+    sample = handle.read(sample_size)
+    handle.seek(0)
+    try:
+        return csv.Sniffer().sniff(sample, delimiters=",;\t|")
+    except csv.Error:
+        log.debug("could not sniff dialect, falling back to excel")
+        return csv.excel
+
+
+def summarise(path, encoding="utf-8"):
+    with open(path, newline="", encoding=encoding) as fh:
+        reader = csv.reader(fh, sniff_dialect(fh))
+        try:
+            header = next(reader)
+        except StopIteration:
+            log.warning("%s: empty file", path)
+            return []
+        stats = [ColumnStats(name or f"col{i}") for i, name in enumerate(header)]
+        for lineno, row in enumerate(reader, start=2):
+            if len(row) != len(stats):
+                log.warning("%s:%d: expected %d fields, got %d",
+                            path, lineno, len(stats), len(row))
+            for col, cell in zip(stats, row):
+                col.add(cell)
+    return stats
+
+
+def format_number(x):
+    if math.isinf(x) or math.isnan(x):
+        return "-"
+    if x == int(x) and abs(x) < 1e12:
+        return f"{int(x):,}"
+    return f"{x:,.4g}"
+
+
+def render(path, stats, out=sys.stdout):
+    width = max((len(s.name) for s in stats), default=4)
+    print(f"== {os.path.basename(path)} ==", file=out)
+    for s in stats:
+        if s.is_numeric:
+            print(f"  {s.name:<{width}}  n={s.count:<7} mean={format_number(s.mean):>10} "
+                  f"min={format_number(s.minimum):>10} max={format_number(s.maximum):>10} "
+                  f"sd={format_number(s.stdev):>8}", file=out)
+        else:
+            print(f"  {s.name:<{width}}  text, {len(s.distinct)} distinct, "
+                  f"{s.missing} missing", file=out)
+    print(file=out)
+
+
+def parse_args(argv=None):
+    p = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    p.add_argument("files", nargs="+", metavar="FILE")
+    p.add_argument("-e", "--encoding", default="utf-8")
+    p.add_argument("-v", "--verbose", action="count", default=0)
+    return p.parse_args(argv)
+
+
+def main(argv=None):
+    args = parse_args(argv)
+    logging.basicConfig(
+        level=logging.WARNING - 10 * args.verbose,
+        format="%(levelname)s: %(message)s",
+    )
+    status = 0
+    for path in args.files:
+        try:
+            render(path, summarise(path, args.encoding))
+        except (OSError, UnicodeDecodeError) as exc:
+            log.error("%s: %s", path, exc)
+            status = 1
+    return status
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+```
+
+```python
+"""
+lru.py -- a tiny least-recently-used cache with optional expiry.
+"""
+
+import time
+from collections import OrderedDict
+from threading import RLock
+
+_sentinel = object()
+
+
+class LRUCache:
+    """Mapping-like cache that evicts the least recently used item.
+
+    :param maxsize: maximum number of entries; ``None`` means unbounded.
+    :param ttl: optional time-to-live in seconds for each entry.
+    """
+
+    def __init__(self, maxsize=128, ttl=None, timer=time.monotonic):
+        if maxsize is not None and maxsize <= 0:
+            raise ValueError("maxsize must be positive or None")
+        self.maxsize = maxsize
+        self.ttl = ttl
+        self._timer = timer
+        self._data = OrderedDict()
+        self._lock = RLock()
+        self.hits = self.misses = 0
+
+    def __len__(self):
+        with self._lock:
+            self._expire()
+            return len(self._data)
+
+    def __contains__(self, key):
+        return self.get(key, _sentinel, touch=False) is not _sentinel
+
+    def __getitem__(self, key):
+        value = self.get(key, _sentinel)
+        if value is _sentinel:
+            raise KeyError(key)
+        return value
+
+    def __setitem__(self, key, value):
+        with self._lock:
+            expires = None if self.ttl is None else self._timer() + self.ttl
+            if key in self._data:
+                self._data.move_to_end(key)
+            self._data[key] = (value, expires)
+            if self.maxsize is not None:
+                while len(self._data) > self.maxsize:
+                    self._data.popitem(last=False)
+
+    def __delitem__(self, key):
+        with self._lock:
+            del self._data[key]
+
+    def _expire(self):
+        if self.ttl is None:
+            return
+        now = self._timer()
+        stale = [k for k, (_, exp) in self._data.items() if exp <= now]
+        for k in stale:
+            del self._data[k]
+
+    def get(self, key, default=None, touch=True):
+        with self._lock:
+            try:
+                value, expires = self._data[key]
+            except KeyError:
+                self.misses += 1
+                return default
+            if expires is not None and expires <= self._timer():
+                del self._data[key]
+                self.misses += 1
+                return default
+            if touch:
+                self._data.move_to_end(key)
+            self.hits += 1
+            return value
+
+    def clear(self):
+        with self._lock:
+            self._data.clear()
+            self.hits = self.misses = 0
+
+    def info(self):
+        return {"hits": self.hits, "misses": self.misses,
+                "size": len(self), "maxsize": self.maxsize}
+
+
+def memoize(maxsize=128, ttl=None):
+    """Decorator caching results of a function of hashable arguments."""
+    def decorator(func):
+        cache = LRUCache(maxsize=maxsize, ttl=ttl)
+
+        def wrapper(*args, **kwargs):
+            key = args
+            if kwargs:
+                key += (_sentinel,) + tuple(sorted(kwargs.items()))
+            result = cache.get(key, _sentinel)
+            if result is _sentinel:
+                result = func(*args, **kwargs)
+                cache[key] = result
+            return result
+
+        wrapper.cache = cache
+        wrapper.__wrapped__ = func
+        wrapper.__name__ = func.__name__
+        wrapper.__doc__ = func.__doc__
+        return wrapper
+    return decorator
+```
+
+```python
+"""Parsing and validation of semantic version strings (https://semver.org)."""
+
+import re
+from functools import total_ordering
+
+_SEMVER_RE = re.compile(
+    r"""
+    ^v?
+    (?P<major>0|[1-9]\d*)\.
+    (?P<minor>0|[1-9]\d*)\.
+    (?P<patch>0|[1-9]\d*)
+    (?:-(?P<pre>[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?
+    (?:\+(?P<build>[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?
+    $""",
+    re.VERBOSE,
+)
+
+
+class InvalidVersion(ValueError):
+    pass
+
+
+def _cmp_prerelease(a, b):
+    """Compare dot-separated prerelease identifiers per semver section 11."""
+    if a == b:
+        return 0
+    if not a:
+        return 1   # a release outranks any prerelease
+    if not b:
+        return -1
+    for x, y in zip(a, b):
+        if x == y:
+            continue
+        xd, yd = x.isdigit(), y.isdigit()
+        if xd and yd:
+            return -1 if int(x) < int(y) else 1
+        if xd != yd:
+            return -1 if xd else 1
+        return -1 if x < y else 1
+    return -1 if len(a) < len(b) else 1
+
+
+@total_ordering
+class Version:
+    __slots__ = ("major", "minor", "patch", "prerelease", "build")
+
+    def __init__(self, major, minor=0, patch=0, prerelease=(), build=()):
+        self.major = int(major)
+        self.minor = int(minor)
+        self.patch = int(patch)
+        self.prerelease = tuple(prerelease)
+        self.build = tuple(build)
+
+    @classmethod
+    def parse(cls, text):
+        m = _SEMVER_RE.match(text.strip())
+        if m is None:
+            raise InvalidVersion(f"not a valid semantic version: {text!r}")
+        pre = m.group("pre")
+        build = m.group("build")
+        return cls(
+            m.group("major"), m.group("minor"), m.group("patch"),
+            pre.split(".") if pre else (),
+            build.split(".") if build else (),
+        )
+
+    def __str__(self):
+        s = f"{self.major}.{self.minor}.{self.patch}"
+        if self.prerelease:
+            s += "-" + ".".join(self.prerelease)
+        if self.build:
+            s += "+" + ".".join(self.build)
+        return s
+
+    def __repr__(self):
+        return f"Version({str(self)!r})"
+
+    def _key(self):
+        return (self.major, self.minor, self.patch)
+
+    def __eq__(self, other):
+        if not isinstance(other, Version):
+            return NotImplemented
+        # Build metadata is ignored for precedence.
+        return self._key() == other._key() and self.prerelease == other.prerelease
+
+    def __hash__(self):
+        return hash((self._key(), self.prerelease))
+
+    def __lt__(self, other):
+        if not isinstance(other, Version):
+            return NotImplemented
+        if self._key() != other._key():
+            return self._key() < other._key()
+        return _cmp_prerelease(self.prerelease, other.prerelease) < 0
+
+    def bump(self, part):
+        if part == "major":
+            return Version(self.major + 1)
+        if part == "minor":
+            return Version(self.major, self.minor + 1)
+        if part == "patch":
+            if self.prerelease:
+                return Version(self.major, self.minor, self.patch)
+            return Version(self.major, self.minor, self.patch + 1)
+        raise ValueError(f"unknown part {part!r}")
+
+
+def test_ordering_matches_spec():
+    ordered = [
+        "1.0.0-alpha", "1.0.0-alpha.1", "1.0.0-alpha.beta", "1.0.0-beta",
+        "1.0.0-beta.2", "1.0.0-beta.11", "1.0.0-rc.1", "1.0.0",
+    ]
+    versions = [Version.parse(v) for v in ordered]
+    assert versions == sorted(reversed(versions))
+
+
+def test_build_metadata_ignored():
+    assert Version.parse("1.2.3+abc") == Version.parse("1.2.3+def")
+
+
+def test_bump():
+    v = Version.parse("2.4.9-rc.1")
+    assert str(v.bump("patch")) == "2.4.9"
+    assert str(v.bump("minor")) == "2.5.0"
+    assert str(v.bump("major")) == "3.0.0"
+
+
+def test_invalid():
+    import pytest
+    for bad in ("1.2", "01.2.3", "1.2.3-", "a.b.c"):
+        with pytest.raises(InvalidVersion):
+            Version.parse(bad)
+```
+
+```python
+"""
+textwrap_ext.py - helpers for formatting plain-text tables and paragraphs.
+"""
+
+import shutil
+import textwrap
+import unicodedata
+
+
+def display_width(text):
+    """Return the number of terminal columns needed to display ``text``.
+
+    East Asian wide and fullwidth characters count as two columns, and
+    combining marks count as zero.
+    """
+    width = 0
+    for ch in text:
+        if unicodedata.combining(ch):
+            continue
+        width += 2 if unicodedata.east_asian_width(ch) in ("W", "F") else 1
+    return width
+
+
+def pad(text, width, align="<"):
+    gap = max(0, width - display_width(text))
+    if align == ">":
+        return " " * gap + text
+    if align == "^":
+        left = gap // 2
+        return " " * left + text + " " * (gap - left)
+    return text + " " * gap
+
+
+def table(rows, headers=None, align=None, sep="  "):
+    """Render ``rows`` (a list of sequences) as an aligned text table.
+
+    >>> print(table([["a", 1], ["bb", 22]], headers=["k", "v"]))
+    k   v
+    --  --
+    a   1
+    bb  22
+    """
+    rows = [[str(c) for c in row] for row in rows]
+    if headers:
+        rows.insert(0, [str(h) for h in headers])
+    if not rows:
+        return ""
+    ncols = max(len(r) for r in rows)
+    for r in rows:
+        r.extend([""] * (ncols - len(r)))
+    widths = [max(display_width(r[i]) for r in rows) for i in range(ncols)]
+    align = list(align or "<" * ncols)
+
+    lines = []
+    for idx, r in enumerate(rows):
+        cells = [pad(c, w, a) for c, w, a in zip(r, widths, align)]
+        lines.append(sep.join(cells).rstrip())
+        if idx == 0 and headers:
+            lines.append(sep.join("-" * w for w in widths))
+    return "\n".join(lines)
+
+
+def wrap_paragraphs(text, width=None, indent=""):
+    """Wrap each blank-line separated paragraph independently."""
+    if width is None:
+        width = min(shutil.get_terminal_size().columns, 88)
+    paragraphs = [p.strip() for p in text.split("\n\n")]
+    wrapper = textwrap.TextWrapper(
+        width=width, initial_indent=indent, subsequent_indent=indent,
+        break_on_hyphens=False,
+    )
+    return "\n\n".join(wrapper.fill(" ".join(p.split())) for p in paragraphs if p)
+
+
+def truncate(text, width, ellipsis="…"):
+    if display_width(text) <= width:
+        return text
+    out, used = [], display_width(ellipsis)
+    for ch in text:
+        w = display_width(ch)
+        if used + w > width:
+            break
+        out.append(ch)
+        used += w
+    return "".join(out) + ellipsis
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=False)
+```
+
+```python
+"""Async job queue with retries and exponential backoff."""
+
+import asyncio
+import logging
+import random
+from dataclasses import dataclass, field
+from typing import Any, Awaitable, Callable, Optional
+
+logger = logging.getLogger(__name__)
+
+
+@dataclass(order=True)
+class Job:
+    priority: int
+    seq: int
+    func: Callable[..., Awaitable[Any]] = field(compare=False)
+    args: tuple = field(default=(), compare=False)
+    attempts: int = field(default=0, compare=False)
+    future: Optional[asyncio.Future] = field(default=None, compare=False)
+
+
+class JobQueue:
+    def __init__(self, workers=4, max_retries=3, base_delay=0.5, max_delay=30.0):
+        self._queue: asyncio.PriorityQueue = asyncio.PriorityQueue()
+        self._workers = workers
+        self._tasks = []
+        self._seq = 0
+        self.max_retries = max_retries
+        self.base_delay = base_delay
+        self.max_delay = max_delay
+
+    async def __aenter__(self):
+        self.start()
+        return self
+
+    async def __aexit__(self, exc_type, exc, tb):
+        await self.join()
+        await self.stop()
+
+    def start(self):
+        for i in range(self._workers):
+            self._tasks.append(asyncio.create_task(self._worker(i)))
+
+    async def stop(self):
+        for task in self._tasks:
+            task.cancel()
+        await asyncio.gather(*self._tasks, return_exceptions=True)
+        self._tasks.clear()
+
+    async def join(self):
+        await self._queue.join()
+
+    def submit(self, func, *args, priority=0):
+        loop = asyncio.get_running_loop()
+        fut = loop.create_future()
+        self._seq += 1
+        self._queue.put_nowait(Job(priority, self._seq, func, args, future=fut))
+        return fut
+
+    def _backoff(self, attempt):
+        delay = min(self.max_delay, self.base_delay * 2 ** attempt)
+        return delay * random.uniform(0.5, 1.0)  # full jitter
+
+    async def _worker(self, ident):
+        while True:
+            job = await self._queue.get()
+            try:
+                result = await job.func(*job.args)
+            except asyncio.CancelledError:
+                raise
+            except Exception as exc:
+                job.attempts += 1
+                if job.attempts > self.max_retries:
+                    logger.error("job %d failed permanently: %r", job.seq, exc)
+                    if not job.future.done():
+                        job.future.set_exception(exc)
+                else:
+                    delay = self._backoff(job.attempts)
+                    logger.info("worker %d: retrying job %d in %.2fs (%r)",
+                                ident, job.seq, delay, exc)
+                    asyncio.get_running_loop().call_later(
+                        delay, self._queue.put_nowait, job)
+                    # Account for the re-put so join() waits for it.
+                    self._queue._unfinished_tasks += 1  # noqa: SLF001
+            else:
+                if not job.future.done():
+                    job.future.set_result(result)
+            finally:
+                self._queue.task_done()
+
+
+async def _demo():
+    calls = {"n": 0}
+
+    async def flaky(x):
+        calls["n"] += 1
+        if calls["n"] % 3:
+            raise ConnectionError("transient")
+        return x * 2
+
+    async with JobQueue(workers=2, base_delay=0.01) as q:
+        futures = [q.submit(flaky, i) for i in range(3)]
+        results = await asyncio.gather(*futures, return_exceptions=True)
+    print(results)
+
+
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    asyncio.run(_demo())
+```

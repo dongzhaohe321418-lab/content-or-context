@@ -1,0 +1,62 @@
+  oracle at B L1                                               acc  31.96  ce 3.9081
+    step 0 KL/token 1.5679
+    step 200 KL/token 0.7944
+    step 299 KL/token 0.6826
+  A L1 -> B L1, fit[comm] real 300 steps                       acc  27.64  ce 4.2348
+  A L1 -> B L1, fit[comm] real 300 steps | mismatched message  acc  25.83  ce 4.4746
+    step 0 KL/token 1.5145
+    step 200 KL/token 0.6038
+    step 299 KL/token 0.3767
+  A L2 -> B L1, fit[comm] real 300 steps                       acc  30.30  ce 4.0307
+  A L2 -> B L1, fit[comm] real 300 steps | mismatched message  acc  26.49  ce 4.4663
+    step 0 KL/token 1.5918
+    step 200 KL/token 0.6356
+    step 299 KL/token 0.4587
+  A L3 -> B L1, fit[comm] real 300 steps                       acc  29.46  ce 4.1058
+  A L3 -> B L1, fit[comm] real 300 steps | mismatched message  acc  26.14  ce 4.4850
+    step 0 KL/token 1.6018
+    step 200 KL/token 0.7568
+    step 299 KL/token 0.5840
+  A L4 -> B L1, fit[comm] real 300 steps                       acc  27.89  ce 4.1945
+  A L4 -> B L1, fit[comm] real 300 steps | mismatched message  acc  25.99  ce 4.5046
+    step 0 KL/token 1.5750
+    step 200 KL/token 0.6808
+    step 299 KL/token 0.5175
+  A L5 -> B L1, fit[comm] real 300 steps                       acc  28.49  ce 4.1264
+  A L5 -> B L1, fit[comm] real 300 steps | mismatched message  acc  26.20  ce 4.4948
+    step 0 KL/token 5.1945
+    step 200 KL/token 1.0075
+    step 299 KL/token 0.9764
+  A L6 -> B L1, fit[comm] real 300 steps                       acc  24.39  ce 4.6412
+  A L6 -> B L1, fit[comm] real 300 steps | mismatched message  acc  24.37  ce 4.6400
+  oracle at B L2                                               acc  31.07  ce 3.9695
+    step 0 KL/token 1.5796
+    step 200 KL/token 0.5507
+    step 299 KL/token 0.3958
+  A L1 -> B L2, fit[comm] real 300 steps                       acc  29.88  ce 4.0830
+  A L1 -> B L2, fit[comm] real 300 steps | mismatched message  acc  26.53  ce 4.4876
+    step 0 KL/token 1.8172
+    step 200 KL/token 0.4915
+    step 299 KL/token 0.4089
+  A L2 -> B L2, fit[comm] real 300 steps                       acc  30.15  ce 4.0864
+  A L2 -> B L2, fit[comm] real 300 steps | mismatched message  acc  26.67  ce 4.4934
+    step 0 KL/token 1.8565
+    step 200 KL/token 0.5885
+    step 299 KL/token 0.4192
+  A L3 -> B L2, fit[comm] real 300 steps                       acc  29.20  ce 4.1025
+  A L3 -> B L2, fit[comm] real 300 steps | mismatched message  acc  25.95  ce 4.5103
+    step 0 KL/token 1.9407
+    step 200 KL/token 0.6986
+    step 299 KL/token 0.5219
+  A L4 -> B L2, fit[comm] real 300 steps                       acc  28.31  ce 4.1761
+  A L4 -> B L2, fit[comm] real 300 steps | mismatched message  acc  26.01  ce 4.5221
+    step 0 KL/token 1.9279
+    step 200 KL/token 0.7013
+    step 299 KL/token 0.5624
+  A L5 -> B L2, fit[comm] real 300 steps                       acc  28.28  ce 4.1870
+  A L5 -> B L2, fit[comm] real 300 steps | mismatched message  acc  25.87  ce 4.5089
+    step 0 KL/token 5.0613
+    step 200 KL/token 0.9986
+    step 299 KL/token 0.9415
+  A L6 -> B L2, fit[comm] real 300 steps                       acc  25.54  ce 4.5546
+  A L6 -> B L2, fit[comm] real 300 steps | mismatched message  acc  25.48  ce 4.5579

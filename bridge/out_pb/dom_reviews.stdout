@@ -1,0 +1,20 @@
+W1103 21:26:04.637000 78192 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating train split:   0%|          | 0/25000 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 25000/25000 [00:00<00:00, 668129.63 examples/s]
+Generating test split:   0%|          | 0/25000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 25000/25000 [00:00<00:00, 1057117.51 examples/s]
+Generating unsupervised split:   0%|          | 0/50000 [00:00<?, ? examples/s]Generating unsupervised split: 100%|██████████| 50000/50000 [00:00<00:00, 1014278.18 examples/s]
+{'domain': 'reviews', 'documents_used': 501, 'windows': 512, 'with_same_doc_partner': 22}
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 2195.77it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 2146.49it/s]
+text                         matched 3.7103  other 4.3427
+receiver-state reference     matched 3.9131  other 4.3479
+weight-only anchors          matched 4.6010  other 4.6060
+comm_Claude_s0               matched 4.0953  other 4.4088
+comm_Claude_s1               matched 4.0897  other 4.4019
+comm_Claude_s2               matched 4.0725  other 4.3970
+comm_real_s0                 matched 4.0761  other 4.4059
+comm_real_s1                 matched 4.0381  other 4.4119
+comm_real_s2                 matched 4.0366  other 4.3918
+comm_self-sampled_s0         matched 4.1521  other 4.3460
+comm_self-sampled_s1         matched 4.1862  other 4.3865
+comm_self-sampled_s2         matched 4.1603  other 4.3711

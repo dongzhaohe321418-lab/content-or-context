@@ -1,0 +1,17 @@
+{
+ "same": {
+  "uniform": 0.791,
+  "sparse": 0.852,
+  "blobs": 0.865
+ },
+ "width": {
+  "uniform": 0.822,
+  "sparse": 0.931,
+  "blobs": 0.936
+ },
+ "hetero": {
+  "uniform": 0.736,
+  "sparse": 0.818,
+  "blobs": 0.891
+ }
+}

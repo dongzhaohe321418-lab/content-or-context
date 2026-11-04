@@ -1,0 +1,81 @@
+Lanternfall is a 2006 action-adventure video game developed by Halvorsen Interactive and published by Corvane Entertainment for the PlayStation 2, Xbox, and Microsoft Windows. The game follows Edda Marrow, a lighthouse keeper's daughter on a fictional North Atlantic archipelago, who searches for her missing father after the island's lights go dark during a prolonged winter storm. The game combines exploration, environmental puzzles, and light-based combat, in which the player uses a modified oil lantern to repel hostile creatures and reveal hidden pathways.
+
+Lanternfall was Halvorsen Interactive's second commercial release, following the 2003 racing game Fjordline. Development began in 2004 with a team of about 40 people based in Bergen, Norway, and later expanded to about 65. The game was released in North America on October 17, 2006, and in Europe on October 27, 2006. Critics praised its atmosphere, art direction, and sound design, while its combat system, camera controls, and pacing in the final third drew criticism. It sold about 410,000 copies across all platforms by the end of 2007. Commercially it fell short of the publisher's expectations, but it later gained a cult following and influenced several independent games of the following decade.
+
+= = Gameplay = =
+
+Lanternfall is played from a third-person perspective. The player controls Edda Marrow as she travels across the islands of the Skerrow archipelago, a chain of six main islands and several smaller outcrops. The game is broadly linear. Each island forms a self-contained area that the player can explore freely before moving on, and the player can return to previously visited islands by small boat once certain story events have taken place.
+
+The central mechanic is Edda's lantern. It can be adjusted between three settings: a dim glow that saves fuel, a standard beam that lights the area ahead, and a concentrated flare that damages enemies and triggers certain environmental objects. Fuel is limited. The player collects whale oil, paraffin, and salvaged lamp oil scattered throughout the islands, and running out of fuel leaves Edda vulnerable in darkness. A gauge on the brass housing of the lantern itself shows the current fuel level, rather than an on-screen display. The developers said this choice was meant to keep the player's attention within the game world.
+
+Many puzzles involve directing light. The player can rotate mirrors, open shutters, reposition lenses salvaged from lighthouses, and light signal fires to cast beams onto distant surfaces. Some of these surfaces show messages or symbols visible only under particular kinds of light. In later sections, the player gains coloured glass filters for the lantern. These reveal different layers of the environment, such as old footprints, faded paint markings, or the outlines of structures that no longer exist.
+
+Combat in Lanternfall is mostly defensive. The main enemies, called "the Drowned" in the game, are humanoid figures that appear in darkness and retreat from strong light. Edda cannot kill most of them outright. She must drive them back with her lantern, trap them in lit areas, or avoid them through stealth. A small number of larger enemies, which the game calls "Tidewardens," serve as boss encounters. Defeating each one requires lighting a specific sequence of beacons within its arena. Edda also carries a boathook, which she can use for close-range attacks, though it does little damage.
+
+The game has no traditional experience or levelling system. Edda's abilities grow as she acquires new tools, such as a grappling line, a hand-cranked signal horn that stuns nearby enemies, and an improved lantern reflector that widens the beam. Collectable items include pages from her father's logbook, which add to the backstory, and carved driftwood figures. Finding all 48 figures unlocks concept art and an alternate costume.
+
+= = Plot = =
+
+The game is set in 1911 on the fictional Skerrow Islands, said to lie between the Faroe Islands and Iceland. Edda Marrow, aged nineteen, lives with her father, Aldous, at the lighthouse on Inner Skerrow, the largest of the islands. During a severe storm in early December, every lighthouse in the archipelago goes dark on the same night. Aldous leaves to investigate and does not return.
+
+After the storm passes, Edda finds the island strangely empty and wrapped in persistent fog. The other residents have vanished, and their homes have been left as if abandoned in a hurry. She takes her father's old lantern and sets out to relight the lighthouses one at a time, believing the lights may guide her father home. As she moves from island to island, she meets the Drowned and begins finding pages of her father's logbook. The pages show that Aldous had spent years studying records of an older lighthouse that once stood on the outermost island, Farrow's Teeth, and had been destroyed in an accident in 1847.
+
+Edda meets few other living characters. Among them is Peder Halse, an elderly fisherman who has sheltered in a sea cave on the island of Gullhamn and who knows fragments of local folklore. Another is a mute girl named Sigrun, who appears several times and leaves objects to guide Edda without speaking. Through Peder, Edda learns of a local legend that the original keeper of Farrow's Teeth deliberately put out his light to wreck a ship, and that the drowned crew had sworn to bring darkness back to the islands.
+
+In the final act, Edda reaches Farrow's Teeth and climbs the ruins of the old lighthouse. There she finds her father, who has been trying to rebuild the lamp in the belief that relighting it will lay the drowned crew to rest. The logbook pages reveal that the original keeper was Aldous's great-grandfather. Edda and Aldous relight the beacon together while fending off the last of the Drowned. The game then cuts to a scene of the islands at dawn, with the fog lifting and the lighthouses burning.
+
+A short epilogue unlocked by collecting all logbook pages shows that Sigrun was a passenger on the wrecked ship of 1847, implying that she had been guiding Edda toward resolving the curse. Critics noted the ending's ambiguity, and the developers declined for several years to say whether the supernatural events were meant to be read literally.
+
+= = Development = =
+
+Halvorsen Interactive was founded in 2000 by Tore Halvorsen and Kjersti Lunde, both former employees of a Bergen-based multimedia company. After the moderate success of Fjordline, the studio wanted to make a game that drew on Norwegian coastal culture and the history of lighthouse keeping. Lunde, who served as the game's creative director, said in later interviews that the idea came from a visit to a decommissioned lighthouse near Stavanger. She said the experience of standing in the lamp room in total darkness while the wind battered the building gave her the core image of "light as the only thing between a person and the sea."
+
+Pre-production began in early 2004. The original concept, titled Keeper, was a slower-paced exploration game with almost no combat. Corvane Entertainment signed the project in mid-2004 and asked for more action elements so the game would appeal to a wider audience. This led to the introduction of the Drowned and the lantern combat system. Several team members later said the change made development harder. In a 2011 retrospective interview, lead designer Magnus Eide said that the combat "was always something we were adding on to a game that had been designed without it," and that the team never fully reconciled the two halves.
+
+The game was built on a modified version of the engine Halvorsen had developed for Fjordline, extended to support dynamic lighting and volumetric fog. Lighting was a major technical challenge on the PlayStation 2, whose hardware limited the number of real-time light sources. Lead programmer Anders Rønning devised a system that combined pre-calculated lighting for static scenery with a small number of dynamic lights for the lantern and key puzzle objects. The fog effects, which hide the game's draw distance and add to its atmosphere, were created partly to keep the frame rate stable on the console.
+
+The art team, led by Ingrid Solheim, studied photographs of Norwegian and Scottish lighthouses from the late nineteenth and early twentieth centuries, along with paintings by artists such as Peder Balke. Solheim described the intended visual style as "muted and wet," with a restricted palette of greys, blues, and ochres, broken by the warm light of the lantern. Character models were kept deliberately simple. The faces of the Drowned were left mostly undefined to give them an unsettling quality.
+
+The music was composed by Even Strand, who had no previous experience in video games. Strand recorded much of the score using a small string ensemble, a Hardanger fiddle, and recordings of wind and water made on the Norwegian coast. The soundtrack contains long stretches of near silence, and music plays mainly during story scenes and boss encounters. The sound design, by Lise Hauge, made heavy use of positional audio. The approach of the Drowned is signalled by the sound of dripping water, which helps the player locate them in darkness.
+
+Voice recording took place in London in early 2006. Edda was voiced by the British actress Clare Whitton, and Aldous by Norwegian actor Henrik Vold. Corvane initially asked for the dialogue to be recorded in American English, but the developers argued for British and Scandinavian accents. A compromise allowed most characters to keep regional accents.
+
+Development ran about six months behind schedule. The release window moved from spring 2006 to autumn 2006, partly because of difficulties with the Xbox version's lighting and partly because of a late redesign of the final island. A planned seventh island, provisionally called Ravnsøy, was cut during this period. Some of its content, including a puzzle involving a flooded church, was moved to other areas.
+
+= = Release = =
+
+Corvane announced Lanternfall at the Electronic Entertainment Expo in May 2005 with a short trailer showing Edda walking through a dark village. A playable demonstration was shown at E3 2006 and at the Games Convention in Leipzig in August 2006. A demo featuring the opening section on Inner Skerrow was released on the Official Xbox Magazine demo disc in September 2006 and as a download for Windows.
+
+The game was released in North America on October 17, 2006, and in Europe on October 27, 2006. A limited edition, sold only in Europe, came with a small replica brass lantern keychain, a soundtrack CD containing 14 tracks, and a printed booklet styled as Aldous Marrow's logbook. The Windows version supported higher resolutions and included an optional setting that improved fog and shadow quality.
+
+Marketing for the game was modest. Halvorsen staff later said they believed the game suffered from a crowded autumn release schedule and from being released late in the PlayStation 2 and Xbox generation, when attention was shifting to the Xbox 360 and the upcoming PlayStation 3. A planned Xbox 360 version was announced in early 2007 but was cancelled later that year.
+
+= = Reception = =
+
+Lanternfall received "generally favourable" reviews according to the review aggregator Metacritic, with scores of 77 out of 100 for the PlayStation 2 version, 78 for the Xbox version, and 75 for the Windows version.
+
+Reviewers widely praised the game's atmosphere and presentation. GameSpot gave the Xbox version a score of 8.0 out of 10 and called the islands "one of the most quietly menacing settings of the console generation." The reviewer singled out the use of fog and limited light for building tension without relying on frequent combat. IGN rated the PlayStation 2 version 7.9 out of 10 and described the lantern puzzles as "clever and well integrated." It criticised the camera, which it said often became stuck against walls in tight interiors. Edge magazine gave the game 7 out of 10 and praised its "restraint," but argued that the combat sections "dilute what is otherwise a confident and unusual game."
+
+The sound design and music received particular praise. Several publications named Strand's score among the best of the year, and the game's audio was nominated at the 2007 Game Audio Network Guild Awards. Eurogamer described the dripping-water cue for the Drowned as "a simple idea used to devastating effect."
+
+The game's pacing and final third drew more mixed responses. Several reviewers felt that the later islands relied too heavily on repeated enemy encounters and backtracking. GamePro stated that "the last few hours feel stretched, as if the game is reluctant to end." The fuel system also divided critics. Some found that it added tension, while others found it frustrating, especially in the later stages, where fuel became scarce.
+
+Critics generally praised the story for its restraint and its use of the logbook pages, though some found the ending abrupt. The Edda character was frequently noted as an unusual protagonist for an action game of the period. One reviewer wrote that she was "neither a soldier nor a superhero, but a practical young woman who fixes things."
+
+= = = Sales = = =
+
+Lanternfall sold about 140,000 copies in its first month across all platforms. Sales were strongest in Europe, particularly in the United Kingdom, Germany, and the Nordic countries. By December 2007 total sales had reached about 410,000 copies. Corvane had projected sales of about 750,000. In a 2008 financial report, the publisher described the title's performance as "below expectations," and it did not commission a sequel.
+
+= = = Accolades = = =
+
+The game won the award for Best Art Direction at the 2006 Nordic Game Awards and was nominated for Best Original Score. It also received a nomination for Outstanding Achievement in Sound Design at the 2007 Interactive Achievement Awards. Several publications, including the Norwegian newspaper Bergens Tidende, listed it among the best games of 2006.
+
+= = Legacy = =
+
+In the years after its release, Lanternfall developed a cult following, partly through word of mouth and partly through discount sales of the Windows version. Retrospective articles in the early 2010s cited it as an early example of a mainstream-published game built around atmosphere and environmental storytelling rather than combat. Several independent developers have named it as an influence. They include the creators of the 2014 exploration game Saltmarsh, who described Lanternfall as "the game that showed us darkness could be a mechanic."
+
+Halvorsen Interactive released one more game, the 2009 puzzle title Tidewright for the Nintendo DS, before closing in 2010 after failing to secure funding for a new project. Many former staff joined other Scandinavian studios. Kjersti Lunde later co-founded an independent studio in Oslo, and Even Strand went on to compose music for film and television.
+
+In 2015 the Windows version was re-released on digital distribution platforms with updated compatibility for modern operating systems and widescreen support, after the rights were acquired from Corvane's successor company. The re-release received positive user reviews and renewed critical interest. Some writers argued that the game's design ideas had become more widely accepted in the years since its release. A fan community has worked to restore cut content from the game files, including partial assets from the abandoned island of Ravnsøy.
+
+In a 2016 interview marking the game's tenth anniversary, Lunde said that she remained proud of the game's atmosphere but regretted the compromises over combat. She stated that if the game were remade, she would "turn the lights down further and give the player fewer ways to fight." No remake or sequel has been announced.

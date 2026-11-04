@@ -1,0 +1,89 @@
+W1103 15:59:29.878000 47231 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{'same_article_share_batch_roll': 0.833984375, 'same_article_share_far': 0.0, 'n_articles_in_test_windows': 58, 'windows_with_same_article_partner': 508}
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 10151.17it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 8096.80it/s]
+comm_Claude_s0 4.1428 4.9588
+comm_Claude_s1 4.1679 5.0015
+comm_Claude_s2 4.0995 4.9693
+comm_real_s0 3.8605 4.8228
+comm_real_s1 3.8029 4.8333
+comm_real_s2 3.8181 4.8499
+full_Claude_s0 4.3046 4.9966
+full_Claude_s1 4.3429 5.0038
+full_Claude_s2 4.3356 5.0197
+full_real_s0 4.0493 4.839
+full_real_s1 4.0953 4.8567
+full_real_s2 4.0469 4.8565
+full_self-sampled_s0 4.429 5.0073
+full_self-sampled_s1 4.4211 4.9876
+full_self-sampled_s2 4.3562 4.981
+{
+ "audit": {
+  "same_article_share_batch_roll": 0.833984375,
+  "same_article_share_far": 0.0,
+  "n_articles_in_test_windows": 58,
+  "windows_with_same_article_partner": 508
+ },
+ "mean_ce": {
+  "text": 3.5717,
+  "text | far mismatched": 4.8805,
+  "text | same article": 4.0873,
+  "no context": 4.9236,
+  "oracle": 3.8361,
+  "oracle | far mismatched": 4.8568,
+  "oracle | same article": 4.2094,
+  "random bridge": 5.6162,
+  "random bridge | far mismatched": 5.608,
+  "random bridge | same article": 5.6107,
+  "embedding anchors": 5.3956,
+  "embedding anchors | far mismatched": 5.402,
+  "embedding anchors | same article": 5.4057,
+  "comm_Claude_s0": 4.1428,
+  "comm_Claude_s0 | far mismatched": 4.9588,
+  "comm_Claude_s0 | same article": 4.4494,
+  "comm_Claude_s1": 4.1679,
+  "comm_Claude_s1 | far mismatched": 5.0015,
+  "comm_Claude_s1 | same article": 4.4679,
+  "comm_Claude_s2": 4.0995,
+  "comm_Claude_s2 | far mismatched": 4.9693,
+  "comm_Claude_s2 | same article": 4.4172,
+  "comm_real_s0": 3.8605,
+  "comm_real_s0 | far mismatched": 4.8228,
+  "comm_real_s0 | same article": 4.2181,
+  "comm_real_s1": 3.8029,
+  "comm_real_s1 | far mismatched": 4.8333,
+  "comm_real_s1 | same article": 4.2033,
+  "comm_real_s2": 3.8181,
+  "comm_real_s2 | far mismatched": 4.8499,
+  "comm_real_s2 | same article": 4.2125,
+  "full_Claude_s0": 4.3046,
+  "full_Claude_s0 | far mismatched": 4.9966,
+  "full_Claude_s0 | same article": 4.5657,
+  "full_Claude_s1": 4.3429,
+  "full_Claude_s1 | far mismatched": 5.0038,
+  "full_Claude_s1 | same article": 4.5867,
+  "full_Claude_s2": 4.3356,
+  "full_Claude_s2 | far mismatched": 5.0197,
+  "full_Claude_s2 | same article": 4.59,
+  "full_real_s0": 4.0493,
+  "full_real_s0 | far mismatched": 4.839,
+  "full_real_s0 | same article": 4.3549,
+  "full_real_s1": 4.0953,
+  "full_real_s1 | far mismatched": 4.8567,
+  "full_real_s1 | same article": 4.3717,
+  "full_real_s2": 4.0469,
+  "full_real_s2 | far mismatched": 4.8565,
+  "full_real_s2 | same article": 4.352,
+  "full_self-sampled_s0": 4.429,
+  "full_self-sampled_s0 | far mismatched": 5.0073,
+  "full_self-sampled_s0 | same article": 4.6452,
+  "full_self-sampled_s1": 4.4211,
+  "full_self-sampled_s1 | far mismatched": 4.9876,
+  "full_self-sampled_s1 | same article": 4.6348,
+  "full_self-sampled_s2": 4.3562,
+  "full_self-sampled_s2 | far mismatched": 4.981,
+  "full_self-sampled_s2 | same article": 4.5984,
+  "has_same_article_partner": 0.9922
+ }
+}

@@ -1,0 +1,23 @@
+\subsection{How far the findings generalise}
+\label{sec:scale}
+
+Table~\ref{tab:general} repeats the measurement across model pairs, model families and test domains. Because the content contrast can grow either because matched messages help more or because irrelevant messages hurt more, we report for each bridge both its content ratio and its \emph{net} ratio (total reduction in cross-entropy relative to no context, divided by the reference's). Populations and protocol differences are listed in Appendix~\ref{app:general}.
+
+\begin{table}[t]
+\centering\small
+\caption{Generalisation. For each bridge, content gain (other-document donor minus matched message) and net gain (no context minus matched message), each relative to the receiver-state reference of the same receiver on the same windows; reference content in nats. 95\% intervals over documents, fitting seeds and donor draws. All bridges use the communication objective; layer pairs were selected on validation text for each model pair. The code and review rows evaluate the main pair's bridges, fitted on WikiText-like text, without refitting; for reviews too few windows have a same-document donor to split content into article and window parts (Appendix~\ref{app:general}).}
+\label{tab:general}
+{\footnotesize\setlength{\tabcolsep}{4pt}\input{tab_general}}
+\end{table}
+
+\paragraph{The receiver's own states are matched only in some pairs.} In-domain, the real-text bridge's net ratio is close to 1 for pythia-70m and pythia-410m sending to pythia-160m and for GPT-2 sending to pythia-160m (1.00, 0.99, 1.00), but not for pythia-160m sending to pythia-410m (0.87 [0.82, 0.92]), where the receiver's own states are far more useful (1.51 nats of content, 93\% of what text gives it). We do not know whether the shortfall reflects the sender, the bridge's capacity or optimisation, or the restricted layer search (the selected sender layer was the deepest candidate); the main pair shows that a less capable sender is not by itself an obstacle.
+
+\paragraph{No net improvement was detected with a stronger sender.} Replacing pythia-70m by pythia-410m as sender to the same receiver, on identical windows and donors, raises the content ratio of the LLM-text bridge from 0.82 to 0.89, but does not detectably change the net gain for any probe source (point estimates slightly lower; changes $-0.01$ [$-0.06$, 0.04], $-0.03$ [$-0.07$, 0.01] and $-0.00$ [$-0.09$, 0.11] nats for real text, LLM text and self-samples; content changes $+0.03$ [$-0.03$, 0.11], $+0.07$ [0.04, 0.11] and $+0.11$ [$-0.01$, 0.22]; the bootstrap pairs fitting seeds, which share probe and minibatch seeds across senders, and donor draws, which are identical). Only the LLM-text bridge's content change is detectably positive. In these fits the larger contrast reflects worse predictions with irrelevant messages rather than better ones with relevant messages. Reading the content contrast alone would have suggested an improvement that the net gain does not show.
+
+\paragraph{Other model families.} \XFAMILYRESULTS
+
+\paragraph{Other domains.} The main pair's bridges were fitted for encyclopedia-like text. On long IMDB reviews (at least 322 tokens; 30\% of the test split), relative to the review domain's own reference (itself weaker, 0.43 nats of content), they keep most of its content and net gain (real text 0.81 and 0.71, LLM text 0.73 and 0.63, self-samples 0.46 and 0.46). On Python source code all three keep about 30\% of the reference's content, but their net effects diverge: the self-sample bridge still helps (net ratio 0.21 [0.19, 0.24]), the real-text bridge's effect is unresolved (0.03 [$-0.03$, 0.10]) and the LLM-text bridge makes the receiver worse than no message ($-0.10$ [$-0.16$, $-0.03$]). On code even an unrelated file's prefix given as text hurts the receiver (generic part $-0.26$). Relative performance therefore falls sharply on this code corpus, and which bridge is useful there is not predicted by which is best in-domain.
+
+\paragraph{Text source and amount.} \TEXTSOURCES
+
+\paragraph{Bridge capacity.} \CAPACITY

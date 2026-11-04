@@ -1,0 +1,48 @@
+W1104 02:31:28.865000 5280 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 16286.85it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 97604.57it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (298938 > 131072). Running this sequence through the model will result in indexing errors
+== gpt2_qwen05: A=openai-community/gpt2 B=Qwen/Qwen2.5-0.5B  P_A=90  test windows=512  articles=59
+  shared token strings: 42257
+    step 0 KL/token 2.8469
+    step 200 KL/token 1.0093
+    step 299 KL/token 0.7427
+  validation: L_A=1 -> L_B=1  CE 3.5138
+    step 0 KL/token 2.4249
+    step 200 KL/token 1.1338
+    step 299 KL/token 0.9180
+  validation: L_A=2 -> L_B=1  CE 3.7011
+    step 0 KL/token 3.1725
+    step 200 KL/token 1.0689
+    step 299 KL/token 0.6840
+  validation: L_A=4 -> L_B=1  CE 3.4665
+  chose L_A=4, L_B=1
+  no context 4.2643   text 2.8651
+  receiver-state reference                 matched 2.8878  other 4.4623  same 3.6669
+  random map                               matched 6.5453  other 6.5272  same 6.5419
+  weight-only anchors                      matched 6.3824  other 6.4347  same 6.3919
+    step 0 KL/token 3.1725
+    step 200 KL/token 1.0689
+    step 400 KL/token 0.5148
+    step 599 KL/token 0.3286
+  comm_real_s0                             matched 3.1837  other 4.3600  same 3.7430
+    (1042 s)
+    step 0 KL/token 3.0454
+    step 200 KL/token 0.5457
+    step 400 KL/token 0.2655
+    step 599 KL/token 0.1949
+  comm_Claude_s0                           matched 3.5784  other 4.6086  same 4.0676
+    (1043 s)
+    step 0 KL/token 3.6370
+    step 200 KL/token 1.1511
+    step 400 KL/token 1.1020
+    step 599 KL/token 0.8572
+  comm_real_s1                             matched 3.6361  other 4.0466  same 3.7588
+    (1081 s)
+    step 0 KL/token 3.4784
+    step 200 KL/token 0.7833
+    step 400 KL/token 0.5985
+    step 599 KL/token 0.3620
+  comm_Claude_s1                           matched 3.7757  other 4.5266  same 4.0854
+    (1041 s)

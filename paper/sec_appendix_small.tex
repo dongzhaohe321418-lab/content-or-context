@@ -1,0 +1,36 @@
+\section{Small-scale studies: an LLM designs the whole bridge from weights}
+\label{app:small}
+
+Before the Pythia study we ran two controlled testbeds in which the LLM (Claude Opus 5.5) designs the \emph{entire} bridge, not only the probe text, from the two models' weights. These results motivated the KL-matching recipe used in the main text, which the LLM itself proposed in the second testbed.
+
+\paragraph{Conditions.} (i) \emph{Tool-free}: one turn, the weights printed as text, no code execution. (ii) \emph{Weight algebra only}: the model submits one Python program per turn, executed in a macOS \texttt{sandbox-exec} jail (no network, no read access to the workspace), and may not construct any input or run either network. (iii) \emph{Code and self-made probes}: as (ii), but it may synthesise inputs. In no condition does it see any training or test data. Every turn was logged and audited.
+
+\paragraph{Digit classifiers.} Three pairs of two-hidden-layer MLPs trained on sklearn's $8\times8$ digits from different seeds: same width (16-16 and 16-16, ReLU); different width (16-16 and 24-24, ReLU); different width and activation (16-16 ReLU and 24-16 tanh). The bridge maps $A$'s first hidden layer to $B$'s first pre-activation; the score is $B$'s accuracy on 594 held-out images (95\% Wilson half-widths are about 1.5--2 points near 95\% accuracy and about 4 points near 50\%).
+
+\begin{table}[h]
+\centering\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+Method & same & width & hetero \\
+\midrule
+$A$ alone / $B$ alone & 96.0 / 96.0 & 96.5 / 97.5 & 96.0 / 96.5 \\
+Random bridge & 10.0 & 10.5 & 8.5 \\
+Unit matching (Re-Basin style, data-free) & 32.3 & 33.8 & 40.1 \\
+Weight-space least squares (data-free algorithm) & 84.3 & 89.9 & 90.1 \\
+Best noise probe (selected on test; favours the baseline) & 88.0 & 93.6 & 89.1 \\
+LLM, tool-free (3 runs: mean [min--max]) & 43.4 [20--82] & 63.2 [47--82] & 39.4 [10--73] \\
+LLM, weight algebra only (1 run) & 83.3 & 95.3 & 87.7 \\
+\textbf{LLM, code + self-made probes (2 runs)} & \textbf{94.9} & \textbf{94.9} & \textbf{93.9} \\
+Fitted on real training images (upper reference) & 95.3 & 96.8 & 94.1 \\
+\bottomrule
+\end{tabular}}
+\caption{Digit classifiers. With code, the LLM synthesised digits from stroke templates and fitted the bridge on them; pool sizes and augmentation differed between runs (per-run transcripts are archived). It exceeds the best noise probe by 1.3--6.9 points; we did not save per-image predictions, so we report no paired significance test, and the smallest difference (different-width pair, +1.3) should be treated as unresolved. Without tools it derives the right principle, $W_1^A M \approx W_1^B$, but cannot invert matrices by hand, hence the 10--82\% spread.}
+\label{tab:digits}
+\end{table}
+
+\paragraph{Character-level GPTs.} Two 4-layer character-level transformers trained from different seeds on Python standard-library source, widths 64 and 96; the bridge connects their residual streams after layer 2 and the score is $B$'s next-character accuracy. $A$ alone scores 62.8 and $B$ alone 63.6. A bridge fitted on real code by minimising $B$'s next-character cross-entropy against the true characters reaches 55.58 (three seeds, s.d.\ 0.11). In condition (iii) the LLM, from the weights alone, implemented the forward pass from a textual specification, derived a backward pass that it checked against numerical gradients, and fitted the bridge on probe text it wrote itself plus text sampled from $A$ and $B$. The two runs used different objectives: run 0 matched $B$'s own predictive distribution, run 1 matched an equal mixture of $A$'s and $B$'s distributions. They reached 55.0 and 55.7. Fitting the hard-target objective on text sampled from $A$ and $B$, with no LLM involved, reaches 54.95 (s.d.\ 0.06). These recipes are not algorithm-matched, so the comparison shows that self-sampling suffices on this testbed, not that the LLM's recipe is uniquely good. Python probe text written by the LLM without tools (52k characters from four calls) reaches 49.80 (s.d.\ 0.09), against 26.88 for the same characters shuffled. Two of the four calls returned a refusal and a meta-response instead of code, and we did not filter them, so 4.6\% of that probe file is not code. Of its non-overlapping 50-character windows, 1.1\% and 0.9\% (the two code-bearing calls) occur verbatim in the standard-library corpus from which the models' training split is taken (0.9\% and 0.9\% in the training split itself).
+
+\paragraph{Two observations carried into the main study.} First, in the hand-over setting the bridged system scores below $A$ alone in accuracy on both language testbeds (55.7 vs 62.8 here; 21.1 vs 25.7 on Pythia). Section~\ref{sec:diag} shows that this gap depends on training length, capacity and metric, so it should not be read as information loss. Second, self-sampling is sufficient for tiny models trained on a narrow corpus, which raises the question of whether it remains sufficient for pretrained models with broad distributions. Section~\ref{sec:results} answers both.
+
+\paragraph{A note on refusals.} One of the four archived calls asking the LLM to write probe programs for ``calibrating a connection between two models'' declined, reading the request as a covert-channel or steganography exercise; another returned a meta-response without code. The encyclopedia-article calls used a neutral description of the task (Appendix~\ref{app:repro}); 64 of their outputs are archived, and two numbered files of the first batches are missing, for reasons we did not record.

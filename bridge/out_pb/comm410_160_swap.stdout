@@ -1,0 +1,18 @@
+W1103 20:06:10.096000 68173 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{'n_windows': 512, 'n_articles': 58, 'windows_with_same_article_partner': 508, 'windows_within_one_article': 497, 'donor_assignments': 5}
+Loading weights:   0%|          | 0/292 [00:00<?, ?it/s]Loading weights: 100%|██████████| 292/292 [00:00<00:00, 7270.24it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 10570.03it/s]
+text                         matched 3.5717  other 4.8975  same 4.1881
+receiver-state reference     matched 3.8361  other 4.8829  same 4.2946
+random map                   matched 5.4203  other 5.4243  same 5.4237
+weight-only anchors          matched 5.8214  other 5.8551  same 5.8323
+comm_Claude_s0               matched 4.1889  other 5.1230  same 4.6079
+comm_Claude_s1               matched 4.1531  other 5.0937  same 4.5586
+comm_Claude_s2               matched 4.1480  other 5.0721  same 4.5564
+comm_real_s0                 matched 3.8156  other 4.9158  same 4.2999
+comm_real_s1                 matched 3.8657  other 4.9064  same 4.3015
+comm_real_s2                 matched 3.8325  other 4.8924  same 4.2951
+comm_self-sampled_s0         matched 4.4813  other 5.1621  same 4.7545
+comm_self-sampled_s1         matched 4.6053  other 5.1854  same 4.8041
+comm_self-sampled_s2         matched 4.6911  other 5.1555  same 4.8443

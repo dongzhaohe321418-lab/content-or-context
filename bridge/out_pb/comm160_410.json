@@ -1,0 +1,134 @@
+{
+ "B full context (upper bound)": {
+  "acc": 41.82,
+  "ce": 3.0689
+ },
+ "B no context (suffix only)": {
+  "acc": 27.01,
+  "ce": 4.5088
+ },
+ "A full context": {
+  "acc": 36.08,
+  "ce": 3.5717
+ },
+ "A no context (suffix only)": {
+  "acc": 22.85,
+  "ce": 4.9236
+ },
+ "oracle message: B's own prefix states (protocol ceiling)": {
+  "acc": 41.19,
+  "ce": 3.1253
+ },
+ "oracle message: B's own prefix states (protocol ceiling) | mismatched message": {
+  "acc": 28.39,
+  "ce": 4.5896
+ },
+ "oracle message: B's own prefix states (protocol ceiling) | same-article message": {
+  "acc": 35.18,
+  "ce": 3.7293
+ },
+ "B full context (upper bound) | mismatched message": {
+  "acc": 27.82,
+  "ce": 4.6403
+ },
+ "B full context (upper bound) | same-article message": {
+  "acc": 35.73,
+  "ce": 3.6918
+ },
+ "random bridge": {
+  "acc": 17.9,
+  "ce": 5.8849
+ },
+ "random bridge | mismatched message": {
+  "acc": 18.16,
+  "ce": 5.8715
+ },
+ "random bridge | same-article message": {
+  "acc": 18.4,
+  "ce": 5.837
+ },
+ "embedding anchors, no fit (data-free)": {
+  "acc": 22.89,
+  "ce": 5.1806
+ },
+ "embedding anchors, no fit (data-free) | mismatched message": {
+  "acc": 22.81,
+  "ce": 5.203
+ },
+ "embedding anchors, no fit (data-free) | same-article message": {
+  "acc": 22.88,
+  "ce": 5.1811
+ },
+ "fit[comm] on real wikitext | seed 0": {
+  "acc": 39.48,
+  "ce": 3.2444
+ },
+ "fit[comm] on real wikitext | seed 0 | mismatched message": {
+  "acc": 28.55,
+  "ce": 4.5579
+ },
+ "fit[comm] on real wikitext | seed 0 | same-article message": {
+  "acc": 34.16,
+  "ce": 3.76
+ },
+ "fit[comm] on Claude text 383k | seed 0": {
+  "acc": 33.91,
+  "ce": 3.5551
+ },
+ "fit[comm] on Claude text 383k | seed 0 | mismatched message": {
+  "acc": 26.24,
+  "ce": 4.6486
+ },
+ "fit[comm] on Claude text 383k | seed 0 | same-article message": {
+  "acc": 30.99,
+  "ce": 3.9646
+ },
+ "fit[comm] on self-sampled | seed 0": {
+  "acc": 27.29,
+  "ce": 4.3303
+ },
+ "fit[comm] on self-sampled | seed 0 | mismatched message": {
+  "acc": 25.02,
+  "ce": 4.7692
+ },
+ "fit[comm] on self-sampled | seed 0 | same-article message": {
+  "acc": 26.59,
+  "ce": 4.4757
+ },
+ "fit[comm] on real wikitext | seed 1": {
+  "acc": 37.84,
+  "ce": 3.3561
+ },
+ "fit[comm] on real wikitext | seed 1 | mismatched message": {
+  "acc": 28.83,
+  "ce": 4.5252
+ },
+ "fit[comm] on real wikitext | seed 1 | same-article message": {
+  "acc": 34.08,
+  "ce": 3.7739
+ },
+ "fit[comm] on Claude text 383k | seed 1": {
+  "acc": 34.2,
+  "ce": 3.5494
+ },
+ "fit[comm] on Claude text 383k | seed 1 | mismatched message": {
+  "acc": 25.94,
+  "ce": 4.693
+ },
+ "fit[comm] on Claude text 383k | seed 1 | same-article message": {
+  "acc": 30.75,
+  "ce": 4.0013
+ },
+ "fit[comm] on self-sampled | seed 1": {
+  "acc": 28.3,
+  "ce": 4.2959
+ },
+ "fit[comm] on self-sampled | seed 1 | mismatched message": {
+  "acc": 25.85,
+  "ce": 4.6458
+ },
+ "fit[comm] on self-sampled | seed 1 | same-article message": {
+  "acc": 27.41,
+  "ce": 4.3945
+ }
+}

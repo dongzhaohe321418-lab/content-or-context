@@ -1,0 +1,26 @@
+{
+ "claudewiki | seed 0 | matched": {
+  "acc": 27.14,
+  "ce": 4.298
+ },
+ "gptwiki | seed 0 | matched": {
+  "acc": 26.64,
+  "ce": 4.355
+ },
+ "claudefiction | seed 0 | matched": {
+  "acc": 25.1,
+  "ce": 4.6476
+ },
+ "claudewiki | seed 1 | matched": {
+  "acc": 26.71,
+  "ce": 4.348
+ },
+ "gptwiki | seed 1 | matched": {
+  "acc": 27.14,
+  "ce": 4.359
+ },
+ "claudefiction | seed 1 | matched": {
+  "acc": 25.49,
+  "ce": 4.5227
+ }
+}

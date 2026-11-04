@@ -1,0 +1,96 @@
+{
+ "comm70": {
+  "text": {
+   "generic": 0.0278,
+   "minus_text": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "share_windows_hurt": 0.481
+  },
+  "reference": {
+   "generic": 0.0416,
+   "minus_text": 0.0138,
+   "ci": [
+    -0.0034,
+    0.0315
+   ],
+   "share_windows_hurt": 0.414
+  },
+  "real": {
+   "generic": 0.062,
+   "minus_text": 0.0342,
+   "ci": [
+    0.0157,
+    0.0524
+   ],
+   "share_windows_hurt": 0.406
+  },
+  "Claude": {
+   "generic": -0.0729,
+   "minus_text": -0.1007,
+   "ci": [
+    -0.1153,
+    -0.0848
+   ],
+   "share_windows_hurt": 0.661
+  },
+  "self-sampled": {
+   "generic": -0.1294,
+   "minus_text": -0.1572,
+   "ci": [
+    -0.1731,
+    -0.1397
+   ],
+   "share_windows_hurt": 0.809
+  }
+ },
+ "comm410_160": {
+  "text": {
+   "generic": 0.0278,
+   "minus_text": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "share_windows_hurt": 0.481
+  },
+  "reference": {
+   "generic": 0.0416,
+   "minus_text": 0.0138,
+   "ci": [
+    -0.0034,
+    0.0315
+   ],
+   "share_windows_hurt": 0.414
+  },
+  "real": {
+   "generic": 0.0185,
+   "minus_text": -0.0093,
+   "ci": [
+    -0.0359,
+    0.0139
+   ],
+   "share_windows_hurt": 0.462
+  },
+  "Claude": {
+   "generic": -0.1743,
+   "minus_text": -0.2021,
+   "ci": [
+    -0.2331,
+    -0.1777
+   ],
+   "share_windows_hurt": 0.781
+  },
+  "self-sampled": {
+   "generic": -0.2436,
+   "minus_text": -0.2714,
+   "ci": [
+    -0.2884,
+    -0.2528
+   ],
+   "share_windows_hurt": 0.925
+  }
+ }
+}

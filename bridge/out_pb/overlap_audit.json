@@ -1,0 +1,12 @@
+{
+ "claude_chars": 1030250,
+ "n_files": 64,
+ "windows50": 20604,
+ "verbatim_in_test": 2,
+ "verbatim_in_validation": 1,
+ "examples": [
+  "reservation in the United States National Film Reg",
+  "inum by the Recording Industry Association of Amer",
+  "inum by the Recording Industry Association of Amer"
+ ]
+}

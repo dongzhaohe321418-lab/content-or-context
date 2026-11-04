@@ -1,0 +1,39 @@
+claudewiki: 371254 chars, 85031 tokens
+gptwiki: 371254 chars, 71979 tokens
+claudefiction: 371254 chars, 95725 tokens
+    step 0 KL/token 1.3320
+    step 200 KL/token 0.3760
+    step 400 KL/token 0.2594
+    step 599 KL/token 0.2013
+  claudewiki | seed 0 | matched                                acc  27.14  ce 4.2980
+    (1171 s)
+    step 0 KL/token 1.2093
+    step 200 KL/token 0.1698
+    step 400 KL/token 0.1262
+    step 599 KL/token 0.1145
+  gptwiki | seed 0 | matched                                   acc  26.64  ce 4.3550
+    (1126 s)
+    step 0 KL/token 0.8466
+    step 200 KL/token 0.2898
+    step 400 KL/token 0.2277
+    step 599 KL/token 0.1578
+  claudefiction | seed 0 | matched                             acc  25.10  ce 4.6476
+    (1147 s)
+    step 0 KL/token 1.0983
+    step 200 KL/token 0.3202
+    step 400 KL/token 0.1981
+    step 599 KL/token 0.1607
+  claudewiki | seed 1 | matched                                acc  26.71  ce 4.3480
+    (1141 s)
+    step 0 KL/token 1.1952
+    step 200 KL/token 0.2640
+    step 400 KL/token 0.1649
+    step 599 KL/token 0.1267
+  gptwiki | seed 1 | matched                                   acc  27.14  ce 4.3590
+    (1136 s)
+    step 0 KL/token 0.7942
+    step 200 KL/token 0.2196
+    step 400 KL/token 0.1553
+    step 599 KL/token 0.1126
+  claudefiction | seed 1 | matched                             acc  25.49  ce 4.5227
+    (1136 s)

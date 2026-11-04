@@ -1,0 +1,116 @@
+= Thysanoctis lirellata =
+
+Thysanoctis lirellata, the furrowed brindle or ridge-lined brindle, is a moth of the family Noctuidae. It is found in the montane and submontane zones of the southern Caucasus, northeastern Anatolia and the Alborz range of northern Iran, with an isolated population in the Kopet Dag along the Iran–Turkmenistan border. The species was first described by the Austrian entomologist Leopold Hennings in 1897 from specimens collected near Borjomi in present-day Georgia. It is the type species of the genus Thysanoctis.
+
+The adult is a medium-sized, stout-bodied moth with greyish-brown forewings crossed by a series of fine, raised scale ridges, a feature that gives the species both its scientific and common names. Adults fly in a single generation from late August to early October. The larvae feed mainly on the foliage of oriental beech (Fagus orientalis) and, less often, on hornbeam and several species of oak. The species is not considered threatened, although some lowland populations have declined since the mid-twentieth century.
+
+= = Taxonomy = =
+
+= = = Description and naming = = =
+
+Hennings described the species as Hadena lirellata in a paper published in the Verhandlungen der Zoologisch-Botanischen Gesellschaft in Wien in 1897. His description was based on a series of eleven males and four females collected by the forester and amateur naturalist Grigol Tsereteli in the beech forests above Borjomi between 1893 and 1895. The holotype, a male, is held in the collection of the Naturhistorisches Museum in Vienna, and several paratypes are in the Georgian National Museum in Tbilisi.
+
+The specific epithet lirellata derives from the Latin lirella, a diminutive of lira, meaning "furrow" or "ridge between furrows". Hennings chose the name in reference to the raised lines of scales on the forewing, which he compared to "the furrows of a freshly ploughed field seen from a hillside". The common name "furrowed brindle" was introduced in English-language literature in the 1960s and follows the same reference. In Georgian the moth is sometimes called ts'it'eli kvalia, roughly "little red track", after the faint reddish line along the inner margin of the forewing, though this name is used inconsistently and is also applied to other noctuids.
+
+= = = Classification history = = =
+
+The placement of the species changed several times during the twentieth century. Hennings assigned it to the broad genus Hadena, which at the time served as a catch-all for many stout-bodied noctuids with crested thoraxes. In 1912 the German lepidopterist Erich Vollrath transferred it to Polia on the basis of wing pattern, an arrangement followed in most catalogues of the interwar period.
+
+In 1958 the Soviet entomologist Nadezhda Arkhipova examined the male genitalia of a large series of specimens and found that the structure of the valva, in particular a long, curved process known as the harpe and a dense brush of modified setae at its base, differed substantially from that of true Polia species. She erected the genus Thysanoctis for the species, with lirellata as its type species. The genus name combines the Greek thysanos, "fringe" or "tassel", in reference to the setal brush, and the suffix -octis, adapted from the Greek noktis, "night", a common element in noctuid names.
+
+Arkhipova's genus was initially treated as a subgenus of Polia by some Western authors, but molecular studies published from 2009 onwards supported its distinctness. A phylogenetic analysis of mitochondrial and nuclear gene sequences by Demir and colleagues in 2014 recovered Thysanoctis as sister to a group of Central Asian genera within the tribe Hadenini, rather than as close relatives of Polia.
+
+= = = Subspecies and related species = = =
+
+Two subspecies are generally recognised:
+
+T. l. lirellata (Hennings, 1897) – the nominate subspecies, found in the Greater and Lesser Caucasus and northeastern Anatolia.
+T. l. hyrcana (Brandt, 1939) – found in the Alborz range and the Hyrcanian forests along the southern shore of the Caspian Sea. It is somewhat larger and has a warmer, more reddish ground colour.
+
+The isolated Kopet Dag population was described as a third subspecies, T. l. kopetdagica, by Shchetkin in 1971, but subsequent authors have treated it as a synonym of T. l. hyrcana, noting that the characters used to separate it fall within the range of variation seen in Iranian specimens. Genetic data published in 2017 indicated that the Kopet Dag moths are closely related to those of the eastern Alborz, consistent with this synonymy.
+
+The genus Thysanoctis contains three other species, all described in the second half of the twentieth century: T. pamirensis from the western Pamir, T. obscurata from the Zagros Mountains, and T. vartanovi from Armenia. Of these, only T. vartanovi overlaps in range with T. lirellata, and the two species can be difficult to separate without examination of the genitalia.
+
+= = Description = =
+
+= = = Adult = = =
+
+The adult has a wingspan of 38–46 millimetres in the nominate subspecies and 42–50 millimetres in T. l. hyrcana. The sexes are similar in pattern, although females are on average slightly larger and have filiform antennae, whereas the antennae of the male are weakly bipectinate.
+
+The forewing ground colour is a mottled grey-brown, varying from pale ash-grey in some Caucasian populations to a warm russet-brown in the Hyrcanian forests. The most distinctive feature is a series of six to nine fine, raised ridges formed by erect scales, running roughly parallel to the veins in the median area of the wing. Under low-angled light these ridges cast tiny shadows and give the wing a ribbed appearance; in worn specimens they may be partly lost. The antemedial and postmedial lines are double, dark and strongly toothed. The orbicular stigma is small and rounded, pale grey with a dark outline, while the reniform stigma is larger, kidney-shaped and partly filled with dark brown. A thin reddish or orange-brown streak runs along the inner margin of the wing from the base to the tornus, and is the feature most often used to identify the species in the field. The terminal line consists of a row of small black wedges between the veins.
+
+The hindwing is a dull greyish-white, darkening towards the outer margin, with a faint discal spot and a diffuse postmedial band. The fringes of both wings are chequered grey and buff.
+
+The head and thorax are covered in dense grey-brown scales, and the thorax bears a prominent, divided crest. The abdomen is grey-brown with small dorsal tufts on the first three segments.
+
+= = = Early stages = = =
+
+The egg is hemispherical, about 0.9 millimetres in diameter, with 32 to 36 fine longitudinal ribs. It is pale cream when laid and turns a dull purplish-brown within several days as the embryo develops.
+
+The fully grown larva reaches 40–45 millimetres in length. It is green to olive-brown, with a broad, pale dorsal line bordered by darker shading and a series of oblique, whitish subdorsal dashes on each abdominal segment. The spiracular line is pale yellow, and the spiracles are white with a black rim. The head is pale brown with darker reticulation. Early instars are uniformly pale green and feed openly on the undersides of leaves; later instars become darker and adopt a more secretive habit.
+
+The pupa is dark reddish-brown and glossy, about 18–20 millimetres long, with a cremaster bearing two divergent spines. It is formed in a fragile cocoon of silk and soil particles a few centimetres below the surface.
+
+= = = Similar species = = =
+
+T. lirellata is most frequently confused with T. vartanovi in Armenia and southern Georgia. The latter species is generally darker, lacks the reddish streak along the inner margin of the forewing, and has fewer and less pronounced scale ridges. Reliable separation requires examination of the male genitalia, in which the harpe of T. vartanovi is shorter and nearly straight.
+
+Outside its genus, the moth can resemble certain species of Polia and Lacanobia, particularly when worn. The raised scale ridges are absent in these genera, and their flight periods mostly fall earlier in the summer.
+
+= = Distribution and habitat = =
+
+The nominate subspecies is distributed through the forested slopes of the Greater Caucasus in Georgia, Russia (Krasnodar Krai, Adygea, Karachay-Cherkessia and North Ossetia), and northern Azerbaijan, and through the Lesser Caucasus in Georgia, Armenia and western Azerbaijan. In Turkey it occurs in the Pontic Mountains from roughly Ordu eastwards to the Georgian border, and in scattered localities in the provinces of Artvin, Ardahan and Kars. T. l. hyrcana is found along the northern slopes of the Alborz in the Iranian provinces of Gilan, Mazandaran and Golestan, and in North Khorasan and the adjoining Kopet Dag of southwestern Turkmenistan.
+
+The species is closely associated with mesic deciduous forest, particularly forests dominated by oriental beech. It has been recorded at elevations from about 300 metres in the Hyrcanian lowlands to 2,100 metres in the Greater Caucasus, though it is most abundant between 800 and 1,600 metres. In the Pontic Mountains and the western Caucasus it favours north- and west-facing slopes with high humidity and a well-developed layer of leaf litter. In the drier Kopet Dag it is confined to narrow, shaded ravines that support relict stands of oak, maple and walnut.
+
+The species has not been recorded from the steppe and semi-desert zones that separate many of its mountain populations, and its distribution is thought to reflect the fragmentation of formerly more continuous forests during the Pleistocene. The Kopet Dag population in particular is considered a glacial relict.
+
+= = Behaviour and ecology = =
+
+= = = Life cycle = = =
+
+T. lirellata is univoltine, producing a single generation each year. Adults emerge from late August, with the main flight period in September; stragglers have been recorded into the second week of October at lower elevations in the Hyrcanian forests. Emergence at a given locality is relatively synchronised, and adults typically live for two to three weeks.
+
+Females lay eggs singly or in small groups of up to six on the bark of host trees, usually in crevices or beneath lichen on twigs and smaller branches. The species overwinters in the egg stage, and larvae hatch in spring, generally in late April or May, shortly after bud burst of the host plant. This timing allows the young larvae to feed on soft, newly expanded leaves, which are lower in tannins than mature foliage. Larval development takes six to eight weeks, passing through five instars. Fully grown larvae descend to the ground in late June or July and pupate in the soil, where the pupa remains for about two months before the adult emerges.
+
+= = = Food plants = = =
+
+The principal food plant across most of the range is oriental beech. Larvae have also been recorded feeding on European hornbeam (Carpinus betulus), Caucasian hornbeam (Carpinus orientalis), sessile oak (Quercus petraea), chestnut-leaved oak (Quercus castaneifolia) and, more rarely, field maple (Acer campestre). In the Kopet Dag, where beech is absent, the larvae feed chiefly on oak and on Persian walnut (Juglans regia). In captivity larvae accept a wider range of deciduous trees, including birch, hazel and apple, but they have not been found on these plants in the wild.
+
+= = = Adult behaviour = = =
+
+Adults are nocturnal and fly from shortly after dusk until the early hours of the morning, with peak activity between about 21:00 and 23:00 local time. They are readily attracted to light, particularly ultraviolet sources, and come to sugar baits and to ripe or fermenting fruit. In late autumn they are frequently found feeding at the sap flows of damaged trees and on overripe blackberries and medlars.
+
+During the day the moths rest on tree trunks, typically on the shaded side, where their mottled colouring and ribbed wing texture provide effective camouflage against beech bark covered with lichen and moss. A study conducted in the Lagodekhi Reserve in Georgia in 2003 found that resting moths oriented themselves with the scale ridges aligned roughly vertically, parallel to the cracks in the bark, and suggested that the ridges may serve to break up the outline of the wing.
+
+Males locate females by means of a sex pheromone released at night. The main components of the pheromone were identified in 2011 as a blend of two unsaturated acetates. Field trials using synthetic lures have been used to monitor populations, and they attract males of T. vartanovi as well, suggesting the two species use similar chemical signals.
+
+= = = Natural enemies = = =
+
+The larvae are parasitised by several species of braconid and ichneumonid wasps and by tachinid flies. A survey in the Borjomi-Kharagauli National Park between 1998 and 2001 found parasitism rates of 18 to 41 per cent among late-instar larvae, with the tachinid Exorista larvarum and an unidentified species of Microplitis the most frequent parasitoids. Larvae and pupae are also taken by birds, shrews and ground beetles, and adults are preyed upon by bats. The moth's ability to detect bat echolocation has not been specifically studied, but like other noctuids it possesses tympanal organs on the thorax sensitive to ultrasound.
+
+= = Status and conservation = =
+
+T. lirellata has not been assessed by the International Union for Conservation of Nature. Across most of its range it is regarded as common or locally common in suitable forest, and populations in protected areas such as the Caucasus Nature Reserve in Russia, the Lagodekhi and Borjomi-Kharagauli reserves in Georgia, and the Golestan National Park in Iran appear to be stable.
+
+Some peripheral populations are considered more vulnerable. The species has become scarce or has disappeared from several lowland localities along the Black Sea coast of Georgia and Turkey, where beech forest has been cleared for tea plantations, hazelnut orchards and settlements since the mid-twentieth century. The Kopet Dag population is small and confined to a limited number of ravines, and it is listed as rare in the Red Data Book of Turkmenistan. Grazing by livestock, firewood collection and the drying of springs have been identified as threats to the forest patches on which it depends.
+
+Climate change has been suggested as a long-term concern for the species, as projections indicate that suitable habitat for oriental beech may contract at lower elevations and shift upslope. A modelling study published in 2020 estimated that the area of suitable climate for the moth in the Hyrcanian region could decline by about a quarter by the end of the century under moderate emission scenarios.
+
+= = Research history = =
+
+After its original description the species received little attention for several decades, and it was known mainly from a small number of museum specimens. Its life history was first described in detail by the Georgian entomologist Shota Kavtaradze, who reared the species from eggs obtained near Bakuriani in the 1930s and published an account of the larva and its food plants in 1941. Kavtaradze's notes, held in the archive of the Institute of Zoology in Tbilisi, also contain the first record of the species overwintering as an egg.
+
+Arkhipova's revision of 1958 established the modern understanding of the species' relationships and remains the standard reference on the morphology of the genus. From the 1970s onwards, light-trapping surveys in the Caucasus and northern Iran greatly expanded knowledge of its distribution. The species was first recorded from Turkey in 1983, when it was collected near Şavşat in Artvin Province during a survey of the Pontic forests.
+
+In the twenty-first century the moth has been used as a model in studies of the historical biogeography of the Caucasus and Hyrcanian forests. Because of its dependence on humid deciduous forest and its limited dispersal, the genetic structure of its populations has been interpreted as reflecting the location of glacial refugia. The 2017 study that addressed the status of the Kopet Dag population found three major genetic lineages, corresponding broadly to the western Caucasus and Pontic Mountains, the eastern Caucasus, and the Alborz and Kopet Dag, with estimated divergence times in the middle to late Pleistocene.
+
+= = In culture = =
+
+The moth has no widespread cultural significance, but it has occasionally appeared in regional natural history publications and conservation materials. An illustration of the adult was used on a 2009 poster issued by the Georgian Agency of Protected Areas to promote the biodiversity of the Borjomi-Kharagauli National Park, and the species is featured in an exhibit on the insects of the Hyrcanian forests at the natural history museum in Sari, Iran. The Hyrcanian forests, part of the range of T. l. hyrcana, were inscribed as a UNESCO World Heritage Site in 2019, and the moth has been mentioned in some accounts of the region's invertebrate fauna prepared in connection with the nomination.
+
+= = See also = =
+
+List of moths of Georgia
+List of moths of Iran
+Hadenini

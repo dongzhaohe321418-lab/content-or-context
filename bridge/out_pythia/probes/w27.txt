@@ -1,0 +1,102 @@
+Velmora Range
+
+The Velmora Range is a mountain range in the northern interior of the fictional region of Ostrava Highlands, extending approximately 340 kilometres (211 mi) from the Tessin Gap in the southwest to the lowlands of the Karst Basin in the northeast. The range reaches its highest elevation at Mount Orlach, which rises to 3,412 metres (11,194 ft) above sea level. The Velmora is noted for its complex geological history. Its exposed sequences of metamorphic and sedimentary rock have been studied since the early nineteenth century, and several of its formations serve as reference sections for the regional stratigraphy. The range forms a major drainage divide, separating rivers that flow toward the Gulf of Harn from those that drain into the interior Karst Basin.
+
+= = Etymology = =
+
+The name Velmora is generally believed to derive from an older pastoral dialect term, *velmor*, meaning "grey wall" or "stone fence". The word referred to the pale limestone escarpments visible from the valleys to the south. Early cartographers recorded the name in several forms, including *Velmor*, *Welmore*, and *Felmora*. The modern spelling was standardised in the official survey of 1874. An alternative theory, proposed by the philologist Edvard Lasko in 1921, connects the name with a pre-agricultural root meaning "high pasture". Most later scholars have regarded this derivation as speculative.
+
+= = Geography = =
+
+The Velmora Range is commonly divided into three sections: the Southern Velmora, the Central Massif, and the Northern Spurs. The Southern Velmora rises steeply from the Tessin Gap. It is characterised by narrow ridges and deeply incised valleys, with summits generally between 1,800 and 2,400 metres. The Central Massif contains the highest peaks of the range, including Mount Orlach, the Kessel Horn (3,287 m), and the twin summits of Dravna (3,198 m and 3,154 m). The Northern Spurs consist of a series of lower, parallel ridges. These descend gradually toward the Karst Basin and are separated by broad, glacially modified valleys.
+
+The principal watershed follows the crest of the Central Massif for most of its length. Rivers draining the southern and western slopes, including the Harn, the Lesk, and the Vodra, flow toward the coast. The Ostrel and the Bila drain the northern slopes and terminate in the Karst Basin. Several of these rivers lose a portion of their flow to subterranean channels in the limestone of the Northern Spurs.
+
+The range contains 47 named lakes of glacial origin. The largest is Lake Varn, which has a surface area of 6.8 square kilometres and a maximum recorded depth of 112 metres. Small cirque glaciers persist on the northern faces of Mount Orlach and the Kessel Horn. Their total area declined by roughly 60 percent between 1950 and 2020.
+
+= = Geology = =
+
+= = = Overview = = =
+
+The Velmora Range is a fold-and-thrust belt formed during two principal orogenic events, separated by a long period of erosion and marine sedimentation. The oldest rocks in the range are crystalline basement gneisses exposed in the core of the Central Massif. These are overlain by a thick succession of sedimentary and metasedimentary rocks. The structure of the range is dominated by a series of northeast-trending thrust sheets. These were displaced toward the northwest during the later orogeny.
+
+= = = Basement complex = = =
+
+The basement of the Velmora Range is known as the Orlach Complex. It consists mainly of banded quartzofeldspathic gneiss, amphibolite, and minor marble. Uranium–lead dating of zircon crystals from the gneiss has yielded ages of approximately 1.4 billion years, which places the original crystallisation of the protolith in the Mesoproterozoic. The rocks were later metamorphosed under upper amphibolite facies conditions. Temperatures are estimated at 650 to 700 °C and pressures at 6 to 8 kilobars. Local zones of partial melting produced migmatites, which are well exposed in the cliffs above Lake Varn.
+
+The Orlach Complex is cut by a swarm of dark dolerite dykes, known as the Dravna dykes. Most trend north–south and range in width from less than a metre to over 30 metres. Radiometric dating places their emplacement at about 780 million years ago. This timing is commonly associated with crustal extension preceding the opening of an ancient ocean basin.
+
+= = = Sedimentary succession = = =
+
+Above the basement lies a sedimentary succession up to 6 kilometres thick, divided into four major groups.
+
+The lowest unit is the Tessin Group, of late Neoproterozoic age. It consists of coarse conglomerates, arkosic sandstones, and thin beds of diamictite. Some geologists have interpreted the diamictite as glacial in origin. Others have argued that it was deposited by submarine debris flows on an unstable continental margin. The question has not been fully resolved.
+
+The Tessin Group is overlain by the Kessel Group, a sequence of Cambrian to Ordovician shales, siltstones, and quartzites. The Kessel shales contain a diverse fossil assemblage, including trilobites, brachiopods, and graptolites. The Upper Kessel Shale at the Brenna Quarry has produced well-preserved soft-bodied organisms. These finds have made the site significant for palaeontological research.
+
+The Varn Limestone Group, of Silurian to Devonian age, forms the prominent pale escarpments that give the range its name. It consists mainly of shallow-water carbonate rocks, including reef limestones built by stromatoporoids and tabulate corals. In the Northern Spurs, the Varn Limestone reaches a thickness of over 1,200 metres. It hosts an extensive karst system with more than 300 recorded caves.
+
+The uppermost unit is the Bila Group, a sequence of Carboniferous sandstones, mudstones, and thin coal seams. It records the transition from marine to deltaic and fluvial environments. It is preserved mainly in synclines along the northern margin of the range.
+
+= = = Structural history = = =
+
+The first orogenic event affecting the region is called the Harnian Orogeny, which occurred about 430 to 400 million years ago. Plate tectonic reconstructions suggest that it resulted from the closure of a narrow ocean basin and the collision of a volcanic island arc with the continental margin. Its effects are most evident in the Tessin and Kessel groups. These were folded, cleaved, and metamorphosed to greenschist facies over large areas.
+
+Following the Harnian Orogeny, the region experienced extensive erosion. A major unconformity separates deformed Kessel Group rocks from the overlying, less deformed Varn Limestone in parts of the Southern Velmora. This unconformity is exposed at Lesk Point. It is frequently visited by students and has been described in numerous textbooks of regional geology.
+
+The second and principal mountain-building event, the Velmoran Orogeny, began approximately 320 million years ago and continued intermittently until about 280 million years ago. It is thought to have resulted from continental collision during the assembly of a large supercontinent. The major thrust faults of the range developed during this period. These include the Orlach Thrust and the Dravna Thrust, which carried basement rocks of the Orlach Complex northwestward over younger sedimentary units. Total shortening across the range has been estimated at 120 to 160 kilometres. The estimate depends on the method of palinspastic restoration used.
+
+The Orlach Thrust is the most significant structure in the range. Along much of its length, gneisses of the basement complex rest directly on folded Varn Limestone, inverting the normal stratigraphic order. The thrust plane is marked by a zone of mylonite up to 200 metres thick. Its fabrics record intense ductile shearing under elevated temperatures.
+
+= = = Later uplift and erosion = = =
+
+After the Velmoran Orogeny, the range was largely reduced to a low-relief surface by erosion during the Mesozoic. Its present elevation is attributed mainly to renewed uplift during the Cenozoic, beginning about 25 million years ago. The cause of this uplift is debated. Proposed explanations include far-field stresses from distant plate collisions, isostatic adjustment following crustal thickening, and thermal effects in the underlying mantle. Apatite fission-track dating indicates that the Central Massif has been exhumed by as much as 4 kilometres since the early Miocene.
+
+= = = Glaciation = = =
+
+During the Pleistocene, the Velmora Range was repeatedly covered by mountain glaciers and, at times, by an ice cap centred on the Central Massif. Glacial erosion produced the characteristic U-shaped valleys, cirques, arêtes, and hanging valleys of the higher ranges. Moraines deposited during the last glacial maximum, about 20,000 years ago, dam several of the larger lakes, including Lake Varn. Cosmogenic nuclide dating of boulders on these moraines indicates that the major valley glaciers had retreated into their cirques by about 14,000 years ago.
+
+= = Mineral resources = =
+
+The Velmora Range has a long history of mining. Lead and zinc ores occur in veins and replacement deposits within the Varn Limestone. These were worked on a small scale from at least the medieval period. Copper mineralisation is associated with the Dravna dykes and has been mined intermittently since the eighteenth century. The Bila Group coal seams were extracted during the nineteenth and early twentieth centuries, mostly from small mines near the town of Ostrel. Commercial mining in the range largely ceased by 1970, after the main deposits were exhausted and metal prices declined.
+
+Limestone from the Varn Group continues to be quarried for cement and construction aggregate. Quarrying is confined mainly to the northern foothills. Proposals to expand quarry operations into the Northern Spurs have met opposition from conservation groups, because of their potential effects on the karst aquifer and on cave ecosystems.
+
+= = History of geological study = =
+
+The first systematic description of the Velmora's geology was published in 1827 by the surveyor Anton Rehberg. He mapped the distribution of the principal rock types and recognised the unconformity at Lesk Point. Rehberg believed that the gneisses of the Central Massif were the oldest rocks in the range and lay beneath all other units. He did not recognise that, in many places, they had been thrust over younger strata.
+
+The thrust structure of the range was first proposed in 1889 by Margarethe Kolar, a geologist with the regional survey. She documented the inverted succession along the Orlach Thrust and argued that the basement rocks had been transported horizontally over considerable distances. Her interpretation was disputed for more than two decades. It was eventually confirmed by detailed mapping and by fossil evidence from the overridden limestones. Kolar's monograph *The Structure of the Velmora* (1903) is regarded as a foundational work in the study of fold-and-thrust belts.
+
+During the twentieth century, research expanded to include metamorphic petrology, radiometric dating, and geophysical surveys. A seismic reflection profile across the Central Massif, completed in 1987, showed that the thrust sheets are underlain by a gently dipping basal detachment at a depth of about 12 kilometres. More recent work has focused on the timing of Cenozoic uplift, the dynamics of the remaining glaciers, and the hydrogeology of the karst system.
+
+= = Ecology = =
+
+The vegetation of the Velmora Range varies strongly with elevation and aspect. The lower slopes, up to about 1,200 metres, are covered mainly by mixed deciduous forest of beech, oak, and maple. Between 1,200 and 1,900 metres, coniferous forest dominates, consisting primarily of spruce and fir. Above the treeline, which lies at approximately 1,900 to 2,100 metres, alpine meadows and rock communities prevail.
+
+The limestone soils of the Northern Spurs support a distinctive calcareous flora. Several endemic species of saxifrage and gentian are found there. The cave systems are home to specialised invertebrate fauna, including blind beetles and amphipods that are known from no other locality. Larger mammals in the range include red deer, chamois, wild boar, and a small population of brown bears. These were reintroduced in the 1990s after an absence of nearly a century.
+
+= = Protected areas = =
+
+Approximately 38 percent of the Velmora Range lies within protected areas. Velmora National Park was established in 1962 and covers 1,140 square kilometres of the Central Massif, including Mount Orlach and Lake Varn. The Northern Spurs Karst Reserve was designated in 1984 to protect the cave systems and their associated groundwater resources. The Lesk Point unconformity and the Brenna Quarry fossil site are protected as geological monuments. Access to the Brenna Quarry is restricted to authorised researchers.
+
+= = Human history = =
+
+Archaeological evidence indicates that the valleys of the Velmora Range were occupied seasonally from at least the Neolithic period. Rock shelters in the Varn Limestone have yielded stone tools, pottery fragments, and animal bones dating to around 5000 BCE. During the Bronze Age, copper deposits in the Central Massif may have been worked, though direct evidence of prehistoric mining is limited.
+
+In the medieval period, the range formed a frontier between competing principalities. The Tessin Gap served as an important trade route. Fortifications were built at several strategic passes, and the ruins of Dravna Castle remain visible on a ridge above the Lesk valley. Transhumance, the seasonal movement of livestock between valley farms and high pastures, was the dominant land use for many centuries. It continues on a reduced scale today.
+
+The construction of the Tessin railway in 1896, including a 7.2-kilometre tunnel beneath the southern part of the range, improved access to the region. It contributed to the growth of tourism. Mountaineering became popular in the late nineteenth century. Mount Orlach was first climbed in 1871 by a party led by the guide Jakob Mernik.
+
+= = Tourism and recreation = =
+
+Tourism is a major part of the regional economy. The range is crossed by an extensive network of marked hiking trails, including the long-distance Velmora Crest Trail. This route follows the main watershed for approximately 210 kilometres. Mountain huts operated by the regional alpine club provide accommodation along the principal routes. Winter sports are centred on the resort of Kessel, on the southern slopes of the Central Massif. Several show caves in the Northern Spurs are open to the public, of which the Bila Cave is the largest and most visited.
+
+Geotourism has developed as a distinct sector. Guided excursions to the Orlach Thrust, the Lesk Point unconformity, and the migmatite exposures at Lake Varn are offered during the summer months. A geological visitor centre opened in the town of Varn in 2009. It presents the history of the range through displays of rock specimens, fossils, and models of its structural evolution.
+
+= = See also = =
+
+* Fold-and-thrust belt
+* Orogeny
+* Karst topography
+* List of mountain ranges of the Ostrava Highlands

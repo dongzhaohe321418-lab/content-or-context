@@ -1,0 +1,122 @@
+The **Varnholt Range** is a mountain range in the northern interior of the fictional region of Ostmark Highlands, extending approximately 340 kilometres (211 mi) from the Selm River gap in the southwest to the coastal lowlands of the Brennach Sound in the northeast. The range has a maximum width of about 65 kilometres (40 mi). Its highest point is Mount Hallvard at 3,187 metres (10,456 ft) above sea level. The range forms the principal drainage divide of the region, separating rivers that flow north into the Brennach Sound from those that flow south toward the Kessel Basin.
+
+Geologically, the Varnholt Range is a deeply eroded orogenic belt. It formed mainly during the Late Paleozoic Dravinian orogeny and was later uplifted again in the Cenozoic. It is noted for its well-exposed sequences of metamorphosed sedimentary rocks, its large granitic intrusions, and extensive glacial landforms. The range has been studied since the early nineteenth century and is considered a type area for several regional stratigraphic units.
+
+= = Etymology = =
+
+The name *Varnholt* is generally believed to derive from an older regional dialect term meaning "guarded wood" or "warding forest". The term originally referred to the dense conifer forests on the lower southern slopes rather than to the mountains themselves. The earliest surviving written use of the name is a land register of 1342, in which the "Varneholte" is listed as a boundary between two estates. By the seventeenth century the name had come to describe the entire upland mass. Some local historians have proposed an alternative derivation from a personal name, *Varno*, but this view has found little support among linguists.
+
+Several individual peaks carry names from older languages of the region. Mount Hallvard is named after a legendary chieftain. The name of the second-highest summit, Skarnfell, means "scarred mountain" and refers to the prominent avalanche chutes on its eastern face.
+
+= = Geography = =
+
+The Varnholt Range is usually divided into three sections, based on topography and geology.
+
+The **Southern Varnholt** runs from the Selm River gap to the Tarrow Pass. It consists of rounded ridges rarely higher than 1,800 metres (5,900 ft). Broad valleys separate the ridges, and much of this section is covered by mixed forest up to about 1,400 metres (4,600 ft).
+
+The **Central Varnholt**, between the Tarrow Pass and the Eilen Saddle, is the highest and most rugged part of the range. It contains all eleven summits that exceed 2,800 metres (9,200 ft), including Mount Hallvard, Skarnfell (3,094 m), and the Three Sisters massif. Glacial erosion has shaped this section into sharp arêtes, cirques and deep trough valleys. Several small glaciers survive on north-facing slopes.
+
+The **Northern Varnholt** extends from the Eilen Saddle to the coast. It is a lower plateau-like upland, cut by steep river gorges. Its elevation decreases gradually toward the northeast, and the range ends in a series of headlands and sea cliffs along the Brennach Sound.
+
+= = = Hydrology = = =
+
+The range feeds several major rivers. On the northern side, the Aldwater, the Fenn and the Rusk rivers flow toward the Brennach Sound. On the southern side, the Kessel and its tributaries drain the range into the Kessel Basin. The Selm River is the only river that cuts across the full width of the range. It does so through a gorge about 22 kilometres (14 mi) long, which geologists interpret as an antecedent valley: the river held its course while the mountains were uplifted around it.
+
+The range contains more than 400 lakes larger than one hectare. Most of them occupy glacially excavated basins or lie behind moraine dams. The largest is Lake Orrin, with an area of 14.2 square kilometres (5.5 sq mi). It is dammed by a terminal moraine at the mouth of the Orrin Valley.
+
+= = = Climate = = =
+
+The Varnholt Range has a cool, humid climate, which becomes alpine at higher elevations. The prevailing westerly winds bring heavy precipitation to the western and northern slopes. Annual totals there exceed 2,500 millimetres (98 in) in places. The eastern and southern slopes lie partly in a rain shadow and receive between 800 and 1,200 millimetres (31 and 47 in). Snow cover usually lasts from October to June above 2,000 metres (6,600 ft). The mean annual temperature at the summit of Mount Hallvard is estimated at about −4 °C (25 °F).
+
+= = Geology = =
+
+= = = Overview = = =
+
+The Varnholt Range lies along the boundary between two ancient crustal blocks, known in the regional literature as the Ostmark Craton to the south and the Brennach Terrane to the north. The range records a long and complex history. This history includes the formation of a sedimentary basin, continental collision, metamorphism, granite intrusion, a long period of erosion and, finally, renewed uplift and glaciation.
+
+= = = Basement rocks = = =
+
+The oldest rocks in the range are the **Kessel Gneisses**. They are exposed mainly along the southern margin and in the core of the Central Varnholt. These rocks are banded orthogneisses and paragneisses. Uranium–lead dating of zircon crystals has given ages of about 1.62 to 1.48 billion years, and the gneisses are generally regarded as part of the Ostmark Craton basement. Their minerals show that they reached upper amphibolite facies conditions during a Proterozoic metamorphic event. Locally they contain lenses of amphibolite and rare marble.
+
+= = = Varnholt Supergroup = = =
+
+The Kessel Gneisses are overlain by a thick succession of metasedimentary and metavolcanic rocks, known collectively as the **Varnholt Supergroup**. These rocks were deposited between the Late Ordovician and the Early Carboniferous. The succession is estimated to have been at least 9 kilometres (5.6 mi) thick before it was deformed. It is divided into three groups.
+
+* The **Tarrow Group** consists mainly of quartzites and conglomerates. They are interpreted as shallow-marine and river deposits laid down along a rifted continental margin.
+* The **Skarn Group** is made up of slates, phyllites and thin limestones, with interbedded basaltic lavas and volcanic tuffs. It records the deepening of the basin and episodes of volcanic activity.
+* The **Eilen Group** is a thick sequence of turbidites, now metamorphosed to schists and metagreywackes. It represents sediment shed into a deep-water trough as the bordering landmasses began to converge.
+
+Fossils are rare because of the metamorphism, but conodonts and crinoid fragments in the Skarn Group limestones have made it possible to date parts of the succession to the Silurian and Devonian periods.
+
+= = = Dravinian orogeny = = =
+
+The main episode of mountain building, the **Dravinian orogeny**, took place between about 340 and 295 million years ago, during the Carboniferous and earliest Permian. It began when the ocean basin between the Ostmark Craton and the Brennach Terrane closed and the two blocks collided. The Varnholt Supergroup was folded and pushed southward along a series of major thrust faults. The most important of these is the **Hallvard Thrust**. It can be traced along the entire length of the range, and total displacement on it is estimated at more than 60 kilometres (37 mi).
+
+The intensity of metamorphism increases from south to north. In the south, rocks reached only low greenschist facies. In the central parts of the range they reached the amphibolite facies, and locally they partly melted. A sequence of index minerals—chlorite, biotite, garnet, staurolite, kyanite and sillimanite—can be followed across the Central Varnholt. Geologists have used this sequence since the late nineteenth century to illustrate the concept of metamorphic zones. The **Orrin Valley section** is often cited as one of the most complete exposures of such zoning in the region.
+
+Overturned and recumbent folds are common, especially in the Eilen Group schists. The largest of these, the **Skarnfell Nappe**, is a recumbent fold more than 15 kilometres (9.3 mi) across. Its overturned lower limb is exposed on the eastern face of Skarnfell.
+
+= = = Granitic intrusions = = =
+
+During and after the later stages of the orogeny, large bodies of granitic magma rose into the thickened crust. The largest is the **Hallvard Batholith**. It covers about 820 square kilometres (317 sq mi) and underlies most of the highest terrain in the Central Varnholt, including the summit of Mount Hallvard. The batholith consists mainly of coarse-grained biotite granite and granodiorite. Its age has been determined at about 298 million years. Smaller intrusions, called plutons, include the Fenn Granite and the Rusk Tonalite. They are found in the Northern Varnholt.
+
+The intrusions are surrounded by contact metamorphic aureoles up to 2 kilometres (1.2 mi) wide. Within them, the surrounding rocks were baked to hornfels. Where the granites intruded the limestones of the Skarn Group, they produced skarn deposits rich in garnet, pyroxene and metallic ores. These skarns gave the Skarn Group its name, and they were the main target of historical mining in the range.
+
+= = = Post-orogenic history = = =
+
+After the Dravinian orogeny, the range was largely worn down by erosion during the Permian and Mesozoic. By the Late Cretaceous, the area had been reduced to a low-relief surface. Remnants of this surface, now raised to high elevations, can still be recognised as the flat summits of the Northern Varnholt. Small outliers of Cretaceous sandstone rest on this surface near the Brennach coast. They show that the area was at least partly covered by the sea at that time.
+
+= = = Cenozoic uplift = = =
+
+The present-day relief of the Varnholt Range is largely the result of renewed uplift during the Cenozoic era. Fission-track dating of apatite crystals shows that the rocks cooled rapidly beginning about 25 million years ago. This cooling indicates that the land was uplifted and the overlying rock was quickly eroded away. The causes of this uplift are still debated. Proposed explanations include stresses transmitted from distant plate boundaries, the reactivation of older Dravinian faults, and the rebound of the crust as erosion removed large amounts of rock. The Selm River gorge and the tilted remnants of the Cretaceous surface are commonly cited as evidence of this young uplift.
+
+= = = Glaciation = = =
+
+During the Pleistocene, the Varnholt Range was repeatedly covered by ice caps and valley glaciers. At the Last Glacial Maximum, about 22,000 years ago, an ice cap centred on the Central Varnholt fed outlet glaciers that reached the Brennach Sound to the north and extended some 40 kilometres (25 mi) into the Kessel Basin to the south. Glacial erosion deepened the main valleys into U-shaped troughs. Some valley floors were lowered by several hundred metres. The fjord-like inlets of the northern coast, including the 18-kilometre (11 mi) Aldwater Inlet, are drowned glacial troughs.
+
+As the glaciers retreated, they left large moraines, eskers and outwash plains. They also left numerous erratic boulders of Hallvard granite, which have been found up to 120 kilometres (75 mi) from their source. Seven small glaciers survive today, all in the Central Varnholt. The largest is the Hallvard Glacier, with an area of about 1.9 square kilometres (0.73 sq mi). Repeated surveys show that all of these glaciers have shrunk considerably since measurements began in 1898. Their combined area decreased by about 58 percent between 1898 and 2020.
+
+= = = Seismicity = = =
+
+The range is considered moderately active seismically. Small earthquakes occur mainly along reactivated segments of the Hallvard Thrust. The largest recorded event was an earthquake of estimated magnitude 5.4 in 1911. It caused damage in several villages in the Tarrow Valley and triggered a large rockfall on the southern flank of Skarnfell.
+
+= = Mineral resources = =
+
+The skarn deposits around the Hallvard Batholith contain ores of copper, tungsten, iron and minor amounts of silver. Copper was mined in the Orrin Valley from at least the fourteenth century. The industry reached its peak in the 1860s, when the Orrin Mines employed about 1,200 workers. Tungsten was extracted from the Skarnfell deposits during the early twentieth century, particularly in wartime. The last major mine in the range closed in 1974. Granite from the Hallvard Batholith has been quarried as a building stone. Slate from the Skarn Group was historically used for roofing throughout the region.
+
+Today, mining heritage is an important part of the local economy, which relies increasingly on tourism. Abandoned mine sites have caused acid drainage problems in some streams, and remediation work has been carried out in the Orrin catchment since the 1990s.
+
+= = History = =
+
+= = = Early settlement = = =
+
+Archaeological evidence shows that people were present in the lower valleys of the range by the late Mesolithic period. Flint scatters and hearths have been found near Lake Orrin. Bronze Age burial cairns are common on the lower ridges of the Southern Varnholt. Seasonal grazing at high altitude, known locally as *summering*, is recorded from the early medieval period, and it continued in some valleys into the twentieth century.
+
+= = = Scientific study = = =
+
+The geology of the Varnholt Range attracted scientific attention in the early nineteenth century. In 1823 the naturalist Elias Brandtmoor published the first geological description of the range, including a hand-coloured map of its principal rock types. Brandtmoor correctly recognised that the granites had intruded the surrounding rocks, rather than being older than them. This was an important observation in the debates of the time about the origin of granite.
+
+Between 1872 and 1889 the regional geological survey carried out systematic mapping of the range under the direction of Margarethe Lund. Lund's team described the metamorphic zones of the Orrin Valley and identified the Hallvard Thrust. Their interpretation of the Skarnfell Nappe as a large overturned fold was controversial at first. It was confirmed by later mapping in the 1920s.
+
+In the second half of the twentieth century, radiometric dating and plate tectonic theory transformed understanding of the range. The interpretation of the Dravinian orogeny as a continental collision was first proposed in 1971 and became widely accepted by the 1980s. Since 2000, research has focused on the timing of Cenozoic uplift, on glacial history, and on the effects of climate change on the remaining glaciers.
+
+= = = Mountaineering = = =
+
+Mount Hallvard was first climbed in 1856 by a party led by the surveyor Johan Erstad, accompanied by two local guides. The more technical eastern face of Skarnfell was not climbed until 1931. The range has since become a popular destination for hiking, climbing and ski touring. A network of mountain huts, the first of which was built in 1889, is maintained by the regional alpine club.
+
+= = Ecology = =
+
+The vegetation of the Varnholt Range is arranged in clear altitudinal zones. Mixed deciduous and coniferous forest covers the lower slopes and gives way to spruce and fir forest above about 900 metres (3,000 ft). The treeline lies between 1,500 and 1,700 metres (4,900 and 5,600 ft), depending on exposure and local climate. Above it lies a zone of dwarf shrubs, alpine meadows and, at the highest elevations, bare rock and scree with scattered lichens and cushion plants.
+
+The underlying geology has a strong influence on plant distribution. The limestones and calcareous schists of the Skarn Group support a richer flora than the acidic granites and quartzites. Several rare plant species are found only on these lime-rich soils. The range provides habitat for chamois, red deer, golden eagles and the endemic Varnholt rock vole.
+
+= = Protected areas = =
+
+Large parts of the Central Varnholt are protected within the **Hallvard National Park**, established in 1962 and covering 1,140 square kilometres (440 sq mi). The Orrin Valley geological section was designated a protected geological site in 1984 because of its importance for the study of metamorphism. In 2009, a portion of the range was included in a regional geopark that promotes geological education and sustainable tourism.
+
+= = See also = =
+
+* Dravinian orogeny
+* Hallvard Batholith
+* Ostmark Craton
+* List of mountains of the Ostmark Highlands

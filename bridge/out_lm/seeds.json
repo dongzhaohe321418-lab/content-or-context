@@ -1,0 +1,22 @@
+{
+ "real text (upper bound)": [
+  0.5571,
+  0.5553,
+  0.5551
+ ],
+ "Claude-written probe text": [
+  0.4972,
+  0.499,
+  0.4978
+ ],
+ "self-sampled from A and B (no LLM)": [
+  0.5489,
+  0.5496,
+  0.55
+ ],
+ "shuffled probe characters (control)": [
+  0.2682,
+  0.2703,
+  0.268
+ ]
+}

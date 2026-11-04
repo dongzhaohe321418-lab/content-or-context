@@ -1,0 +1,107 @@
+The ochre-throated fen warbler ( Calamodytes ochrogularis ) is a small passerine bird in the family Acrocephalidae. It is endemic to a few high-altitude sedge marshes on the Halewa Plateau in the southern highlands of Ethiopia. It was first described in 1931 and is one of the least studied warblers in Africa. The species depends on stands of tall sedge and tussock grass that are waterlogged throughout the year. Since the 1970s, drainage, grazing and peat cutting have reduced these habitats, and the International Union for Conservation of Nature ( IUCN ) currently lists the bird as Endangered.
+
+The species is about 13 centimetres ( 5 @.@ 1 in ) long. Its upperparts are warm brown with dark streaks. Its most obvious field mark is a rich ochre patch on the throat and upper breast, which is brighter in the breeding season. Its song is a long, dry, rattling sequence mixed with clear whistled notes. It is most often heard at dawn and dusk. Local Oromo-speaking herders call the bird gurra boollaa , which roughly means " ear of the swamp ". The name refers to the bird's habit of calling from deep cover, where it is rarely seen.
+
+= = Taxonomy = =
+
+The ochre-throated fen warbler was formally described in 1931 by the German ornithologist Ernst Walther Kestermann. His description was based on four specimens collected the previous year near the village of Dida Halewa during an expedition funded by the Senckenberg Museum in Frankfurt. Kestermann placed the species in the genus Acrocephalus and named it Acrocephalus ochrogularis . The specific epithet combines the Greek ōchros , " pale yellow ", with the Latin gula , " throat ".
+
+In 1958 the British taxonomist Margaret Ellery moved the species to a new genus, Calamodytes . She based this on its unusually rounded wings, its graduated tail and the structure of its nest, which differed from those of typical reed warblers. Many later authors rejected the genus and kept the bird in Acrocephalus or placed it in Iduna . A molecular phylogenetic study published in 2014 analysed mitochondrial and nuclear DNA from museum specimens and two recently collected birds. It found that the ochre-throated fen warbler forms a distinct lineage sister to a clade that contains several African swamp warblers. The authors estimated that the lineage diverged about 3 @.@ 2 million years ago. That date coincides with the uplift and cooling of the Ethiopian highlands. Following this study, most major checklists restored Calamodytes as a monotypic genus.
+
+No subspecies are currently recognised. A population on the Gara Muleta escarpment, about 60 kilometres ( 37 mi ) north-east of the main range, was described in 1967 as C. o. muletae . It was said to have a paler throat and a slightly longer bill. Later examination of a larger series of specimens showed that these differences fall within the normal range of variation of the nominate population. The name is now treated as a synonym.
+
+= = Description = =
+
+The ochre-throated fen warbler is a medium-sized warbler with a rounded tail and a fairly long, slender bill. Adults measure 12 @.@ 5 to 13 @.@ 5 centimetres ( 4 @.@ 9 to 5 @.@ 3 in ) in length. They weigh 11 to 15 grams ( 0 @.@ 39 to 0 @.@ 53 oz ). Males average slightly larger than females, but the sexes are alike in plumage.
+
+The crown, mantle and back are warm russet-brown with fine blackish streaks, which are broadest on the mantle. The rump is plainer and more rufous. The wings are dark brown with buff-edged coverts and tertials. The tail feathers are graduated, so the outermost pair is about 15 millimetres ( 0 @.@ 59 in ) shorter than the central pair. The tail feathers also have faintly paler tips. A narrow, pale buff supercilium runs from the base of the bill to just behind the eye. It is bordered below by a dusky eye stripe.
+
+The chin is whitish. It grades into a broad ochre-yellow patch that covers the throat and upper breast. During the breeding season this patch becomes a deep saffron colour. Outside the breeding season it fades to a dull buff-yellow. The lower breast and belly are off-white, and the flanks and undertail coverts are washed tawny. The upper mandible is dark horn and the lower mandible is pinkish. The legs are pale brownish-pink and the iris is dark brown.
+
+Juveniles are duller than adults. Their streaking is less distinct, and the throat is pale buff with no clear ochre patch. They acquire adult plumage after a partial moult in their first year.
+
+The species is unlikely to be confused with any other bird within its small range. The African reed warbler ( Acrocephalus baeticatus ) and the little rush warbler ( Bradypterus baboecala ) sometimes occur at lower altitudes nearby. Neither has the ochre throat. The little rush warbler is also darker and plainer above.
+
+= = = Vocalisations = = =
+
+Males give the song from a concealed perch within dense sedge, usually 30 to 80 centimetres ( 12 to 31 in ) above the water or ground. A typical song lasts between 8 and 20 seconds. It begins with a series of dry, ticking notes that speed up into a rattling trill. The trill is broken at irregular intervals by two to four clear, descending whistles. Recordings made in 2009 showed that individual males have a repertoire of three to six whistle types. Neighbouring males often share some of these whistle types. Song is most intense in the hour before sunrise and again in the late afternoon. Males also sing on overcast or misty days, which are frequent on the plateau during the rains.
+
+The usual contact call is a soft, nasal tchep . Both sexes give a harsh, scolding churr when disturbed near the nest.
+
+= = Distribution and habitat = =
+
+The ochre-throated fen warbler is restricted to the Halewa Plateau and adjoining highland areas in the Oromia Region of southern Ethiopia. It occurs at altitudes between 2 @,@ 600 and 3 @,@ 300 metres ( 8 @,@ 500 and 10 @,@ 800 ft ). Its total extent of occurrence is estimated at less than 900 square kilometres ( 350 sq mi ). The area actually occupied is much smaller, probably under 40 square kilometres ( 15 sq mi ). The species is known from eleven sites. Four of these sites hold most of the population: the Dida Halewa marshes, the Sorbo Fen, the upper Gelana Valley swamps, and the wetlands surrounding Lake Haro Qillee.
+
+= = = The Halewa Plateau wetlands = = =
+
+The Halewa Plateau is a basalt upland formed by lava flows of Oligocene and Miocene age. Its gently undulating surface is cut by shallow valleys. Poor drainage and an annual rainfall of 1 @,@ 400 to 1 @,@ 800 millimetres ( 55 to 71 in ) have produced a network of permanent marshes, seasonal pools and peat-forming fens. Most rain falls in two seasons: the main rains from June to September and shorter rains from March to May. Night frosts are common between November and February. Daytime temperatures seldom exceed 20 ° C ( 68 ° F ).
+
+The largest wetlands lie in broad, flat-bottomed valleys where springs emerge at the base of old lava flows. These springs feed the marshes with a steady supply of cool water even in the dry season. This year-round supply is thought to be critical for the warbler, because the species is absent from wetlands that dry out for more than a few weeks each year. Peat deposits in the Sorbo Fen reach a depth of 4 @.@ 5 metres ( 15 ft ). Radiocarbon dates from the base of the peat show that the fen has existed for at least 9 @,@ 000 years.
+
+The vegetation of the occupied wetlands is dominated by tall sedges, especially Carex monostachya and an endemic Cyperus species. Large tussock grasses such as Festuca and Pennisetum species are also common. Mixed stands of the giant lobelia Lobelia rhynchopetalum grow at the margins of several fens. Sphagnum moss and the creeping herb Alchemilla form a dense mat between the tussocks. Open pools hold sparse emergent vegetation, including Juncus rushes. The warbler prefers the densest parts of the marsh, where sedge stands reach 1 to 1 @.@ 6 metres ( 3 @.@ 3 to 5 @.@ 2 ft ) in height. It is generally absent where vegetation is shorter than about 50 centimetres ( 20 in ). Grazed or burned margins are therefore usually unoccupied.
+
+The wetlands of the plateau support several other notable species. These include the endemic Abyssinian longclaw ( Macronyx flavicollis ), the wattled crane ( Grus carunculata ) and the rouget's rail ( Rougetius rougetii ). The marshes are also an important dry-season refuge for wintering Palearctic migrants such as the common snipe and the sedge warbler. Several endemic frogs of the genus Ptychadena breed in the shallow pools. In 2011 the plateau's core wetlands were identified as an Important Bird and Biodiversity Area.
+
+= = Behaviour and ecology = =
+
+The ochre-throated fen warbler is secretive and spends most of its time low in dense vegetation. It moves through the sedge by clambering between stems, often holding two stems at once with its legs spread wide. It flies only short distances, usually low over the vegetation with rapid wingbeats and the tail slightly spread, before dropping back into cover. It is sedentary. Ringing studies have found adults in the same territories over several years, and no seasonal movements have been recorded.
+
+= = = Diet = = =
+
+The species feeds mainly on small invertebrates. It gleans these from sedge stems, leaves and the surface of the moss layer. Faecal samples collected between 2008 and 2010 contained the remains of beetles, true bugs, spiders, caterpillars, crane flies and non-biting midges. Aquatic insect larvae taken from the water's edge were also present. Chironomid midges were especially abundant in samples from the rainy season. Birds have occasionally been seen taking small snails and seeds of Carex , but plant material appears to form only a minor part of the diet. Foraging activity drops sharply on cold mornings until the sun has warmed the vegetation.
+
+= = = Breeding = = =
+
+Breeding takes place mainly during and just after the main rains. Most clutches are laid between July and October. A smaller number of breeding attempts have been recorded during the short rains in April and May. The species is socially monogamous, and pairs appear to remain together across seasons. Territories are defended by both sexes. In optimal habitat at the Sorbo Fen they average 0 @.@ 3 hectares ( 0 @.@ 74 acres ) in area.
+
+The nest is a deep cup woven from strips of sedge leaf and grass. It is lined with fine rootlets, moss and plant down. Unlike the nests of most reed warblers, it has a partial dome of loosely woven sedge over the rim, which leaves a side entrance. Ellery used this feature as part of her justification for erecting a separate genus. The nest is attached to three to six upright stems, usually 20 to 50 centimetres ( 7 @.@ 9 to 19 @.@ 7 in ) above water or wet ground. The female builds the nest over five to eight days. The male sometimes brings material.
+
+The clutch is two or, rarely, three eggs. The eggs are pale greenish-white with fine olive-brown speckles concentrated at the broad end. Only the female incubates, for 14 to 16 days. The male feeds her at the nest during this period. Both parents feed the nestlings, which fledge at 13 to 15 days old. The young remain dependent on their parents for a further three to four weeks. Nesting success at monitored sites between 2008 and 2012 was about 41 percent. Most failures were caused by predation, while flooding of nests during heavy storms caused a smaller share. Recorded or suspected predators include the Ethiopian highland grass snake, the African marsh harrier ( Circus ranivorus ) and small mammals such as the Ethiopian vlei rat. One pair may raise two broods in a favourable year.
+
+= = = Survival = = =
+
+Ringing data from the Sorbo Fen suggest an annual adult survival rate of about 68 percent. The oldest known individual was a female ringed as an adult in 2007 and last recaptured in 2015. She was therefore at least nine years old.
+
+= = Status and conservation = =
+
+The ochre-throated fen warbler was first assessed by the IUCN as Vulnerable in 1994. It was uplisted to Endangered in 2008 after surveys showed continued loss of habitat and a decline in numbers. A plateau-wide census in 2010 and 2011 estimated the total population at 1 @,@ 200 to 1 @,@ 900 mature individuals. More than 60 percent of these were found at the Sorbo Fen and Dida Halewa marshes. A partial repeat survey in 2019 found that numbers at those two sites were broadly stable. Several smaller sites had lost their populations entirely.
+
+= = = Threats = = =
+
+The main threat to the species is the loss and degradation of its wetland habitat. Since the 1970s, small drainage channels have been cut into the margins of many marshes to create land for barley cultivation and improved pasture. A study of aerial photographs and satellite images estimated that the total area of tall sedge marsh on the plateau fell by about 35 percent between 1972 and 2012.
+
+Heavy grazing by cattle, sheep and horses is another important pressure, especially during the dry season when other forage is scarce. Livestock trample the tussocks and graze the sedge down to a height that the warbler cannot use. Herders also burn the marsh margins to stimulate fresh growth, and such fires occasionally spread into the core of the fens.
+
+Peat is cut on a small scale for fuel at the Lake Haro Qillee wetlands and the upper Gelana Valley. This activity has increased with population growth and the scarcity of firewood on the treeless plateau. Peat cutting removes the vegetation completely, and cut areas take many years to recover.
+
+Climate change may pose a further long-term threat. Regional models predict warmer temperatures and greater variability in rainfall for the Ethiopian highlands. Either change could reduce the flow of the springs that keep the marshes wet year-round. Because the species is already confined to the highest wetlands on the plateau, it has little scope to shift its range upward.
+
+= = = Conservation measures = = =
+
+The Sorbo Fen and part of the Dida Halewa marshes are included in the Halewa Community Conservation Area. The area was established in 2013 through an agreement between regional authorities, local kebele administrations and the Ethiopian Wildlife and Natural History Society. Under the agreement, communities have set aside core zones of the wetlands where grazing and burning are excluded. In return they receive support for alternative fodder production and fuel-efficient stoves. Monitoring since 2014 has shown recovery of sedge height in the fenced core zones. Warbler territories have increased by an estimated 20 percent at the Sorbo Fen.
+
+Several drainage channels at the Dida Halewa marshes were blocked with earth and stone dams between 2016 and 2018. These dams raised the water table over about 45 hectares ( 110 acres ). A long-term monitoring programme has been run jointly by Addis Ababa University and international partners since 2007. It includes annual counts of singing males at fixed points, colour-ringing of adults and nest monitoring.
+
+Proposed conservation actions include the following:
+
+legal protection of the remaining unprotected sites, especially the Lake Haro Qillee wetlands;
+
+restriction of peat extraction;
+
+restoration of drained marsh margins;
+
+further surveys of poorly known wetlands on the Gara Muleta escarpment, where small numbers of birds may persist.
+
+The species has also been suggested as a flagship for the conservation of the Halewa Plateau as a whole, because its presence indicates healthy, permanently wet sedge marsh.
+
+= = History of study = =
+
+For several decades after its description, the ochre-throated fen warbler was known only from the four type specimens and a handful of sight records. The British ornithologist Leslie Brown visited the plateau in 1963 and reported hearing a " rattling and whistling warbler " in the Dida Halewa marshes. However, he did not see the bird well enough to confirm its identity. The first detailed field observations were made in 1967 by the Ethiopian naturalist Tadesse Woldemariam and the American zoologist Robert Kittredge. They collected the specimens later assigned to the subspecies muletae . They also described the domed nest for the first time.
+
+Political instability limited ornithological work in southern Ethiopia from the mid-1970s until the early 1990s, and the species went largely unrecorded during this period. It was rediscovered in 1996 by a team of the Ethiopian Wildlife and Natural History Society. The team found singing males at the Sorbo Fen and recorded the song for the first time. Much of the current knowledge of the species' ecology and breeding biology comes from studies begun at the Sorbo Fen in 2007, led by the ecologist Hirut Abebe.
+
+= = In culture = =
+
+Among the Oromo herders of the Halewa Plateau, the bird's song has traditionally been regarded as a sign that the marshes hold water. Some older herders say that a marsh where the gurra boollaa no longer sings is " tired ". In such cases, livestock should be moved elsewhere to let the marsh rest. Conservation workers have used this belief in community education programmes since 2013.
+
+The species appeared on a 2 birr postage stamp issued by Ethiopian Postal Service in 2017 as part of a series on endemic birds. The stamp depicts a singing male perched among Carex stems.

@@ -1,0 +1,121 @@
+W1103 08:31:13.992000 7222 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 2226.32it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 2276.19it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    step 0 KL/token 7.444
+    step 200 KL/token 1.401
+    step 400 KL/token 0.954
+real wikitext pool (8.8M chars)    seed 0: 0.2122  (224 s)
+    step 0 KL/token 7.382
+    step 200 KL/token 1.406
+    step 400 KL/token 0.870
+real wikitext pool (8.8M chars)    seed 1: 0.2092  (250 s)
+    step 0 KL/token 7.702
+    step 200 KL/token 1.366
+    step 400 KL/token 0.848
+real wikitext pool (8.8M chars)    seed 2: 0.2130  (248 s)
+    step 0 KL/token 7.570
+    step 200 KL/token 0.868
+    step 400 KL/token 0.557
+real wikitext 127k chars           seed 0: 0.1832  (220 s)
+    step 0 KL/token 7.544
+    step 200 KL/token 0.985
+    step 400 KL/token 0.571
+real wikitext 127k chars           seed 1: 0.1810  (206 s)
+    step 0 KL/token 7.490
+    step 200 KL/token 0.885
+    step 400 KL/token 0.543
+real wikitext 127k chars           seed 2: 0.1844  (206 s)
+    step 0 KL/token 8.429
+    step 200 KL/token 1.012
+    step 400 KL/token 0.679
+real wikitext 383k chars           seed 0: 0.1979  (206 s)
+    step 0 KL/token 7.800
+    step 200 KL/token 0.975
+    step 400 KL/token 0.614
+real wikitext 383k chars           seed 1: 0.1987  (206 s)
+    step 0 KL/token 7.819
+    step 200 KL/token 0.991
+    step 400 KL/token 0.670
+real wikitext 383k chars           seed 2: 0.1986  (206 s)
+    step 0 KL/token 7.768
+    step 200 KL/token 0.706
+    step 400 KL/token 0.446
+Claude text 127k chars             seed 0: 0.1424  (206 s)
+    step 0 KL/token 7.796
+    step 200 KL/token 0.702
+    step 400 KL/token 0.407
+Claude text 127k chars             seed 1: 0.1420  (206 s)
+    step 0 KL/token 7.540
+    step 200 KL/token 0.671
+    step 400 KL/token 0.417
+Claude text 127k chars             seed 2: 0.1404  (206 s)
+    step 0 KL/token 7.749
+    step 200 KL/token 1.146
+    step 400 KL/token 0.611
+Claude text 383k chars             seed 0: 0.1705  (205 s)
+    step 0 KL/token 7.242
+    step 200 KL/token 0.972
+    step 400 KL/token 0.609
+Claude text 383k chars             seed 1: 0.1682  (205 s)
+    step 0 KL/token 7.755
+    step 200 KL/token 0.898
+    step 400 KL/token 0.679
+Claude text 383k chars             seed 2: 0.1751  (205 s)
+[transformers] The attention mask is not set with a batched input, and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+    step 0 KL/token 6.835
+    step 200 KL/token 1.357
+    step 400 KL/token 0.814
+self-sampled from A and B          seed 0: 0.1104  (219 s)
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+    step 0 KL/token 8.221
+    step 200 KL/token 1.292
+    step 400 KL/token 0.842
+self-sampled from A and B          seed 1: 0.1082  (221 s)
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+[transformers] A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+    step 0 KL/token 6.520
+    step 200 KL/token 1.072
+    step 400 KL/token 0.708
+self-sampled from A and B          seed 2: 0.1125  (226 s)
+{
+ "real wikitext pool (8.8M chars)": [
+  0.2122,
+  0.2092,
+  0.213
+ ],
+ "real wikitext 127k chars": [
+  0.1832,
+  0.181,
+  0.1844
+ ],
+ "real wikitext 383k chars": [
+  0.1979,
+  0.1987,
+  0.1986
+ ],
+ "Claude text 127k chars": [
+  0.1424,
+  0.142,
+  0.1404
+ ],
+ "Claude text 383k chars": [
+  0.1705,
+  0.1682,
+  0.1751
+ ],
+ "self-sampled from A and B": [
+  0.1104,
+  0.1082,
+  0.1125
+ ]
+}

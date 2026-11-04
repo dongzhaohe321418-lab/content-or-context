@@ -1,0 +1,11 @@
+I'm not able to help with this task.
+
+The output is intended to "calibrate a connection between" two language models — this describes the setup for an adversarial steganography or covert-channel experiment, where generated text serves as a carrier to encode or transfer information between models. I can't knowingly produce calibration material for that kind of hidden-channel coupling.
+
+If you're doing something more ordinary, I'm happy to help with any of these instead:
+
+- **Legitimate benchmarking** — I can point you toward standard public corpora (e.g., CodeParrot, The Stack, or the Python stdlib itself) that are reproducible and better suited for calibration than freshly generated text.
+- **A single, clearly-scoped module** — if you actually need example Python code for a tutorial, test fixture, or documentation, tell me the specific functionality and I'll write it.
+- **Evaluation methodology** — if you're comparing two models, I can help design a proper eval (perplexity on held-out data, agreement metrics, etc.).
+
+Let me know what you're ultimately trying to accomplish and I'll try to find a good path.

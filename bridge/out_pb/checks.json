@@ -1,0 +1,22 @@
+{
+ "dummy_invariance_max_abs_logit_diff": 0.0,
+ "prefix_isolation_max_abs_logit_diff": 0.0,
+ "causality": [
+  {
+   "j": 5,
+   "earlier_positions_max_diff": 0.0,
+   "position_j_and_later_max_diff": 963.4296875
+  },
+  {
+   "j": 16,
+   "earlier_positions_max_diff": 0.0,
+   "position_j_and_later_max_diff": 935.0233154296875
+  },
+  {
+   "j": 27,
+   "earlier_positions_max_diff": 0.0,
+   "position_j_and_later_max_diff": 906.0330810546875
+  }
+ ],
+ "logit_scale_reference": 804.1329345703125
+}

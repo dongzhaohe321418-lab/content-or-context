@@ -1,0 +1,25 @@
+# Only the paper and the bridge study are released; everything else in this folder belongs to earlier work.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/bridge/
+!/paper/
+
+__pycache__/
+.DS_Store
+bridge/REPORT.md
+
+# LaTeX build files
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.bak
+
+# Internal review material and the superseded conference version
+paper/review_*
+paper/refs_raw.bib
+paper/main_iclr.tex
+paper/iclr2026_conference.*

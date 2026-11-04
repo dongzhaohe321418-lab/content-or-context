@@ -1,0 +1,32 @@
+{
+ "real wikitext pool (8.8M chars)": [
+  0.2122,
+  0.2092,
+  0.213
+ ],
+ "real wikitext 127k chars": [
+  0.1832,
+  0.181,
+  0.1844
+ ],
+ "real wikitext 383k chars": [
+  0.1979,
+  0.1987,
+  0.1986
+ ],
+ "Claude text 127k chars": [
+  0.1424,
+  0.142,
+  0.1404
+ ],
+ "Claude text 383k chars": [
+  0.1705,
+  0.1682,
+  0.1751
+ ],
+ "self-sampled from A and B": [
+  0.1104,
+  0.1082,
+  0.1125
+ ]
+}

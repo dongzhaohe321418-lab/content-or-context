@@ -1,0 +1,18 @@
+W1104 03:56:01.257000 85391 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 8217.27it/s]
+pythia-160m full ctx 37.060547 3.501111
+pythia-160m no ctx 23.97461 4.8515253
+pythia-160m oracle at L1: acc 34.33 ce 3.745 | mismatched acc 28.17 ce 4.357
+pythia-160m oracle at L2: acc 33.40 ce 3.828 | mismatched acc 28.32 ce 4.378
+pythia-160m oracle at L3: acc 32.42 ce 3.902 | mismatched acc 27.78 ce 4.377
+pythia-160m oracle at L4: acc 31.40 ce 3.991 | mismatched acc 27.32 ce 4.417
+pythia-160m oracle at L6: acc 26.25 ce 4.372 | mismatched acc 25.44 ce 4.597
+pythia-160m oracle at L8: acc 25.05 ce 4.533 | mismatched acc 24.98 ce 4.650
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 9844.57it/s]
+pythia-70m full ctx 31.933594 4.086804
+pythia-70m no ctx 19.824219 5.3930545
+pythia-70m oracle at L1: acc 28.49 ce 4.384 | mismatched acc 24.32 ce 4.888
+pythia-70m oracle at L2: acc 27.81 ce 4.490 | mismatched acc 23.75 ce 4.913
+pythia-70m oracle at L3: acc 25.39 ce 4.709 | mismatched acc 22.73 ce 4.992
+pythia-70m oracle at L4: acc 20.41 ce 5.113 | mismatched acc 20.24 ce 5.197

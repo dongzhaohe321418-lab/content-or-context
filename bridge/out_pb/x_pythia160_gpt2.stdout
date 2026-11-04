@@ -1,0 +1,2 @@
+W1104 04:58:33.822000 52656 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+pythia160_gpt2: skipped (listed in x_skip.txt)

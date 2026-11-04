@@ -1,0 +1,21 @@
+  B full context (upper bound)                                 acc  36.08  ce 3.5717
+  B no context (suffix only)                                   acc  22.85  ce 4.9236
+  A full context                                               acc  30.77  ce 4.1307
+  A no context (suffix only)                                   acc  19.68  ce 5.4120
+  oracle message: B's own prefix states (protocol ceiling)     acc  32.86  ce 3.8361
+  oracle message: B's own prefix states (protocol ceiling) | mismatched message acc  24.22  ce 4.8568
+  oracle message: B's own prefix states (protocol ceiling) | same-article message acc  29.44  ce 4.2094
+  B full context (upper bound) | mismatched message            acc  24.91  ce 4.8805
+  B full context (upper bound) | same-article message          acc  30.98  ce 4.0873
+Claude text total 1030250 chars from 64 files
+    step 0 KL/token 1.3283
+    step 200 KL/token 0.4235
+    step 400 KL/token 0.2058
+    step 599 KL/token 0.1555
+  Claude text 127k chars | seed 0                              acc  26.72  ce 4.2872
+  Claude text 127k chars | seed 0 | mismatched message         acc  22.68  ce 4.9745
+  Claude text 127k chars | seed 0 | same-article message       acc  25.26  ce 4.5416
+    (1018 s)
+    step 0 KL/token 1.2047
+    step 200 KL/token 0.3496
+    step 400 KL/token 0.2241

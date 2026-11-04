@@ -1,0 +1,2562 @@
+[
+{
+"doc_index": 56,
+"doc_name": "imdb-test-56",
+"token_offset": 0
+},
+{
+"doc_index": 57,
+"doc_name": "imdb-test-57",
+"token_offset": 161
+},
+{
+"doc_index": 74,
+"doc_name": "imdb-test-74",
+"token_offset": 161
+},
+{
+"doc_index": 121,
+"doc_name": "imdb-test-121",
+"token_offset": 0
+},
+{
+"doc_index": 255,
+"doc_name": "imdb-test-255",
+"token_offset": 322
+},
+{
+"doc_index": 311,
+"doc_name": "imdb-test-311",
+"token_offset": 0
+},
+{
+"doc_index": 363,
+"doc_name": "imdb-test-363",
+"token_offset": 0
+},
+{
+"doc_index": 387,
+"doc_name": "imdb-test-387",
+"token_offset": 805
+},
+{
+"doc_index": 412,
+"doc_name": "imdb-test-412",
+"token_offset": 322
+},
+{
+"doc_index": 420,
+"doc_name": "imdb-test-420",
+"token_offset": 322
+},
+{
+"doc_index": 423,
+"doc_name": "imdb-test-423",
+"token_offset": 0
+},
+{
+"doc_index": 429,
+"doc_name": "imdb-test-429",
+"token_offset": 161
+},
+{
+"doc_index": 448,
+"doc_name": "imdb-test-448",
+"token_offset": 161
+},
+{
+"doc_index": 534,
+"doc_name": "imdb-test-534",
+"token_offset": 0
+},
+{
+"doc_index": 567,
+"doc_name": "imdb-test-567",
+"token_offset": 0
+},
+{
+"doc_index": 586,
+"doc_name": "imdb-test-586",
+"token_offset": 322
+},
+{
+"doc_index": 621,
+"doc_name": "imdb-test-621",
+"token_offset": 0
+},
+{
+"doc_index": 779,
+"doc_name": "imdb-test-779",
+"token_offset": 322
+},
+{
+"doc_index": 781,
+"doc_name": "imdb-test-781",
+"token_offset": 322
+},
+{
+"doc_index": 796,
+"doc_name": "imdb-test-796",
+"token_offset": 322
+},
+{
+"doc_index": 871,
+"doc_name": "imdb-test-871",
+"token_offset": 322
+},
+{
+"doc_index": 993,
+"doc_name": "imdb-test-993",
+"token_offset": 644
+},
+{
+"doc_index": 1074,
+"doc_name": "imdb-test-1074",
+"token_offset": 322
+},
+{
+"doc_index": 1075,
+"doc_name": "imdb-test-1075",
+"token_offset": 161
+},
+{
+"doc_index": 1077,
+"doc_name": "imdb-test-1077",
+"token_offset": 322
+},
+{
+"doc_index": 1087,
+"doc_name": "imdb-test-1087",
+"token_offset": 0
+},
+{
+"doc_index": 1163,
+"doc_name": "imdb-test-1163",
+"token_offset": 483
+},
+{
+"doc_index": 1274,
+"doc_name": "imdb-test-1274",
+"token_offset": 0
+},
+{
+"doc_index": 1287,
+"doc_name": "imdb-test-1287",
+"token_offset": 161
+},
+{
+"doc_index": 1328,
+"doc_name": "imdb-test-1328",
+"token_offset": 0
+},
+{
+"doc_index": 1340,
+"doc_name": "imdb-test-1340",
+"token_offset": 322
+},
+{
+"doc_index": 1368,
+"doc_name": "imdb-test-1368",
+"token_offset": 0
+},
+{
+"doc_index": 1376,
+"doc_name": "imdb-test-1376",
+"token_offset": 161
+},
+{
+"doc_index": 1505,
+"doc_name": "imdb-test-1505",
+"token_offset": 161
+},
+{
+"doc_index": 1634,
+"doc_name": "imdb-test-1634",
+"token_offset": 322
+},
+{
+"doc_index": 1752,
+"doc_name": "imdb-test-1752",
+"token_offset": 322
+},
+{
+"doc_index": 1839,
+"doc_name": "imdb-test-1839",
+"token_offset": 0
+},
+{
+"doc_index": 1866,
+"doc_name": "imdb-test-1866",
+"token_offset": 0
+},
+{
+"doc_index": 1933,
+"doc_name": "imdb-test-1933",
+"token_offset": 161
+},
+{
+"doc_index": 1957,
+"doc_name": "imdb-test-1957",
+"token_offset": 0
+},
+{
+"doc_index": 1987,
+"doc_name": "imdb-test-1987",
+"token_offset": 0
+},
+{
+"doc_index": 1989,
+"doc_name": "imdb-test-1989",
+"token_offset": 0
+},
+{
+"doc_index": 2014,
+"doc_name": "imdb-test-2014",
+"token_offset": 0
+},
+{
+"doc_index": 2083,
+"doc_name": "imdb-test-2083",
+"token_offset": 161
+},
+{
+"doc_index": 2109,
+"doc_name": "imdb-test-2109",
+"token_offset": 161
+},
+{
+"doc_index": 2172,
+"doc_name": "imdb-test-2172",
+"token_offset": 322
+},
+{
+"doc_index": 2265,
+"doc_name": "imdb-test-2265",
+"token_offset": 0
+},
+{
+"doc_index": 2289,
+"doc_name": "imdb-test-2289",
+"token_offset": 161
+},
+{
+"doc_index": 2301,
+"doc_name": "imdb-test-2301",
+"token_offset": 161
+},
+{
+"doc_index": 2427,
+"doc_name": "imdb-test-2427",
+"token_offset": 483
+},
+{
+"doc_index": 2477,
+"doc_name": "imdb-test-2477",
+"token_offset": 0
+},
+{
+"doc_index": 2496,
+"doc_name": "imdb-test-2496",
+"token_offset": 483
+},
+{
+"doc_index": 2505,
+"doc_name": "imdb-test-2505",
+"token_offset": 322
+},
+{
+"doc_index": 2505,
+"doc_name": "imdb-test-2505",
+"token_offset": 805
+},
+{
+"doc_index": 2532,
+"doc_name": "imdb-test-2532",
+"token_offset": 0
+},
+{
+"doc_index": 2536,
+"doc_name": "imdb-test-2536",
+"token_offset": 161
+},
+{
+"doc_index": 2661,
+"doc_name": "imdb-test-2661",
+"token_offset": 161
+},
+{
+"doc_index": 2728,
+"doc_name": "imdb-test-2728",
+"token_offset": 0
+},
+{
+"doc_index": 2756,
+"doc_name": "imdb-test-2756",
+"token_offset": 483
+},
+{
+"doc_index": 2758,
+"doc_name": "imdb-test-2758",
+"token_offset": 0
+},
+{
+"doc_index": 2812,
+"doc_name": "imdb-test-2812",
+"token_offset": 0
+},
+{
+"doc_index": 2843,
+"doc_name": "imdb-test-2843",
+"token_offset": 322
+},
+{
+"doc_index": 2887,
+"doc_name": "imdb-test-2887",
+"token_offset": 0
+},
+{
+"doc_index": 2954,
+"doc_name": "imdb-test-2954",
+"token_offset": 0
+},
+{
+"doc_index": 2988,
+"doc_name": "imdb-test-2988",
+"token_offset": 161
+},
+{
+"doc_index": 3049,
+"doc_name": "imdb-test-3049",
+"token_offset": 0
+},
+{
+"doc_index": 3057,
+"doc_name": "imdb-test-3057",
+"token_offset": 0
+},
+{
+"doc_index": 3064,
+"doc_name": "imdb-test-3064",
+"token_offset": 0
+},
+{
+"doc_index": 3379,
+"doc_name": "imdb-test-3379",
+"token_offset": 322
+},
+{
+"doc_index": 3438,
+"doc_name": "imdb-test-3438",
+"token_offset": 0
+},
+{
+"doc_index": 3463,
+"doc_name": "imdb-test-3463",
+"token_offset": 161
+},
+{
+"doc_index": 3530,
+"doc_name": "imdb-test-3530",
+"token_offset": 161
+},
+{
+"doc_index": 3681,
+"doc_name": "imdb-test-3681",
+"token_offset": 0
+},
+{
+"doc_index": 3696,
+"doc_name": "imdb-test-3696",
+"token_offset": 0
+},
+{
+"doc_index": 3729,
+"doc_name": "imdb-test-3729",
+"token_offset": 0
+},
+{
+"doc_index": 3754,
+"doc_name": "imdb-test-3754",
+"token_offset": 0
+},
+{
+"doc_index": 3754,
+"doc_name": "imdb-test-3754",
+"token_offset": 322
+},
+{
+"doc_index": 3757,
+"doc_name": "imdb-test-3757",
+"token_offset": 0
+},
+{
+"doc_index": 3854,
+"doc_name": "imdb-test-3854",
+"token_offset": 161
+},
+{
+"doc_index": 3970,
+"doc_name": "imdb-test-3970",
+"token_offset": 0
+},
+{
+"doc_index": 3991,
+"doc_name": "imdb-test-3991",
+"token_offset": 161
+},
+{
+"doc_index": 4098,
+"doc_name": "imdb-test-4098",
+"token_offset": 161
+},
+{
+"doc_index": 4123,
+"doc_name": "imdb-test-4123",
+"token_offset": 322
+},
+{
+"doc_index": 4129,
+"doc_name": "imdb-test-4129",
+"token_offset": 0
+},
+{
+"doc_index": 4159,
+"doc_name": "imdb-test-4159",
+"token_offset": 161
+},
+{
+"doc_index": 4169,
+"doc_name": "imdb-test-4169",
+"token_offset": 0
+},
+{
+"doc_index": 4204,
+"doc_name": "imdb-test-4204",
+"token_offset": 0
+},
+{
+"doc_index": 4314,
+"doc_name": "imdb-test-4314",
+"token_offset": 161
+},
+{
+"doc_index": 4339,
+"doc_name": "imdb-test-4339",
+"token_offset": 161
+},
+{
+"doc_index": 4388,
+"doc_name": "imdb-test-4388",
+"token_offset": 161
+},
+{
+"doc_index": 4542,
+"doc_name": "imdb-test-4542",
+"token_offset": 161
+},
+{
+"doc_index": 4567,
+"doc_name": "imdb-test-4567",
+"token_offset": 322
+},
+{
+"doc_index": 4633,
+"doc_name": "imdb-test-4633",
+"token_offset": 0
+},
+{
+"doc_index": 4691,
+"doc_name": "imdb-test-4691",
+"token_offset": 644
+},
+{
+"doc_index": 4697,
+"doc_name": "imdb-test-4697",
+"token_offset": 0
+},
+{
+"doc_index": 4727,
+"doc_name": "imdb-test-4727",
+"token_offset": 161
+},
+{
+"doc_index": 4758,
+"doc_name": "imdb-test-4758",
+"token_offset": 161
+},
+{
+"doc_index": 4796,
+"doc_name": "imdb-test-4796",
+"token_offset": 0
+},
+{
+"doc_index": 4872,
+"doc_name": "imdb-test-4872",
+"token_offset": 0
+},
+{
+"doc_index": 4876,
+"doc_name": "imdb-test-4876",
+"token_offset": 161
+},
+{
+"doc_index": 4894,
+"doc_name": "imdb-test-4894",
+"token_offset": 483
+},
+{
+"doc_index": 4975,
+"doc_name": "imdb-test-4975",
+"token_offset": 161
+},
+{
+"doc_index": 5035,
+"doc_name": "imdb-test-5035",
+"token_offset": 322
+},
+{
+"doc_index": 5113,
+"doc_name": "imdb-test-5113",
+"token_offset": 0
+},
+{
+"doc_index": 5118,
+"doc_name": "imdb-test-5118",
+"token_offset": 322
+},
+{
+"doc_index": 5169,
+"doc_name": "imdb-test-5169",
+"token_offset": 161
+},
+{
+"doc_index": 5202,
+"doc_name": "imdb-test-5202",
+"token_offset": 483
+},
+{
+"doc_index": 5479,
+"doc_name": "imdb-test-5479",
+"token_offset": 0
+},
+{
+"doc_index": 5587,
+"doc_name": "imdb-test-5587",
+"token_offset": 805
+},
+{
+"doc_index": 5638,
+"doc_name": "imdb-test-5638",
+"token_offset": 0
+},
+{
+"doc_index": 5641,
+"doc_name": "imdb-test-5641",
+"token_offset": 161
+},
+{
+"doc_index": 5686,
+"doc_name": "imdb-test-5686",
+"token_offset": 161
+},
+{
+"doc_index": 5724,
+"doc_name": "imdb-test-5724",
+"token_offset": 644
+},
+{
+"doc_index": 5747,
+"doc_name": "imdb-test-5747",
+"token_offset": 0
+},
+{
+"doc_index": 5835,
+"doc_name": "imdb-test-5835",
+"token_offset": 161
+},
+{
+"doc_index": 5846,
+"doc_name": "imdb-test-5846",
+"token_offset": 0
+},
+{
+"doc_index": 5935,
+"doc_name": "imdb-test-5935",
+"token_offset": 322
+},
+{
+"doc_index": 5954,
+"doc_name": "imdb-test-5954",
+"token_offset": 0
+},
+{
+"doc_index": 5989,
+"doc_name": "imdb-test-5989",
+"token_offset": 0
+},
+{
+"doc_index": 6006,
+"doc_name": "imdb-test-6006",
+"token_offset": 161
+},
+{
+"doc_index": 6040,
+"doc_name": "imdb-test-6040",
+"token_offset": 805
+},
+{
+"doc_index": 6082,
+"doc_name": "imdb-test-6082",
+"token_offset": 322
+},
+{
+"doc_index": 6401,
+"doc_name": "imdb-test-6401",
+"token_offset": 0
+},
+{
+"doc_index": 6411,
+"doc_name": "imdb-test-6411",
+"token_offset": 322
+},
+{
+"doc_index": 6416,
+"doc_name": "imdb-test-6416",
+"token_offset": 0
+},
+{
+"doc_index": 6475,
+"doc_name": "imdb-test-6475",
+"token_offset": 161
+},
+{
+"doc_index": 6620,
+"doc_name": "imdb-test-6620",
+"token_offset": 161
+},
+{
+"doc_index": 6639,
+"doc_name": "imdb-test-6639",
+"token_offset": 0
+},
+{
+"doc_index": 6641,
+"doc_name": "imdb-test-6641",
+"token_offset": 322
+},
+{
+"doc_index": 6642,
+"doc_name": "imdb-test-6642",
+"token_offset": 322
+},
+{
+"doc_index": 6762,
+"doc_name": "imdb-test-6762",
+"token_offset": 161
+},
+{
+"doc_index": 6782,
+"doc_name": "imdb-test-6782",
+"token_offset": 161
+},
+{
+"doc_index": 6860,
+"doc_name": "imdb-test-6860",
+"token_offset": 0
+},
+{
+"doc_index": 6945,
+"doc_name": "imdb-test-6945",
+"token_offset": 161
+},
+{
+"doc_index": 7073,
+"doc_name": "imdb-test-7073",
+"token_offset": 483
+},
+{
+"doc_index": 7074,
+"doc_name": "imdb-test-7074",
+"token_offset": 0
+},
+{
+"doc_index": 7167,
+"doc_name": "imdb-test-7167",
+"token_offset": 644
+},
+{
+"doc_index": 7193,
+"doc_name": "imdb-test-7193",
+"token_offset": 161
+},
+{
+"doc_index": 7199,
+"doc_name": "imdb-test-7199",
+"token_offset": 161
+},
+{
+"doc_index": 7208,
+"doc_name": "imdb-test-7208",
+"token_offset": 322
+},
+{
+"doc_index": 7244,
+"doc_name": "imdb-test-7244",
+"token_offset": 161
+},
+{
+"doc_index": 7311,
+"doc_name": "imdb-test-7311",
+"token_offset": 0
+},
+{
+"doc_index": 7403,
+"doc_name": "imdb-test-7403",
+"token_offset": 483
+},
+{
+"doc_index": 7430,
+"doc_name": "imdb-test-7430",
+"token_offset": 322
+},
+{
+"doc_index": 7438,
+"doc_name": "imdb-test-7438",
+"token_offset": 322
+},
+{
+"doc_index": 7485,
+"doc_name": "imdb-test-7485",
+"token_offset": 161
+},
+{
+"doc_index": 7490,
+"doc_name": "imdb-test-7490",
+"token_offset": 483
+},
+{
+"doc_index": 7667,
+"doc_name": "imdb-test-7667",
+"token_offset": 161
+},
+{
+"doc_index": 7733,
+"doc_name": "imdb-test-7733",
+"token_offset": 0
+},
+{
+"doc_index": 7733,
+"doc_name": "imdb-test-7733",
+"token_offset": 322
+},
+{
+"doc_index": 7785,
+"doc_name": "imdb-test-7785",
+"token_offset": 483
+},
+{
+"doc_index": 7811,
+"doc_name": "imdb-test-7811",
+"token_offset": 161
+},
+{
+"doc_index": 7875,
+"doc_name": "imdb-test-7875",
+"token_offset": 0
+},
+{
+"doc_index": 7883,
+"doc_name": "imdb-test-7883",
+"token_offset": 322
+},
+{
+"doc_index": 7891,
+"doc_name": "imdb-test-7891",
+"token_offset": 0
+},
+{
+"doc_index": 7892,
+"doc_name": "imdb-test-7892",
+"token_offset": 0
+},
+{
+"doc_index": 7913,
+"doc_name": "imdb-test-7913",
+"token_offset": 322
+},
+{
+"doc_index": 7939,
+"doc_name": "imdb-test-7939",
+"token_offset": 0
+},
+{
+"doc_index": 8010,
+"doc_name": "imdb-test-8010",
+"token_offset": 0
+},
+{
+"doc_index": 8079,
+"doc_name": "imdb-test-8079",
+"token_offset": 161
+},
+{
+"doc_index": 8095,
+"doc_name": "imdb-test-8095",
+"token_offset": 322
+},
+{
+"doc_index": 8119,
+"doc_name": "imdb-test-8119",
+"token_offset": 0
+},
+{
+"doc_index": 8182,
+"doc_name": "imdb-test-8182",
+"token_offset": 805
+},
+{
+"doc_index": 8212,
+"doc_name": "imdb-test-8212",
+"token_offset": 161
+},
+{
+"doc_index": 8227,
+"doc_name": "imdb-test-8227",
+"token_offset": 0
+},
+{
+"doc_index": 8235,
+"doc_name": "imdb-test-8235",
+"token_offset": 161
+},
+{
+"doc_index": 8259,
+"doc_name": "imdb-test-8259",
+"token_offset": 0
+},
+{
+"doc_index": 8259,
+"doc_name": "imdb-test-8259",
+"token_offset": 322
+},
+{
+"doc_index": 8275,
+"doc_name": "imdb-test-8275",
+"token_offset": 161
+},
+{
+"doc_index": 8325,
+"doc_name": "imdb-test-8325",
+"token_offset": 161
+},
+{
+"doc_index": 8430,
+"doc_name": "imdb-test-8430",
+"token_offset": 161
+},
+{
+"doc_index": 8449,
+"doc_name": "imdb-test-8449",
+"token_offset": 161
+},
+{
+"doc_index": 8474,
+"doc_name": "imdb-test-8474",
+"token_offset": 161
+},
+{
+"doc_index": 8868,
+"doc_name": "imdb-test-8868",
+"token_offset": 161
+},
+{
+"doc_index": 8955,
+"doc_name": "imdb-test-8955",
+"token_offset": 161
+},
+{
+"doc_index": 8972,
+"doc_name": "imdb-test-8972",
+"token_offset": 161
+},
+{
+"doc_index": 9106,
+"doc_name": "imdb-test-9106",
+"token_offset": 0
+},
+{
+"doc_index": 9108,
+"doc_name": "imdb-test-9108",
+"token_offset": 0
+},
+{
+"doc_index": 9218,
+"doc_name": "imdb-test-9218",
+"token_offset": 0
+},
+{
+"doc_index": 9226,
+"doc_name": "imdb-test-9226",
+"token_offset": 161
+},
+{
+"doc_index": 9241,
+"doc_name": "imdb-test-9241",
+"token_offset": 0
+},
+{
+"doc_index": 9283,
+"doc_name": "imdb-test-9283",
+"token_offset": 0
+},
+{
+"doc_index": 9315,
+"doc_name": "imdb-test-9315",
+"token_offset": 322
+},
+{
+"doc_index": 9503,
+"doc_name": "imdb-test-9503",
+"token_offset": 322
+},
+{
+"doc_index": 9536,
+"doc_name": "imdb-test-9536",
+"token_offset": 322
+},
+{
+"doc_index": 9687,
+"doc_name": "imdb-test-9687",
+"token_offset": 161
+},
+{
+"doc_index": 9728,
+"doc_name": "imdb-test-9728",
+"token_offset": 483
+},
+{
+"doc_index": 9756,
+"doc_name": "imdb-test-9756",
+"token_offset": 483
+},
+{
+"doc_index": 9759,
+"doc_name": "imdb-test-9759",
+"token_offset": 161
+},
+{
+"doc_index": 9805,
+"doc_name": "imdb-test-9805",
+"token_offset": 161
+},
+{
+"doc_index": 9852,
+"doc_name": "imdb-test-9852",
+"token_offset": 0
+},
+{
+"doc_index": 9982,
+"doc_name": "imdb-test-9982",
+"token_offset": 161
+},
+{
+"doc_index": 9990,
+"doc_name": "imdb-test-9990",
+"token_offset": 161
+},
+{
+"doc_index": 10174,
+"doc_name": "imdb-test-10174",
+"token_offset": 0
+},
+{
+"doc_index": 10180,
+"doc_name": "imdb-test-10180",
+"token_offset": 161
+},
+{
+"doc_index": 10196,
+"doc_name": "imdb-test-10196",
+"token_offset": 161
+},
+{
+"doc_index": 10217,
+"doc_name": "imdb-test-10217",
+"token_offset": 161
+},
+{
+"doc_index": 10254,
+"doc_name": "imdb-test-10254",
+"token_offset": 161
+},
+{
+"doc_index": 10323,
+"doc_name": "imdb-test-10323",
+"token_offset": 161
+},
+{
+"doc_index": 10364,
+"doc_name": "imdb-test-10364",
+"token_offset": 322
+},
+{
+"doc_index": 10391,
+"doc_name": "imdb-test-10391",
+"token_offset": 0
+},
+{
+"doc_index": 10433,
+"doc_name": "imdb-test-10433",
+"token_offset": 322
+},
+{
+"doc_index": 10536,
+"doc_name": "imdb-test-10536",
+"token_offset": 322
+},
+{
+"doc_index": 10575,
+"doc_name": "imdb-test-10575",
+"token_offset": 0
+},
+{
+"doc_index": 10618,
+"doc_name": "imdb-test-10618",
+"token_offset": 0
+},
+{
+"doc_index": 10619,
+"doc_name": "imdb-test-10619",
+"token_offset": 161
+},
+{
+"doc_index": 10653,
+"doc_name": "imdb-test-10653",
+"token_offset": 0
+},
+{
+"doc_index": 10682,
+"doc_name": "imdb-test-10682",
+"token_offset": 805
+},
+{
+"doc_index": 10696,
+"doc_name": "imdb-test-10696",
+"token_offset": 161
+},
+{
+"doc_index": 10735,
+"doc_name": "imdb-test-10735",
+"token_offset": 161
+},
+{
+"doc_index": 10795,
+"doc_name": "imdb-test-10795",
+"token_offset": 161
+},
+{
+"doc_index": 10807,
+"doc_name": "imdb-test-10807",
+"token_offset": 0
+},
+{
+"doc_index": 10885,
+"doc_name": "imdb-test-10885",
+"token_offset": 483
+},
+{
+"doc_index": 10959,
+"doc_name": "imdb-test-10959",
+"token_offset": 0
+},
+{
+"doc_index": 11004,
+"doc_name": "imdb-test-11004",
+"token_offset": 161
+},
+{
+"doc_index": 11020,
+"doc_name": "imdb-test-11020",
+"token_offset": 161
+},
+{
+"doc_index": 11057,
+"doc_name": "imdb-test-11057",
+"token_offset": 322
+},
+{
+"doc_index": 11118,
+"doc_name": "imdb-test-11118",
+"token_offset": 322
+},
+{
+"doc_index": 11122,
+"doc_name": "imdb-test-11122",
+"token_offset": 0
+},
+{
+"doc_index": 11169,
+"doc_name": "imdb-test-11169",
+"token_offset": 0
+},
+{
+"doc_index": 11233,
+"doc_name": "imdb-test-11233",
+"token_offset": 0
+},
+{
+"doc_index": 11299,
+"doc_name": "imdb-test-11299",
+"token_offset": 322
+},
+{
+"doc_index": 11330,
+"doc_name": "imdb-test-11330",
+"token_offset": 0
+},
+{
+"doc_index": 11380,
+"doc_name": "imdb-test-11380",
+"token_offset": 0
+},
+{
+"doc_index": 11430,
+"doc_name": "imdb-test-11430",
+"token_offset": 322
+},
+{
+"doc_index": 11453,
+"doc_name": "imdb-test-11453",
+"token_offset": 161
+},
+{
+"doc_index": 11455,
+"doc_name": "imdb-test-11455",
+"token_offset": 0
+},
+{
+"doc_index": 11567,
+"doc_name": "imdb-test-11567",
+"token_offset": 483
+},
+{
+"doc_index": 11571,
+"doc_name": "imdb-test-11571",
+"token_offset": 161
+},
+{
+"doc_index": 11582,
+"doc_name": "imdb-test-11582",
+"token_offset": 161
+},
+{
+"doc_index": 11596,
+"doc_name": "imdb-test-11596",
+"token_offset": 0
+},
+{
+"doc_index": 11599,
+"doc_name": "imdb-test-11599",
+"token_offset": 161
+},
+{
+"doc_index": 11637,
+"doc_name": "imdb-test-11637",
+"token_offset": 0
+},
+{
+"doc_index": 11663,
+"doc_name": "imdb-test-11663",
+"token_offset": 161
+},
+{
+"doc_index": 11692,
+"doc_name": "imdb-test-11692",
+"token_offset": 0
+},
+{
+"doc_index": 11702,
+"doc_name": "imdb-test-11702",
+"token_offset": 0
+},
+{
+"doc_index": 11722,
+"doc_name": "imdb-test-11722",
+"token_offset": 0
+},
+{
+"doc_index": 11788,
+"doc_name": "imdb-test-11788",
+"token_offset": 322
+},
+{
+"doc_index": 11819,
+"doc_name": "imdb-test-11819",
+"token_offset": 322
+},
+{
+"doc_index": 11936,
+"doc_name": "imdb-test-11936",
+"token_offset": 161
+},
+{
+"doc_index": 11965,
+"doc_name": "imdb-test-11965",
+"token_offset": 0
+},
+{
+"doc_index": 11965,
+"doc_name": "imdb-test-11965",
+"token_offset": 322
+},
+{
+"doc_index": 11985,
+"doc_name": "imdb-test-11985",
+"token_offset": 161
+},
+{
+"doc_index": 12010,
+"doc_name": "imdb-test-12010",
+"token_offset": 161
+},
+{
+"doc_index": 12045,
+"doc_name": "imdb-test-12045",
+"token_offset": 161
+},
+{
+"doc_index": 12074,
+"doc_name": "imdb-test-12074",
+"token_offset": 805
+},
+{
+"doc_index": 12125,
+"doc_name": "imdb-test-12125",
+"token_offset": 0
+},
+{
+"doc_index": 12262,
+"doc_name": "imdb-test-12262",
+"token_offset": 322
+},
+{
+"doc_index": 12273,
+"doc_name": "imdb-test-12273",
+"token_offset": 161
+},
+{
+"doc_index": 12301,
+"doc_name": "imdb-test-12301",
+"token_offset": 0
+},
+{
+"doc_index": 12335,
+"doc_name": "imdb-test-12335",
+"token_offset": 322
+},
+{
+"doc_index": 12351,
+"doc_name": "imdb-test-12351",
+"token_offset": 161
+},
+{
+"doc_index": 12375,
+"doc_name": "imdb-test-12375",
+"token_offset": 322
+},
+{
+"doc_index": 12428,
+"doc_name": "imdb-test-12428",
+"token_offset": 161
+},
+{
+"doc_index": 12431,
+"doc_name": "imdb-test-12431",
+"token_offset": 322
+},
+{
+"doc_index": 12431,
+"doc_name": "imdb-test-12431",
+"token_offset": 1127
+},
+{
+"doc_index": 12432,
+"doc_name": "imdb-test-12432",
+"token_offset": 161
+},
+{
+"doc_index": 12448,
+"doc_name": "imdb-test-12448",
+"token_offset": 322
+},
+{
+"doc_index": 12455,
+"doc_name": "imdb-test-12455",
+"token_offset": 161
+},
+{
+"doc_index": 12490,
+"doc_name": "imdb-test-12490",
+"token_offset": 322
+},
+{
+"doc_index": 12551,
+"doc_name": "imdb-test-12551",
+"token_offset": 322
+},
+{
+"doc_index": 12551,
+"doc_name": "imdb-test-12551",
+"token_offset": 483
+},
+{
+"doc_index": 12638,
+"doc_name": "imdb-test-12638",
+"token_offset": 0
+},
+{
+"doc_index": 12647,
+"doc_name": "imdb-test-12647",
+"token_offset": 161
+},
+{
+"doc_index": 12661,
+"doc_name": "imdb-test-12661",
+"token_offset": 0
+},
+{
+"doc_index": 12665,
+"doc_name": "imdb-test-12665",
+"token_offset": 0
+},
+{
+"doc_index": 12674,
+"doc_name": "imdb-test-12674",
+"token_offset": 0
+},
+{
+"doc_index": 12737,
+"doc_name": "imdb-test-12737",
+"token_offset": 161
+},
+{
+"doc_index": 12741,
+"doc_name": "imdb-test-12741",
+"token_offset": 161
+},
+{
+"doc_index": 12756,
+"doc_name": "imdb-test-12756",
+"token_offset": 161
+},
+{
+"doc_index": 12761,
+"doc_name": "imdb-test-12761",
+"token_offset": 161
+},
+{
+"doc_index": 12785,
+"doc_name": "imdb-test-12785",
+"token_offset": 483
+},
+{
+"doc_index": 13007,
+"doc_name": "imdb-test-13007",
+"token_offset": 322
+},
+{
+"doc_index": 13014,
+"doc_name": "imdb-test-13014",
+"token_offset": 644
+},
+{
+"doc_index": 13072,
+"doc_name": "imdb-test-13072",
+"token_offset": 0
+},
+{
+"doc_index": 13130,
+"doc_name": "imdb-test-13130",
+"token_offset": 644
+},
+{
+"doc_index": 13134,
+"doc_name": "imdb-test-13134",
+"token_offset": 161
+},
+{
+"doc_index": 13225,
+"doc_name": "imdb-test-13225",
+"token_offset": 322
+},
+{
+"doc_index": 13245,
+"doc_name": "imdb-test-13245",
+"token_offset": 322
+},
+{
+"doc_index": 13318,
+"doc_name": "imdb-test-13318",
+"token_offset": 0
+},
+{
+"doc_index": 13336,
+"doc_name": "imdb-test-13336",
+"token_offset": 161
+},
+{
+"doc_index": 13643,
+"doc_name": "imdb-test-13643",
+"token_offset": 0
+},
+{
+"doc_index": 13879,
+"doc_name": "imdb-test-13879",
+"token_offset": 0
+},
+{
+"doc_index": 13897,
+"doc_name": "imdb-test-13897",
+"token_offset": 161
+},
+{
+"doc_index": 14011,
+"doc_name": "imdb-test-14011",
+"token_offset": 966
+},
+{
+"doc_index": 14088,
+"doc_name": "imdb-test-14088",
+"token_offset": 0
+},
+{
+"doc_index": 14091,
+"doc_name": "imdb-test-14091",
+"token_offset": 644
+},
+{
+"doc_index": 14120,
+"doc_name": "imdb-test-14120",
+"token_offset": 322
+},
+{
+"doc_index": 14176,
+"doc_name": "imdb-test-14176",
+"token_offset": 322
+},
+{
+"doc_index": 14248,
+"doc_name": "imdb-test-14248",
+"token_offset": 322
+},
+{
+"doc_index": 14260,
+"doc_name": "imdb-test-14260",
+"token_offset": 483
+},
+{
+"doc_index": 14295,
+"doc_name": "imdb-test-14295",
+"token_offset": 483
+},
+{
+"doc_index": 14460,
+"doc_name": "imdb-test-14460",
+"token_offset": 322
+},
+{
+"doc_index": 14546,
+"doc_name": "imdb-test-14546",
+"token_offset": 161
+},
+{
+"doc_index": 14627,
+"doc_name": "imdb-test-14627",
+"token_offset": 0
+},
+{
+"doc_index": 14668,
+"doc_name": "imdb-test-14668",
+"token_offset": 322
+},
+{
+"doc_index": 14691,
+"doc_name": "imdb-test-14691",
+"token_offset": 161
+},
+{
+"doc_index": 14703,
+"doc_name": "imdb-test-14703",
+"token_offset": 644
+},
+{
+"doc_index": 14735,
+"doc_name": "imdb-test-14735",
+"token_offset": 0
+},
+{
+"doc_index": 14786,
+"doc_name": "imdb-test-14786",
+"token_offset": 0
+},
+{
+"doc_index": 14852,
+"doc_name": "imdb-test-14852",
+"token_offset": 161
+},
+{
+"doc_index": 14972,
+"doc_name": "imdb-test-14972",
+"token_offset": 322
+},
+{
+"doc_index": 15316,
+"doc_name": "imdb-test-15316",
+"token_offset": 161
+},
+{
+"doc_index": 15320,
+"doc_name": "imdb-test-15320",
+"token_offset": 0
+},
+{
+"doc_index": 15335,
+"doc_name": "imdb-test-15335",
+"token_offset": 322
+},
+{
+"doc_index": 15385,
+"doc_name": "imdb-test-15385",
+"token_offset": 161
+},
+{
+"doc_index": 15406,
+"doc_name": "imdb-test-15406",
+"token_offset": 644
+},
+{
+"doc_index": 15490,
+"doc_name": "imdb-test-15490",
+"token_offset": 161
+},
+{
+"doc_index": 15610,
+"doc_name": "imdb-test-15610",
+"token_offset": 161
+},
+{
+"doc_index": 15668,
+"doc_name": "imdb-test-15668",
+"token_offset": 0
+},
+{
+"doc_index": 15670,
+"doc_name": "imdb-test-15670",
+"token_offset": 322
+},
+{
+"doc_index": 15673,
+"doc_name": "imdb-test-15673",
+"token_offset": 161
+},
+{
+"doc_index": 15885,
+"doc_name": "imdb-test-15885",
+"token_offset": 322
+},
+{
+"doc_index": 15906,
+"doc_name": "imdb-test-15906",
+"token_offset": 0
+},
+{
+"doc_index": 15909,
+"doc_name": "imdb-test-15909",
+"token_offset": 161
+},
+{
+"doc_index": 15939,
+"doc_name": "imdb-test-15939",
+"token_offset": 322
+},
+{
+"doc_index": 15962,
+"doc_name": "imdb-test-15962",
+"token_offset": 161
+},
+{
+"doc_index": 15986,
+"doc_name": "imdb-test-15986",
+"token_offset": 161
+},
+{
+"doc_index": 16055,
+"doc_name": "imdb-test-16055",
+"token_offset": 161
+},
+{
+"doc_index": 16090,
+"doc_name": "imdb-test-16090",
+"token_offset": 161
+},
+{
+"doc_index": 16179,
+"doc_name": "imdb-test-16179",
+"token_offset": 161
+},
+{
+"doc_index": 16221,
+"doc_name": "imdb-test-16221",
+"token_offset": 161
+},
+{
+"doc_index": 16266,
+"doc_name": "imdb-test-16266",
+"token_offset": 161
+},
+{
+"doc_index": 16325,
+"doc_name": "imdb-test-16325",
+"token_offset": 161
+},
+{
+"doc_index": 16376,
+"doc_name": "imdb-test-16376",
+"token_offset": 322
+},
+{
+"doc_index": 16500,
+"doc_name": "imdb-test-16500",
+"token_offset": 0
+},
+{
+"doc_index": 16662,
+"doc_name": "imdb-test-16662",
+"token_offset": 322
+},
+{
+"doc_index": 16700,
+"doc_name": "imdb-test-16700",
+"token_offset": 161
+},
+{
+"doc_index": 16790,
+"doc_name": "imdb-test-16790",
+"token_offset": 0
+},
+{
+"doc_index": 16794,
+"doc_name": "imdb-test-16794",
+"token_offset": 322
+},
+{
+"doc_index": 16867,
+"doc_name": "imdb-test-16867",
+"token_offset": 0
+},
+{
+"doc_index": 16891,
+"doc_name": "imdb-test-16891",
+"token_offset": 0
+},
+{
+"doc_index": 16962,
+"doc_name": "imdb-test-16962",
+"token_offset": 0
+},
+{
+"doc_index": 17035,
+"doc_name": "imdb-test-17035",
+"token_offset": 322
+},
+{
+"doc_index": 17077,
+"doc_name": "imdb-test-17077",
+"token_offset": 0
+},
+{
+"doc_index": 17082,
+"doc_name": "imdb-test-17082",
+"token_offset": 161
+},
+{
+"doc_index": 17120,
+"doc_name": "imdb-test-17120",
+"token_offset": 322
+},
+{
+"doc_index": 17211,
+"doc_name": "imdb-test-17211",
+"token_offset": 161
+},
+{
+"doc_index": 17213,
+"doc_name": "imdb-test-17213",
+"token_offset": 0
+},
+{
+"doc_index": 17280,
+"doc_name": "imdb-test-17280",
+"token_offset": 161
+},
+{
+"doc_index": 17306,
+"doc_name": "imdb-test-17306",
+"token_offset": 966
+},
+{
+"doc_index": 17327,
+"doc_name": "imdb-test-17327",
+"token_offset": 161
+},
+{
+"doc_index": 17332,
+"doc_name": "imdb-test-17332",
+"token_offset": 0
+},
+{
+"doc_index": 17344,
+"doc_name": "imdb-test-17344",
+"token_offset": 0
+},
+{
+"doc_index": 17355,
+"doc_name": "imdb-test-17355",
+"token_offset": 0
+},
+{
+"doc_index": 17358,
+"doc_name": "imdb-test-17358",
+"token_offset": 161
+},
+{
+"doc_index": 17359,
+"doc_name": "imdb-test-17359",
+"token_offset": 161
+},
+{
+"doc_index": 17379,
+"doc_name": "imdb-test-17379",
+"token_offset": 161
+},
+{
+"doc_index": 17388,
+"doc_name": "imdb-test-17388",
+"token_offset": 161
+},
+{
+"doc_index": 17396,
+"doc_name": "imdb-test-17396",
+"token_offset": 161
+},
+{
+"doc_index": 17413,
+"doc_name": "imdb-test-17413",
+"token_offset": 0
+},
+{
+"doc_index": 17437,
+"doc_name": "imdb-test-17437",
+"token_offset": 161
+},
+{
+"doc_index": 17450,
+"doc_name": "imdb-test-17450",
+"token_offset": 0
+},
+{
+"doc_index": 17461,
+"doc_name": "imdb-test-17461",
+"token_offset": 161
+},
+{
+"doc_index": 17478,
+"doc_name": "imdb-test-17478",
+"token_offset": 161
+},
+{
+"doc_index": 17486,
+"doc_name": "imdb-test-17486",
+"token_offset": 161
+},
+{
+"doc_index": 17620,
+"doc_name": "imdb-test-17620",
+"token_offset": 322
+},
+{
+"doc_index": 17635,
+"doc_name": "imdb-test-17635",
+"token_offset": 322
+},
+{
+"doc_index": 17657,
+"doc_name": "imdb-test-17657",
+"token_offset": 322
+},
+{
+"doc_index": 17761,
+"doc_name": "imdb-test-17761",
+"token_offset": 0
+},
+{
+"doc_index": 17787,
+"doc_name": "imdb-test-17787",
+"token_offset": 161
+},
+{
+"doc_index": 17802,
+"doc_name": "imdb-test-17802",
+"token_offset": 483
+},
+{
+"doc_index": 17817,
+"doc_name": "imdb-test-17817",
+"token_offset": 322
+},
+{
+"doc_index": 17819,
+"doc_name": "imdb-test-17819",
+"token_offset": 322
+},
+{
+"doc_index": 17877,
+"doc_name": "imdb-test-17877",
+"token_offset": 0
+},
+{
+"doc_index": 17885,
+"doc_name": "imdb-test-17885",
+"token_offset": 0
+},
+{
+"doc_index": 18014,
+"doc_name": "imdb-test-18014",
+"token_offset": 0
+},
+{
+"doc_index": 18053,
+"doc_name": "imdb-test-18053",
+"token_offset": 161
+},
+{
+"doc_index": 18073,
+"doc_name": "imdb-test-18073",
+"token_offset": 0
+},
+{
+"doc_index": 18130,
+"doc_name": "imdb-test-18130",
+"token_offset": 0
+},
+{
+"doc_index": 18153,
+"doc_name": "imdb-test-18153",
+"token_offset": 322
+},
+{
+"doc_index": 18153,
+"doc_name": "imdb-test-18153",
+"token_offset": 483
+},
+{
+"doc_index": 18163,
+"doc_name": "imdb-test-18163",
+"token_offset": 0
+},
+{
+"doc_index": 18165,
+"doc_name": "imdb-test-18165",
+"token_offset": 322
+},
+{
+"doc_index": 18241,
+"doc_name": "imdb-test-18241",
+"token_offset": 644
+},
+{
+"doc_index": 18248,
+"doc_name": "imdb-test-18248",
+"token_offset": 161
+},
+{
+"doc_index": 18262,
+"doc_name": "imdb-test-18262",
+"token_offset": 161
+},
+{
+"doc_index": 18269,
+"doc_name": "imdb-test-18269",
+"token_offset": 161
+},
+{
+"doc_index": 18348,
+"doc_name": "imdb-test-18348",
+"token_offset": 161
+},
+{
+"doc_index": 18475,
+"doc_name": "imdb-test-18475",
+"token_offset": 161
+},
+{
+"doc_index": 18486,
+"doc_name": "imdb-test-18486",
+"token_offset": 161
+},
+{
+"doc_index": 18509,
+"doc_name": "imdb-test-18509",
+"token_offset": 161
+},
+{
+"doc_index": 18520,
+"doc_name": "imdb-test-18520",
+"token_offset": 161
+},
+{
+"doc_index": 18575,
+"doc_name": "imdb-test-18575",
+"token_offset": 161
+},
+{
+"doc_index": 18666,
+"doc_name": "imdb-test-18666",
+"token_offset": 161
+},
+{
+"doc_index": 18682,
+"doc_name": "imdb-test-18682",
+"token_offset": 0
+},
+{
+"doc_index": 18826,
+"doc_name": "imdb-test-18826",
+"token_offset": 161
+},
+{
+"doc_index": 18838,
+"doc_name": "imdb-test-18838",
+"token_offset": 0
+},
+{
+"doc_index": 18872,
+"doc_name": "imdb-test-18872",
+"token_offset": 0
+},
+{
+"doc_index": 18922,
+"doc_name": "imdb-test-18922",
+"token_offset": 0
+},
+{
+"doc_index": 18942,
+"doc_name": "imdb-test-18942",
+"token_offset": 483
+},
+{
+"doc_index": 19038,
+"doc_name": "imdb-test-19038",
+"token_offset": 161
+},
+{
+"doc_index": 19120,
+"doc_name": "imdb-test-19120",
+"token_offset": 0
+},
+{
+"doc_index": 19124,
+"doc_name": "imdb-test-19124",
+"token_offset": 0
+},
+{
+"doc_index": 19246,
+"doc_name": "imdb-test-19246",
+"token_offset": 322
+},
+{
+"doc_index": 19275,
+"doc_name": "imdb-test-19275",
+"token_offset": 644
+},
+{
+"doc_index": 19291,
+"doc_name": "imdb-test-19291",
+"token_offset": 0
+},
+{
+"doc_index": 19294,
+"doc_name": "imdb-test-19294",
+"token_offset": 161
+},
+{
+"doc_index": 19328,
+"doc_name": "imdb-test-19328",
+"token_offset": 644
+},
+{
+"doc_index": 19392,
+"doc_name": "imdb-test-19392",
+"token_offset": 161
+},
+{
+"doc_index": 19445,
+"doc_name": "imdb-test-19445",
+"token_offset": 0
+},
+{
+"doc_index": 19469,
+"doc_name": "imdb-test-19469",
+"token_offset": 483
+},
+{
+"doc_index": 19559,
+"doc_name": "imdb-test-19559",
+"token_offset": 0
+},
+{
+"doc_index": 19618,
+"doc_name": "imdb-test-19618",
+"token_offset": 161
+},
+{
+"doc_index": 19650,
+"doc_name": "imdb-test-19650",
+"token_offset": 322
+},
+{
+"doc_index": 19685,
+"doc_name": "imdb-test-19685",
+"token_offset": 161
+},
+{
+"doc_index": 19714,
+"doc_name": "imdb-test-19714",
+"token_offset": 161
+},
+{
+"doc_index": 19808,
+"doc_name": "imdb-test-19808",
+"token_offset": 161
+},
+{
+"doc_index": 19911,
+"doc_name": "imdb-test-19911",
+"token_offset": 0
+},
+{
+"doc_index": 19952,
+"doc_name": "imdb-test-19952",
+"token_offset": 0
+},
+{
+"doc_index": 19956,
+"doc_name": "imdb-test-19956",
+"token_offset": 322
+},
+{
+"doc_index": 19980,
+"doc_name": "imdb-test-19980",
+"token_offset": 0
+},
+{
+"doc_index": 20019,
+"doc_name": "imdb-test-20019",
+"token_offset": 161
+},
+{
+"doc_index": 20067,
+"doc_name": "imdb-test-20067",
+"token_offset": 0
+},
+{
+"doc_index": 20118,
+"doc_name": "imdb-test-20118",
+"token_offset": 161
+},
+{
+"doc_index": 20380,
+"doc_name": "imdb-test-20380",
+"token_offset": 483
+},
+{
+"doc_index": 20435,
+"doc_name": "imdb-test-20435",
+"token_offset": 161
+},
+{
+"doc_index": 20438,
+"doc_name": "imdb-test-20438",
+"token_offset": 0
+},
+{
+"doc_index": 20494,
+"doc_name": "imdb-test-20494",
+"token_offset": 161
+},
+{
+"doc_index": 20497,
+"doc_name": "imdb-test-20497",
+"token_offset": 966
+},
+{
+"doc_index": 20519,
+"doc_name": "imdb-test-20519",
+"token_offset": 161
+},
+{
+"doc_index": 20530,
+"doc_name": "imdb-test-20530",
+"token_offset": 161
+},
+{
+"doc_index": 20590,
+"doc_name": "imdb-test-20590",
+"token_offset": 0
+},
+{
+"doc_index": 20657,
+"doc_name": "imdb-test-20657",
+"token_offset": 322
+},
+{
+"doc_index": 20779,
+"doc_name": "imdb-test-20779",
+"token_offset": 0
+},
+{
+"doc_index": 20783,
+"doc_name": "imdb-test-20783",
+"token_offset": 0
+},
+{
+"doc_index": 20791,
+"doc_name": "imdb-test-20791",
+"token_offset": 0
+},
+{
+"doc_index": 20797,
+"doc_name": "imdb-test-20797",
+"token_offset": 161
+},
+{
+"doc_index": 20817,
+"doc_name": "imdb-test-20817",
+"token_offset": 483
+},
+{
+"doc_index": 20891,
+"doc_name": "imdb-test-20891",
+"token_offset": 0
+},
+{
+"doc_index": 20937,
+"doc_name": "imdb-test-20937",
+"token_offset": 0
+},
+{
+"doc_index": 20983,
+"doc_name": "imdb-test-20983",
+"token_offset": 161
+},
+{
+"doc_index": 21013,
+"doc_name": "imdb-test-21013",
+"token_offset": 161
+},
+{
+"doc_index": 21050,
+"doc_name": "imdb-test-21050",
+"token_offset": 483
+},
+{
+"doc_index": 21067,
+"doc_name": "imdb-test-21067",
+"token_offset": 161
+},
+{
+"doc_index": 21137,
+"doc_name": "imdb-test-21137",
+"token_offset": 0
+},
+{
+"doc_index": 21141,
+"doc_name": "imdb-test-21141",
+"token_offset": 161
+},
+{
+"doc_index": 21197,
+"doc_name": "imdb-test-21197",
+"token_offset": 0
+},
+{
+"doc_index": 21463,
+"doc_name": "imdb-test-21463",
+"token_offset": 322
+},
+{
+"doc_index": 21516,
+"doc_name": "imdb-test-21516",
+"token_offset": 483
+},
+{
+"doc_index": 21559,
+"doc_name": "imdb-test-21559",
+"token_offset": 0
+},
+{
+"doc_index": 21569,
+"doc_name": "imdb-test-21569",
+"token_offset": 322
+},
+{
+"doc_index": 21623,
+"doc_name": "imdb-test-21623",
+"token_offset": 161
+},
+{
+"doc_index": 21630,
+"doc_name": "imdb-test-21630",
+"token_offset": 0
+},
+{
+"doc_index": 21630,
+"doc_name": "imdb-test-21630",
+"token_offset": 322
+},
+{
+"doc_index": 21634,
+"doc_name": "imdb-test-21634",
+"token_offset": 161
+},
+{
+"doc_index": 21665,
+"doc_name": "imdb-test-21665",
+"token_offset": 322
+},
+{
+"doc_index": 21668,
+"doc_name": "imdb-test-21668",
+"token_offset": 322
+},
+{
+"doc_index": 21826,
+"doc_name": "imdb-test-21826",
+"token_offset": 161
+},
+{
+"doc_index": 21827,
+"doc_name": "imdb-test-21827",
+"token_offset": 805
+},
+{
+"doc_index": 21829,
+"doc_name": "imdb-test-21829",
+"token_offset": 483
+},
+{
+"doc_index": 21921,
+"doc_name": "imdb-test-21921",
+"token_offset": 161
+},
+{
+"doc_index": 21943,
+"doc_name": "imdb-test-21943",
+"token_offset": 483
+},
+{
+"doc_index": 21949,
+"doc_name": "imdb-test-21949",
+"token_offset": 161
+},
+{
+"doc_index": 21954,
+"doc_name": "imdb-test-21954",
+"token_offset": 966
+},
+{
+"doc_index": 21962,
+"doc_name": "imdb-test-21962",
+"token_offset": 161
+},
+{
+"doc_index": 22048,
+"doc_name": "imdb-test-22048",
+"token_offset": 0
+},
+{
+"doc_index": 22099,
+"doc_name": "imdb-test-22099",
+"token_offset": 0
+},
+{
+"doc_index": 22174,
+"doc_name": "imdb-test-22174",
+"token_offset": 161
+},
+{
+"doc_index": 22213,
+"doc_name": "imdb-test-22213",
+"token_offset": 322
+},
+{
+"doc_index": 22230,
+"doc_name": "imdb-test-22230",
+"token_offset": 161
+},
+{
+"doc_index": 22262,
+"doc_name": "imdb-test-22262",
+"token_offset": 483
+},
+{
+"doc_index": 22279,
+"doc_name": "imdb-test-22279",
+"token_offset": 0
+},
+{
+"doc_index": 22400,
+"doc_name": "imdb-test-22400",
+"token_offset": 322
+},
+{
+"doc_index": 22490,
+"doc_name": "imdb-test-22490",
+"token_offset": 644
+},
+{
+"doc_index": 22492,
+"doc_name": "imdb-test-22492",
+"token_offset": 161
+},
+{
+"doc_index": 22494,
+"doc_name": "imdb-test-22494",
+"token_offset": 161
+},
+{
+"doc_index": 22568,
+"doc_name": "imdb-test-22568",
+"token_offset": 0
+},
+{
+"doc_index": 22720,
+"doc_name": "imdb-test-22720",
+"token_offset": 322
+},
+{
+"doc_index": 22749,
+"doc_name": "imdb-test-22749",
+"token_offset": 0
+},
+{
+"doc_index": 22875,
+"doc_name": "imdb-test-22875",
+"token_offset": 161
+},
+{
+"doc_index": 22963,
+"doc_name": "imdb-test-22963",
+"token_offset": 644
+},
+{
+"doc_index": 23003,
+"doc_name": "imdb-test-23003",
+"token_offset": 0
+},
+{
+"doc_index": 23007,
+"doc_name": "imdb-test-23007",
+"token_offset": 322
+},
+{
+"doc_index": 23013,
+"doc_name": "imdb-test-23013",
+"token_offset": 0
+},
+{
+"doc_index": 23172,
+"doc_name": "imdb-test-23172",
+"token_offset": 161
+},
+{
+"doc_index": 23217,
+"doc_name": "imdb-test-23217",
+"token_offset": 322
+},
+{
+"doc_index": 23229,
+"doc_name": "imdb-test-23229",
+"token_offset": 0
+},
+{
+"doc_index": 23231,
+"doc_name": "imdb-test-23231",
+"token_offset": 161
+},
+{
+"doc_index": 23293,
+"doc_name": "imdb-test-23293",
+"token_offset": 161
+},
+{
+"doc_index": 23303,
+"doc_name": "imdb-test-23303",
+"token_offset": 0
+},
+{
+"doc_index": 23307,
+"doc_name": "imdb-test-23307",
+"token_offset": 161
+},
+{
+"doc_index": 23345,
+"doc_name": "imdb-test-23345",
+"token_offset": 161
+},
+{
+"doc_index": 23372,
+"doc_name": "imdb-test-23372",
+"token_offset": 483
+},
+{
+"doc_index": 23384,
+"doc_name": "imdb-test-23384",
+"token_offset": 161
+},
+{
+"doc_index": 23416,
+"doc_name": "imdb-test-23416",
+"token_offset": 161
+},
+{
+"doc_index": 23426,
+"doc_name": "imdb-test-23426",
+"token_offset": 161
+},
+{
+"doc_index": 23428,
+"doc_name": "imdb-test-23428",
+"token_offset": 161
+},
+{
+"doc_index": 23433,
+"doc_name": "imdb-test-23433",
+"token_offset": 161
+},
+{
+"doc_index": 23553,
+"doc_name": "imdb-test-23553",
+"token_offset": 483
+},
+{
+"doc_index": 23677,
+"doc_name": "imdb-test-23677",
+"token_offset": 0
+},
+{
+"doc_index": 23755,
+"doc_name": "imdb-test-23755",
+"token_offset": 0
+},
+{
+"doc_index": 23768,
+"doc_name": "imdb-test-23768",
+"token_offset": 483
+},
+{
+"doc_index": 23808,
+"doc_name": "imdb-test-23808",
+"token_offset": 161
+},
+{
+"doc_index": 23965,
+"doc_name": "imdb-test-23965",
+"token_offset": 0
+},
+{
+"doc_index": 23979,
+"doc_name": "imdb-test-23979",
+"token_offset": 322
+},
+{
+"doc_index": 24021,
+"doc_name": "imdb-test-24021",
+"token_offset": 0
+},
+{
+"doc_index": 24030,
+"doc_name": "imdb-test-24030",
+"token_offset": 161
+},
+{
+"doc_index": 24083,
+"doc_name": "imdb-test-24083",
+"token_offset": 0
+},
+{
+"doc_index": 24130,
+"doc_name": "imdb-test-24130",
+"token_offset": 161
+},
+{
+"doc_index": 24209,
+"doc_name": "imdb-test-24209",
+"token_offset": 805
+},
+{
+"doc_index": 24231,
+"doc_name": "imdb-test-24231",
+"token_offset": 322
+},
+{
+"doc_index": 24354,
+"doc_name": "imdb-test-24354",
+"token_offset": 0
+},
+{
+"doc_index": 24354,
+"doc_name": "imdb-test-24354",
+"token_offset": 322
+},
+{
+"doc_index": 24358,
+"doc_name": "imdb-test-24358",
+"token_offset": 644
+},
+{
+"doc_index": 24439,
+"doc_name": "imdb-test-24439",
+"token_offset": 0
+},
+{
+"doc_index": 24709,
+"doc_name": "imdb-test-24709",
+"token_offset": 0
+},
+{
+"doc_index": 24751,
+"doc_name": "imdb-test-24751",
+"token_offset": 0
+},
+{
+"doc_index": 24751,
+"doc_name": "imdb-test-24751",
+"token_offset": 161
+},
+{
+"doc_index": 24783,
+"doc_name": "imdb-test-24783",
+"token_offset": 644
+},
+{
+"doc_index": 24860,
+"doc_name": "imdb-test-24860",
+"token_offset": 0
+},
+{
+"doc_index": 24944,
+"doc_name": "imdb-test-24944",
+"token_offset": 161
+}
+]

@@ -1,0 +1,26 @@
+\subsection{Hand-over stitching answers a different question}
+\label{sec:diag}
+In the classical hand-over setting ($B$ reads the tokens, but every layer-$L_B$ state is replaced by the bridged $A$ state), bridged systems score below $A$ alone on accuracy, here and on two small testbeds (Appendix~\ref{app:small}). Table~\ref{tab:diag} varies optimisation length, bridge capacity and layer pairing for 70M$\to$160M (real-text probe, one seed, 512 test windows). Because this is a single-seed diagnostic with checkpoints chosen post hoc, we read it descriptively.
+
+\begin{table}[h]
+\centering\small
+\caption{Hand-over setting, pythia-70m $\to$ pythia-160m: next-token accuracy (\%) / cross-entropy (nats) over all 128 positions; one seed. $A$ alone: 25.65 / 4.626; $B$ alone: 30.60 / 4.074. Bridges start from the weight-only map and are trained with Adam at a constant learning rate of $10^{-3}$; the 1500- and 3000-step entries are checkpoints of the same run.}
+\label{tab:diag}
+\begin{tabular}{lccc}
+\toprule
+& 600 steps & 1500 steps & 3000 steps \\
+\midrule
+L3$\to$L6, linear & 21.67 / 4.785 & 23.61 / 4.615 & 22.69 / 4.706 \\
+L3$\to$L6, linear + MLP (2048) & 22.38 / 4.710 & 23.82 / 4.582 & 24.64 / 4.535 \\
+\midrule
+\multicolumn{4}{l}{Depth-matched pairs, linear, 600 steps:} \\
+\quad L1$\to$L2 / L2$\to$L4 & \multicolumn{3}{c}{22.44 / 4.786 \qquad 19.71 / 4.998} \\
+\quad L4$\to$L8 / L5$\to$L10 & \multicolumn{3}{c}{23.00 / 4.712 \qquad 23.40 / 4.702} \\
+\quad L6 (final, after the output layer norm)$\to$L12 & \multicolumn{3}{c}{13.70 / 6.178} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Three observations. (i) No configuration reaches $B$ alone, and none exceeds $A$'s accuracy, but the longest-trained non-linear bridge has \emph{lower} cross-entropy than $A$ alone (4.535 vs 4.626). The common observation that a stitched system ``performs worse than the sender'' therefore depends on the metric and on training: it is not a bound, and a downstream decoder can in principle use a representation better than the sender's own upper layers do. (ii) Training length and capacity matter: on accuracy, the non-linear bridge at 3000 steps closes 75\% of the gap between the 600-step linear bridge and $A$ alone. At a constant learning rate the linear map is not monotone in training length (23.61 at 1500 steps, 22.69 at 3000), so single-checkpoint comparisons between stitches deserve caution. (iii) $A$'s final hidden state, taken after its output layer norm, is a poor source both here and in the communication setting (\S\ref{sec:where}). We did not test the pre-normalisation final residual state, so this says nothing about the information present before $A$'s last normalisation.
+
+In the communication setting $B$ keeps its own suffix computation and receives only what it lacks, so the question there is not whether a stitched system beats either model but whether the message improves $B$ beyond what any message would. The two settings measure different things.

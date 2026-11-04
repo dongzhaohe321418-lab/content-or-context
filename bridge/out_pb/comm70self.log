@@ -1,0 +1,40 @@
+== comm70self: pythia-70m L2 -> pythia-160m L1, prefix 128, suffix 32
+  B full context (upper bound)                                 acc  36.08  ce 3.5717
+  B no context (suffix only)                                   acc  22.85  ce 4.9236
+  A full context                                               acc  30.77  ce 4.1307
+  A no context (suffix only)                                   acc  19.68  ce 5.4120
+  oracle message: B's own prefix states (protocol ceiling)     acc  32.86  ce 3.8361
+  oracle message: B's own prefix states (protocol ceiling) | mismatched message acc  24.22  ce 4.8568
+  oracle message: B's own prefix states (protocol ceiling) | same-article message acc  29.44  ce 4.2094
+  B full context (upper bound) | mismatched message            acc  24.91  ce 4.8805
+  B full context (upper bound) | same-article message          acc  30.98  ce 4.0873
+  random bridge                                                acc  17.72  ce 5.6162
+  random bridge | mismatched message                           acc  17.82  ce 5.6080
+  random bridge | same-article message                         acc  17.84  ce 5.6107
+  embedding anchors, no fit (data-free)                        acc  19.59  ce 5.3956
+  embedding anchors, no fit (data-free) | mismatched message   acc  19.58  ce 5.4020
+  embedding anchors, no fit (data-free) | same-article message acc  19.77  ce 5.4057
+    step 0 KL/token 1.0310
+    step 200 KL/token 0.4215
+    step 400 KL/token 0.2459
+    step 599 KL/token 0.1665
+  fit[comm] on self-sampled | seed 0                           acc  24.80  ce 4.5913
+  fit[comm] on self-sampled | seed 0 | mismatched message      acc  22.53  ce 5.0305
+  fit[comm] on self-sampled | seed 0 | same-article message    acc  24.04  ce 4.7415
+    (585 s)
+    step 0 KL/token 0.8751
+    step 200 KL/token 0.3759
+    step 400 KL/token 0.2094
+    step 599 KL/token 0.1278
+  fit[comm] on self-sampled | seed 1                           acc  24.89  ce 4.5727
+  fit[comm] on self-sampled | seed 1 | mismatched message      acc  22.61  ce 5.0127
+  fit[comm] on self-sampled | seed 1 | same-article message    acc  23.87  ce 4.7241
+    (579 s)
+    step 0 KL/token 0.9427
+    step 200 KL/token 0.6007
+    step 400 KL/token 0.1708
+    step 599 KL/token 0.1392
+  fit[comm] on self-sampled | seed 2                           acc  24.82  ce 4.5996
+  fit[comm] on self-sampled | seed 2 | mismatched message      acc  22.19  ce 5.0651
+  fit[comm] on self-sampled | seed 2 | same-article message    acc  23.75  ce 4.7757
+    (613 s)

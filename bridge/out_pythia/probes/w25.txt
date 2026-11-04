@@ -1,0 +1,137 @@
+**Veltrodes** is a genus of ground beetles in the family Carabidae, subfamily Trechinae. The genus contains 27 described species, all native to the high-elevation grasslands, scree slopes and cloud forest margins of the central and northern Andes of South America. Members of the genus are small, flightless beetles, typically between 3.8 and 7.2 millimetres in length. They are predators of soil-dwelling invertebrates. Most species have very restricted ranges, often confined to a single mountain massif or valley system. The genus is noted for its high level of local endemism and has been used as a model group in studies of speciation in tropical alpine environments.
+
+= = Taxonomy = =
+
+The genus *Veltrodes* was erected in 1911 by the German entomologist Friedrich Wilhelm Assmann to accommodate a single species, *Veltrodes andinus*, described from specimens collected near Lake Junín in central Peru. The generic name is thought to derive from the Latin *velum*, meaning "veil" or "covering", combined with the Greek suffix *-odes*, meaning "resembling". Assmann did not explain the etymology. Later authors suggested that it refers to the fused elytra, which cover the abdomen in a continuous, shield-like casing.
+
+Assmann placed *Veltrodes* within the tribe Trechini, close to the genus *Trechisibus*. This placement was accepted with little discussion for much of the twentieth century. In 1958 the French coleopterist Henri Delamare-Rouvier argued that several features of the male genitalia and the arrangement of the frontal setae justified moving the genus to a separate subtribe, which he named Veltrodina. This proposal was not widely adopted. Most catalogues continued to list *Veltrodes* under Trechina without further subdivision.
+
+Molecular phylogenetic studies published between 2009 and 2017, based on mitochondrial and nuclear ribosomal genes, supported the monophyly of *Veltrodes*. They recovered the genus as the sister group to a clade of Andean *Trechisibus* species. These studies also indicated that *Trechisibus* as traditionally defined is paraphyletic with respect to *Veltrodes*. Some researchers have therefore proposed that *Veltrodes* be reduced to a subgenus of *Trechisibus*. As of the most recent comprehensive revision, *Veltrodes* continues to be treated as a full genus, pending broader sampling of related taxa.
+
+= = = Species groups = = =
+
+The species of *Veltrodes* are commonly divided into three informal species groups. These are based on external morphology and the structure of the male aedeagus.
+
+* The ***andinus* group** contains eleven species distributed in the central Andes of Peru and western Bolivia. Members are relatively large and dark-coloured, with well-developed eyes.
+* The ***paramensis* group** contains nine species restricted to the páramo ecosystems of Ecuador and southern Colombia. These species are smaller and often reddish-brown, with reduced eyes.
+* The ***microps* group** contains seven species found in northern Peru. All have strongly reduced or vestigial eyes. Several are known only from leaf litter at the upper limit of montane forest.
+
+The relationships among these groups remain partly unresolved. Molecular data suggest that the *paramensis* and *microps* groups are more closely related to each other than either is to the *andinus* group.
+
+= = Description = =
+
+Adult *Veltrodes* beetles are small, elongate-oval and moderately convex. Body length ranges from 3.8 mm in *V. minutus* to 7.2 mm in *V. gigas*, the largest member of the genus. Colouration varies from pale testaceous to deep piceous black. Many species have a faint metallic or iridescent sheen on the elytra, which is visible under oblique lighting.
+
+The head is rounded and somewhat narrower than the pronotum. Each side bears two supraorbital setae, a feature shared with most members of the tribe Trechini. The frontal furrows are deep and complete, curving around the eyes towards the base of the head. The eyes vary considerably in size across the genus. Species in the *andinus* group have convex eyes with up to 120 ommatidia. Species in the *microps* group have flat eyes with fewer than 15 ommatidia, or eyes reduced to an unpigmented scar. The antennae are filiform and moderately long, reaching about the basal third of the elytra.
+
+The pronotum is cordate, or heart-shaped. It is widest just in front of the middle and narrows towards the base. The lateral margins are finely bordered and carry two pairs of setae, one near the front angles and one at the hind angles. The hind angles are usually sharp and project slightly outward.
+
+The elytra are oval and fused along the midline. The hind wings are absent in all known species, and the beetles are incapable of flight. Each elytron bears seven or eight striae of varying depth. The third interval carries two or three discal setigerous pores, and the number and position of these pores are used in species identification. A distinctive feature of the genus is a short, oblique groove near the apex of each elytron, called the apical recurrent stria. In *Veltrodes* this stria is unusually long and joins the fifth stria rather than the seventh. This character distinguishes the genus from most related trechine genera.
+
+The legs are slender and adapted for running. In males the first two segments of the front tarsi are expanded and carry adhesive setae on their undersides, which are used to grip the female during mating.
+
+= = = Genitalia = = =
+
+The male genitalia are of considerable taxonomic importance. The median lobe of the aedeagus is strongly curved and usually has a pointed or spatulate apex. The internal sac contains a sclerotized copulatory piece. Its shape is often the most reliable means of separating closely related species. In the *paramensis* group the copulatory piece is long and spiralled. In the *andinus* group it is short and shaped like a trough. Female genitalia have received less study but show some variation in the shape of the spermatheca.
+
+= = = Larvae = = =
+
+The larvae of *Veltrodes* were unknown until 1987. In that year the Peruvian entomologist Rosa Quispe Huamán described the third-instar larva of *V. andinus* from material reared in the laboratory. Larvae of four other species have since been described. They are slender and lightly sclerotized, with long urogomphi at the end of the abdomen. They resemble the larvae of other trechine beetles but can be distinguished by the arrangement of setae on the head capsule and by a small tooth on the inner margin of the mandibles.
+
+= = Distribution = =
+
+*Veltrodes* is endemic to the Andes. The known range extends from the department of Nariño in southern Colombia to the department of La Paz in western Bolivia, a distance of about 2,300 kilometres. Most records come from elevations between 3,200 and 4,800 metres above sea level. The highest confirmed record is of *V. nivicola*, collected at 5,050 metres on the slopes of Nevado Huascarán in the Cordillera Blanca of Peru. The lowest records are of species in the *microps* group, which have been found as low as 2,600 metres in the upper montane forest of the Cordillera de Colán.
+
+Most species have extremely small ranges. Of the 27 described species, 19 are known only from their type locality or from a few sites within a few kilometres of it. This pattern is thought to reflect the limited dispersal ability of flightless beetles. It also reflects the fragmented nature of high-elevation habitats in the Andes, where suitable areas are separated by deep valleys with warmer and drier climates.
+
+The Cordillera Blanca and Cordillera Huayhuash in central Peru together support nine species, the highest concentration in the genus. Other centres of diversity include the volcanic highlands of central Ecuador and the Cordillera de Vilcabamba in southern Peru.
+
+= = Habitat and ecology = =
+
+*Veltrodes* beetles live mostly under stones, in moss cushions and in the root zone of tussock grasses. Typical habitats include puna grassland, páramo, the edges of glacial lakes and the margins of permanent snowfields. Several species are closely associated with the wet, peaty soils of high-altitude bogs, locally known as *bofedales*. Species in the *microps* group occur in deep leaf litter and in the moss layer of elfin forest near the treeline.
+
+The beetles are most active at night and during periods of cloud cover. During the day they shelter under stones or in soil crevices, where temperature and humidity are more stable. Field studies in the Cordillera Blanca recorded that adults of *V. andinus* remain active at air temperatures as low as 1 °C. They survive brief freezing in a state of reduced activity.
+
+= = = Diet = = =
+
+Adults and larvae are predators. Analysis of gut contents and laboratory feeding trials indicate that the main prey items are springtails (Collembola), mites (Acari) and the larvae of small flies. *V. gigas* has also been observed feeding on earthworms and the eggs of other beetles. Adults have occasionally been recorded scavenging on dead invertebrates, particularly at the edges of snowfields, where insects carried upward by wind become trapped and die.
+
+= = = Life cycle = = =
+
+Information on the life cycle comes mainly from studies of *V. andinus* and *V. paramensis*. Reproduction appears to occur throughout the year, reflecting the weak seasonality of temperature in tropical high mountains. However, peaks in the number of mature females have been recorded during the wet season, from November to March. Females lay single eggs in moist soil. Development from egg to adult in the laboratory takes between 110 and 160 days at 8 °C, much longer than in lowland ground beetles of similar size. Adults are long-lived. Marked individuals of *V. andinus* have been recaptured more than two years after their first capture.
+
+= = = Predators and parasites = = =
+
+Few direct observations of predation on *Veltrodes* have been made. Remains of the beetles have been found in the droppings of Andean lizards of the genus *Liolaemus*. They have also been found in the stomach contents of the white-winged diuca finch. Parasitic nematodes of the family Mermithidae have been recorded from adult *V. paramensis* in Ecuador. Infected females showed swollen abdomens and contained no developing eggs.
+
+= = Evolution = =
+
+Molecular dating studies suggest that the genus originated in the late Miocene, approximately 7 to 9 million years ago. This coincides with a period of rapid uplift of the central Andes. Most of the species diversity, however, appears to have arisen much more recently, during the Pleistocene. Researchers have suggested that repeated glacial cycles caused high-elevation habitats to expand and contract. During cold periods, grassland and páramo zones moved downslope and became more connected, allowing populations to spread. During warm periods, these zones moved upslope and became isolated on separate peaks. The resulting isolation of populations is thought to have promoted speciation. This process is sometimes described as a "species pump".
+
+A 2017 study of the *andinus* group found that the genetic divergence between sister species was closely correlated with the depth of the valleys separating their ranges. This supports the view that low-elevation barriers have been the main cause of isolation.
+
+The reduction of eyes in the *microps* group is thought to have evolved independently at least twice. Researchers have linked it to a shift to living deep in leaf litter and soil, where vision is of little use. Similar eye reduction is found in many other trechine beetles, including numerous cave-dwelling species.
+
+= = History of research = =
+
+Following Assmann's original description, the genus received little attention for several decades. Assmann himself described two further species in 1914, based on material collected during a German expedition to the Cordillera Blanca. Much of this original type material was destroyed during the Second World War when the museum in which it was held was damaged by bombing. Neotypes have since been designated for two of the three species.
+
+In the 1950s and 1960s, Delamare-Rouvier described eight new species from material collected during French expeditions to Ecuador and Peru. His work established the basic division of the genus into species groups. He also produced the first identification key.
+
+Research expanded substantially from the 1980s onward, led largely by South American scientists. Quispe Huamán, working at the Universidad Nacional Mayor de San Marcos in Lima, carried out extensive fieldwork in central Peru and described six species between 1984 and 2001. Her studies of larval morphology and life history remain the main source of biological information on the genus. In Ecuador, a series of surveys of páramo invertebrates conducted between 1995 and 2010 led to the discovery of five new species of the *paramensis* group.
+
+The most recent comprehensive revision of the genus was published in 2019 by a team of researchers from Peru, Ecuador and Spain. It recognized 27 species, synonymized four previously described names, and provided a revised key to all species. The authors noted that large areas of potentially suitable habitat had never been surveyed. They predicted that the true number of species in the genus could be at least twice as high as the number currently described.
+
+= = Conservation = =
+
+None of the species of *Veltrodes* has been formally assessed for the IUCN Red List. However, several researchers have expressed concern about the long-term survival of the genus. The main threat is considered to be climate change. Rising temperatures in the Andes are causing glaciers to retreat and the lower limits of alpine vegetation to move upward. Species already restricted to the highest elevations, such as *V. nivicola*, have limited room to shift their ranges upslope. They may be at risk of losing most of their habitat in the coming decades.
+
+A 2021 modelling study estimated that, under moderate warming scenarios, the area of climatically suitable habitat for the *andinus* group could decline by 40 to 70 percent by the year 2080. Species with the smallest ranges were predicted to be the most severely affected.
+
+Other threats include overgrazing by livestock, which compacts the soil and reduces the cover of tussock grasses. Peat extraction from high-altitude bogs, burning of páramo vegetation and mining activities also degrade habitat. Several known localities, including the type locality of *V. vilcabambae*, lie within or close to active mining concessions.
+
+Some populations occur within protected areas, including Huascarán National Park in Peru and Cotopaxi National Park in Ecuador. These provide some protection from direct habitat destruction but not from the effects of climate change. Researchers have recommended long-term monitoring of selected populations. They have also called for further surveys of unexplored mountain ranges, so that undescribed species can be documented before their habitats are lost.
+
+= = Species = =
+
+The following species are recognized as of the 2019 revision:
+
+**andinus group**
+* *Veltrodes andinus* Assmann, 1911
+* *Veltrodes ater* Assmann, 1914
+* *Veltrodes blancae* Delamare-Rouvier, 1958
+* *Veltrodes gigas* Quispe Huamán, 1984
+* *Veltrodes huayhuashensis* Quispe Huamán, 1989
+* *Veltrodes lacustris* Delamare-Rouvier, 1962
+* *Veltrodes nivicola* Quispe Huamán, 1992
+* *Veltrodes punensis* Assmann, 1914
+* *Veltrodes titicacae* Delamare-Rouvier, 1965
+* *Veltrodes vilcabambae* Quispe Huamán, 2001
+* *Veltrodes yungayensis* Morales & Ortiz, 2019
+
+**paramensis group**
+* *Veltrodes cotopaxiensis* Delamare-Rouvier, 1960
+* *Veltrodes chimborazoi* Andrade, 1998
+* *Veltrodes muscicola* Andrade, 2003
+* *Veltrodes narinoensis* Villamarín, 2007
+* *Veltrodes paramensis* Delamare-Rouvier, 1958
+* *Veltrodes rufescens* Delamare-Rouvier, 1960
+* *Veltrodes sanguayensis* Andrade, 2003
+* *Veltrodes turfosus* Villamarín, 2010
+* *Veltrodes zunacensis* Morales & Ortiz, 2019
+
+**microps group**
+* *Veltrodes caecus* Quispe Huamán, 1996
+* *Veltrodes colanensis* Quispe Huamán, 1996
+* *Veltrodes hypogaeus* Morales & Ortiz, 2019
+* *Veltrodes microps* Delamare-Rouvier, 1963
+* *Veltrodes minutus* Quispe Huamán, 1987
+* *Veltrodes silvicola* Andrade, 2005
+* *Veltrodes umbrosus* Morales & Ortiz, 2019
+
+= = See also = =
+
+* Trechinae
+* Fauna of the Andes
+* Páramo
+* Sky island

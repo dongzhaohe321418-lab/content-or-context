@@ -1,0 +1,71 @@
+W1103 14:18:52.296000 32269 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 2361.85it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 2061.39it/s]
+  A alone                                                      acc  25.65  ce 4.6259
+  B alone                                                      acc  30.60  ce 4.0744
+    step 0 KL/token 7.4442
+    step 200 KL/token 1.4010
+    step 400 KL/token 0.9544
+  L3->L6 linear 600 steps                                      acc  21.67  ce 4.7849
+    step 600 KL/token 0.7298
+    step 800 KL/token 0.6249
+    step 1000 KL/token 0.6685
+    step 1200 KL/token 0.5616
+    step 1400 KL/token 0.5680
+  L3->L6 linear 1500 steps                                     acc  23.61  ce 4.6155
+    step 1600 KL/token 0.4896
+    step 1800 KL/token 0.4761
+    step 2000 KL/token 0.4561
+    step 2200 KL/token 0.4826
+    step 2400 KL/token 0.4437
+    step 2600 KL/token 0.4362
+    step 2800 KL/token 0.4499
+    step 2999 KL/token 0.6853
+  L3->L6 linear 3000 steps                                     acc  22.69  ce 4.7063
+    (1816 s)
+    step 0 KL/token 7.4442
+    step 200 KL/token 1.0884
+    step 400 KL/token 0.7064
+  L3->L6 MLP-2048 600 steps                                    acc  22.38  ce 4.7098
+    step 600 KL/token 0.6257
+    step 800 KL/token 0.4895
+    step 1000 KL/token 0.4552
+    step 1200 KL/token 0.4001
+    step 1400 KL/token 0.5032
+  L3->L6 MLP-2048 1500 steps                                   acc  23.82  ce 4.5817
+    step 1600 KL/token 0.3502
+    step 1800 KL/token 0.3353
+    step 2000 KL/token 0.2910
+    step 2200 KL/token 0.2827
+    step 2400 KL/token 0.2766
+    step 2600 KL/token 0.2587
+    step 2800 KL/token 0.2725
+    step 2999 KL/token 0.2735
+  L3->L6 MLP-2048 3000 steps                                   acc  24.64  ce 4.5350
+    (1193 s)
+    step 0 KL/token 6.3689
+    step 200 KL/token 1.1906
+    step 400 KL/token 0.8075
+    step 599 KL/token 0.6224
+  L1->L2 linear 600 steps                                      acc  22.44  ce 4.7863
+    step 0 KL/token 10.8512
+    step 200 KL/token 1.6622
+    step 400 KL/token 1.1841
+    step 599 KL/token 0.8866
+  L2->L4 linear 600 steps                                      acc  19.71  ce 4.9977
+    step 0 KL/token 4.4607
+    step 200 KL/token 0.9408
+    step 400 KL/token 0.7169
+    step 599 KL/token 0.6287
+  L4->L8 linear 600 steps                                      acc  23.00  ce 4.7123
+    step 0 KL/token 4.3351
+    step 200 KL/token 0.8725
+    step 400 KL/token 0.7182
+    step 599 KL/token 0.6541
+  L5->L10 linear 600 steps                                     acc  23.40  ce 4.7018
+    step 0 KL/token 4.5239
+    step 200 KL/token 10.2742
+    step 400 KL/token 2.8621
+    step 599 KL/token 1.9597
+  L6->L12 linear 600 steps                                     acc  13.70  ce 6.1784

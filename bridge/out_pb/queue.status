@@ -1,0 +1,33 @@
+comm70 exit 0
+diag exit 0
+textscale exit 143
+sweep410_160 exit 0
+comm70self exit 0
+comm70 swap exit 0
+sweep160_410 exit 0
+ceiling exit 0
+extra(far) exit 0
+sweep70free exit 143
+sweep70free exit 0
+comm70 swap v3 exit 0
+extra(v3 donors) exit 0
+comm410_160 exit 0
+comm410_160 swap v3 exit 0
+dom_code exit 0
+variants: 48 probe files present
+fiction regen done, small files: 0
+dom_reviews exit 0
+variants exit 0
+comm160_410 exit 0
+capacity exit 0
+variants swap v3 exit 0
+textscale(trimmed) exit 0
+capacity swap v3 exit 0
+textscale swap v3 exit 0
+x_gpt2_pythia160 exit 0
+comm160_410 swap v3 (LA=4 LB=1) exit 0
+ceiling (with arrays) exit 0
+x_gpt2_qwen05 exit 0
+x_pythia160_smol135 exit 0
+x_opt125_gpt2 exit 0
+x_pythia160_gpt2 exit 0

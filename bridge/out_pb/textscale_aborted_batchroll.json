@@ -1,0 +1,78 @@
+{
+ "B full context (upper bound)": {
+  "acc": 36.08,
+  "ce": 3.5717
+ },
+ "B no context (suffix only)": {
+  "acc": 22.85,
+  "ce": 4.9236
+ },
+ "A full context": {
+  "acc": 30.77,
+  "ce": 4.1307
+ },
+ "A no context (suffix only)": {
+  "acc": 19.68,
+  "ce": 5.412
+ },
+ "oracle message: B's own prefix states (protocol ceiling)": {
+  "acc": 32.86,
+  "ce": 3.8361
+ },
+ "Claude text 127k chars | seed 0": {
+  "acc": 26.72,
+  "ce": 4.2872
+ },
+ "Claude text 127k chars | seed 0 | mismatched message": {
+  "acc": 24.65,
+  "ce": 4.6265
+ },
+ "real text 127k chars | seed 0": {
+  "acc": 31.34,
+  "ce": 3.968
+ },
+ "real text 127k chars | seed 0 | mismatched message": {
+  "acc": 27.97,
+  "ce": 4.3804
+ },
+ "Claude text 383k chars | seed 0": {
+  "acc": 28.3,
+  "ce": 4.1909
+ },
+ "Claude text 383k chars | seed 0 | mismatched message": {
+  "acc": 25.52,
+  "ce": 4.59
+ },
+ "real text 383k chars | seed 0": {
+  "acc": 31.3,
+  "ce": 3.9562
+ },
+ "real text 383k chars | seed 0 | mismatched message": {
+  "acc": 27.63,
+  "ce": 4.3838
+ },
+ "Claude text 1030k chars | seed 0": {
+  "acc": 28.08,
+  "ce": 4.1961
+ },
+ "Claude text 1030k chars | seed 0 | mismatched message": {
+  "acc": 25.22,
+  "ce": 4.6083
+ },
+ "real text 1030k chars | seed 0": {
+  "acc": 32.2,
+  "ce": 3.88
+ },
+ "real text 1030k chars | seed 0 | mismatched message": {
+  "acc": 27.93,
+  "ce": 4.3574
+ },
+ "Claude text 127k chars | seed 1": {
+  "acc": 27.01,
+  "ce": 4.263
+ },
+ "Claude text 127k chars | seed 1 | mismatched message": {
+  "acc": 24.73,
+  "ce": 4.6064
+ }
+}

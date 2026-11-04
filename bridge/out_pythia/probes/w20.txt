@@ -1,0 +1,103 @@
+Shiranagi (白凪, "White Calm") was a light cruiser of the Imperial Japanese Navy, the lead ship of the two-vessel Shiranagi class. Designed in the late 1920s as a fast flotilla leader for destroyer squadrons, she was completed in 1931 and served in the Second Sino-Japanese War and the Pacific War. She was rebuilt in the late 1930s with improved anti-aircraft armament and a modified bridge. Shiranagi took part in convoy escort and troop transport operations in the Dutch East Indies and the Solomon Islands. She was sunk by United States Navy aircraft off the coast of New Ireland in February 1944. Her sister ship, Kiriname, was lost to a submarine attack in 1943.
+
+= = Background = =
+
+In the years after the Washington Naval Treaty of 1922, the Imperial Japanese Navy began a broad review of its cruiser forces. Treaty limits restricted capital ship construction, so the navy put more effort into cruisers and destroyers, which were less tightly limited. Naval planners expected these ships to wear down an approaching American battle fleet before a decisive engagement in the western Pacific. Under this doctrine, destroyer squadrons would carry out massed night torpedo attacks, and each squadron needed a fast, well-armed flagship to lead it.
+
+By the mid-1920s, the navy's existing light cruisers of the 5,500-ton type were starting to look outdated. They had adequate speed, but their command facilities were cramped, and their torpedo armament was falling behind newer destroyer designs. In 1926 the Navy General Staff issued a requirement for a new flotilla leader. The ship was to reach at least 35 knots, carry a heavy torpedo armament, and provide accommodation for a squadron commander and his staff. The requirement also called for a displacement small enough to leave room for heavy cruiser construction within Japan's treaty tonnage.
+
+The design was prepared by the Navy Technical Department under the direction of naval architect Commander Okabe Tetsuji. Okabe was known for his work on lightweight hull construction, and he proposed widespread use of electric welding and high-tensile steel to save weight. The final design was approved in March 1927. Two ships were ordered under the supplementary building programme of that year.
+
+= = Design and description = =
+
+= = = Hull and machinery = = =
+
+Shiranagi had an overall length of 152.4 metres (500 ft), a beam of 14.2 metres (46 ft 7 in), and a draught of 4.9 metres (16 ft 1 in) at normal load. She displaced 4,960 long tons (5,040 t) at standard load and 6,410 long tons (6,510 t) at full load. The hull had a raised forecastle that ran back to just aft of the forward funnel. This improved seakeeping in the heavy seas of the northern Pacific. It also had a pronounced flare at the bow, a feature shared with contemporary Japanese destroyer designs.
+
+The ship was powered by four sets of Kampon geared steam turbines, each driving one propeller shaft. Steam came from ten Kampon water-tube boilers, arranged in four boiler rooms and exhausted through two raked funnels. The machinery was rated at 98,000 shaft horsepower (73,000 kW) and was designed to give a top speed of 35.5 knots (65.7 km/h; 40.9 mph). During sea trials in July 1931, Shiranagi reached 36.2 knots (67.0 km/h; 41.7 mph) from 101,400 shp (75,600 kW) at a displacement of 5,520 long tons (5,610 t). She carried up to 1,420 long tons (1,440 t) of fuel oil, which gave her a range of 6,000 nautical miles (11,000 km; 6,900 mi) at 14 knots (26 km/h; 16 mph).
+
+Wide use of welding saved about 6 percent of hull weight compared with a fully riveted design. However, it caused problems early in the ship's service life. In 1932, inspectors found cracks in welded seams near the forward boiler rooms after a period of high-speed running. These had to be repaired with riveted reinforcing strips. The experience made the navy more cautious about welding in later cruiser designs.
+
+= = = Armament = = =
+
+Shiranagi's main armament was six 14-centimetre (5.5 in) 3rd Year Type guns in three twin-gun turrets. Two turrets were superfiring forward of the bridge, and the third was on the quarterdeck. The guns could elevate to 30 degrees and fired a 38-kilogram (84 lb) shell to a maximum range of about 19,000 metres (21,000 yd). The ship carried 150 rounds per gun.
+
+The torpedo armament was her most important weapon. She had three triple 61-centimetre (24 in) torpedo tube mounts on the centreline. One was between the funnels and two were aft of the second funnel. A reload system stored nine spare torpedoes in a protected locker next to the mounts, so the ship could fire a second full salvo about 20 minutes after the first. She originally carried the 8th Year Type torpedo. This was replaced in 1938 by the oxygen-fuelled Type 93 torpedo, which had much greater range and left a far fainter wake.
+
+Anti-aircraft armament at completion was light. It consisted of two single 8-centimetre (3.1 in) guns and two twin 13.2-millimetre (0.52 in) machine guns. For anti-submarine work, the ship carried two depth charge throwers and 18 depth charges. Shiranagi was also fitted with a catapult and a derrick aft of the mainmast for a single floatplane, initially an E2N reconnaissance seaplane.
+
+= = = Protection = = =
+
+Armour protection was light, a deliberate trade for speed and armament. A waterline belt 51 millimetres (2.0 in) thick covered the machinery spaces. It was closed at each end by transverse bulkheads of the same thickness. The armoured deck was 25 millimetres (0.98 in) thick over the machinery and 32 millimetres (1.3 in) thick over the magazines. The main gun turrets had only splinter protection, 19 millimetres (0.75 in) thick. The conning tower was not armoured. The designers judged that the ship's high speed and small size would protect her better than armour on a ship this size.
+
+= = = Command facilities = = =
+
+As a flotilla leader, Shiranagi had a larger bridge structure than earlier light cruisers. It held a dedicated flag plot, a staff office, and extra wireless rooms. The bridge was seven levels high, giving the squadron commander a good view during night actions. Two 4.5-metre (14 ft 9 in) rangefinders were installed, along with four 110-centimetre (43 in) searchlights for illuminating targets at night. Accommodation was provided for a squadron commander and up to twelve staff officers, in addition to the ship's normal complement of 412 officers and enlisted men.
+
+= = Construction and early career = =
+
+Shiranagi was laid down at the Maizuru Naval Arsenal on 14 October 1927 and launched on 22 August 1929. Her launch was attended by Prince Fushimi Hiroyasu. The ship was named after a poetic term for the pale, calm surface of the sea at dawn. This broke with the navy's usual practice of naming light cruisers after rivers. Naval historians have suggested that the navy saw the new flotilla leaders as a separate category of warship. Construction was slowed by the welding problems and by budget restrictions after the 1929 economic downturn. She was not completed until 30 September 1931.
+
+After commissioning, Shiranagi was assigned as flagship of the 3rd Destroyer Squadron, under the command of Rear Admiral Hosokawa Shigeyuki. She spent her first year on training exercises in Japanese home waters. These included large fleet manoeuvres in the autumn of 1932, which tested night torpedo tactics against a simulated enemy battle line. In the manoeuvre reports, umpires praised the ship's speed and the quality of her command facilities. They also noted that her high bridge made her easy to see in moonlight.
+
+In March 1934, the torpedo boat Tomozuru capsized in heavy weather. The investigation that followed found that many recent Japanese warships were top-heavy. Shiranagi was taken in hand at Maizuru between November 1934 and May 1935 for stability improvements. Workers reduced the height of the bridge by one level and added 280 long tons (280 t) of ballast. They also fitted bulges along the hull below the waterline, which increased the beam to 14.8 metres (48 ft 7 in). As a result, the ship's top speed fell to about 34.5 knots (63.9 km/h; 39.7 mph).
+
+In September 1935, Shiranagi was caught in a typhoon during fleet exercises off northern Honshu, an event later known as the Fourth Fleet Incident. She suffered buckled plating in the forecastle and lost a whaleboat, but she was not seriously damaged. She went back to the yard for further hull strengthening early in 1936.
+
+= = Second Sino-Japanese War = =
+
+Full-scale war between Japan and China broke out in July 1937. Shiranagi was then sent to Chinese waters to support landings in the Shanghai area. Between August and November 1937, she escorted troop transports along the Yangtze estuary. She also provided gunfire support to Japanese army units ashore. On 26 August 1937, her floatplane was shot down by Chinese anti-aircraft fire near Wusong, and both crew members were killed.
+
+Early in 1938, Shiranagi supported the blockade of the southern Chinese coast. She patrolled the waters off Fujian and Guangdong to stop shipping that might be carrying war materials to the Chinese government. In October 1938, she took part in the landings at Bias Bay, which came before the capture of Guangzhou. She was recalled to Japan in December 1938 for a major refit.
+
+= = Reconstruction = =
+
+Shiranagi was rebuilt at Maizuru between January 1939 and April 1940. The refit focused on anti-aircraft defence and modernised fire control. The single 8 cm guns were removed. In their place, two twin 12.7-centimetre (5 in) Type 89 dual-purpose guns were mounted on either side of the after superstructure. The 13.2 mm machine guns were replaced with four twin 25-millimetre (1 in) Type 96 anti-aircraft guns. The forward torpedo mount was rebuilt to take Type 93 torpedoes, and the reload system was enlarged.
+
+The bridge was rebuilt in a more compact form with an enclosed compass platform. A new Type 94 fire-control director was installed for the main guns. The catapult was replaced with a stronger model so the ship could operate the E13A reconnaissance seaplane. To make up for the extra topside weight, the mainmast was shortened and some of the after superstructure was cut down. After reconstruction, the ship displaced 5,350 long tons (5,440 t) at standard load and reached 34.1 knots (63.2 km/h; 39.2 mph) on trials.
+
+= = Pacific War = =
+
+= = = Dutch East Indies = = =
+
+At the start of the Pacific War in December 1941, Shiranagi was flagship of the 5th Destroyer Squadron, attached to the Southern Expeditionary Fleet. She covered the Japanese landings at Kota Bharu in Malaya on 8 December 1941. She then escorted convoys carrying troops to the Philippines and the Dutch East Indies.
+
+In late January 1942, Shiranagi escorted the invasion force that landed at Balikpapan in Borneo. On the night of 23–24 January 1942, four American destroyers attacked the convoy and sank several transports. Shiranagi and her destroyers had been sent to search for a reported submarine and were away from the convoy when the attack began. They came back too late to engage the American ships. A later navy inquiry criticised the squadron commander, Rear Admiral Tamura Kenji, for leaving the transports without enough protection. He was replaced in February.
+
+In February 1942, Shiranagi joined the covering force for the invasion of Java. During the Battle of the Java Sea on 27 February, she led her destroyers in two long-range torpedo attacks on the Allied cruiser force. Postwar analysis concluded that most of these torpedoes were fired from too far away to have much chance of hitting. Some of them detonated early or ran off course. Shiranagi was hit once by a 6-inch (152 mm) shell, which wrecked her floatplane and started a fire on the after deck. Two crewmen were killed and eleven were wounded. The fire was put out within twenty minutes, and the ship stayed in action.
+
+After the Java campaign ended, Shiranagi was repaired at Singapore. She spent mid-1942 escorting convoys between Singapore, Penang, and Rangoon.
+
+= = = Solomon Islands = = =
+
+In September 1942, Shiranagi was transferred to the 8th Fleet at Rabaul to support the Japanese campaign on Guadalcanal. Over the next five months, she made eleven high-speed transport runs to the island. These were part of the operations the Allied forces called the "Tokyo Express". On these missions, she carried troops and supplies on deck and unloaded them by boat near Cape Esperance or Tassafaronga under cover of darkness. She was usually back out of range of American aircraft from Henderson Field by dawn.
+
+On the night of 3 November 1942, Shiranagi was attacked by American PT boats while unloading off Tassafaronga. Her gunfire drove off the boats, and she was not damaged. On 14 December 1942, she was strafed by Marine Corps aircraft while withdrawing through the New Georgia Sound. One of her 25 mm mounts was knocked out, and six men were killed.
+
+During the evacuation of Guadalcanal in February 1943, Shiranagi served as a command ship for one of the destroyer groups. She took part in all three evacuation runs and carried about 1,100 soldiers to safety in total. Her captain, Captain Nakajima Ryūzō, was later commended for the handling of the operation.
+
+= = = Final operations and loss = =
+
+In the spring of 1943, Shiranagi went back to Japan for repairs and a further increase in her anti-aircraft armament. Two more triple 25 mm mounts and several single 25 mm guns were added, bringing the total to 26 barrels. The after 14 cm turret was removed to save weight. A Type 21 air-search radar was fitted on the foremast, and a Type 22 surface-search radar was mounted on the bridge. With these changes, the crew grew to about 480 men.
+
+That June, while Shiranagi was still in the yard, her sister ship Kiriname was torpedoed and sunk by the American submarine USS Grayling off the Palau Islands. Shiranagi was then the only surviving ship of her class.
+
+Shiranagi returned to Rabaul in October 1943. By then, American aircraft were raiding the base heavily, and she was damaged by near misses during the carrier attack of 5 November 1943. After temporary repairs at Truk, she was used to escort supply convoys to the remaining Japanese garrisons in the Bismarck Archipelago.
+
+On 17 February 1944, Shiranagi was escorting a convoy of three transports from Truk to Kavieng in New Ireland. The convoy was located and attacked by B-25 Mitchell bombers of the United States Fifth Air Force. They used low-level skip bombing tactics. Shiranagi was hit by at least three 500-pound (230 kg) bombs. One bomb struck near the forward boiler rooms. Another detonated in the area of the torpedo reload locker. The explosion set off several torpedoes, and a large fire spread through the midships section. The ship lost power and began to list to starboard.
+
+Captain Nakajima ordered the ship abandoned about 25 minutes after the first hit. Shiranagi capsized and sank at about 2°18′S 150°40′E, roughly 40 nautical miles (74 km; 46 mi) northwest of Kavieng. A surviving transport and a submarine chaser rescued 214 men, including Nakajima. A total of 271 crew members were killed. All three transports in the convoy were also sunk. Shiranagi was struck from the navy list on 31 March 1944.
+
+= = Assessment = =
+
+Naval historians have generally regarded the Shiranagi class as a bold design that did not fully meet its goals. The ships were fast and heavily armed for their size, and their command facilities were an improvement on earlier light cruisers. However, the effort to save weight left them with stability problems and structural weaknesses. These problems needed costly fixes, and the fixes reduced the ships' speed. Their light armour also made them vulnerable to air attack, which became the main threat in the later years of the war.
+
+The decisive night battle that the ships were designed for never took place in the form Japanese planners had expected. Instead, Shiranagi spent most of her wartime career on convoy escort and transport work. These were roles her designers had not intended, and they put her within reach of land-based aircraft. Some writers have pointed to her service in the Solomons as typical of how Japanese warships were used during the Guadalcanal campaign. In that campaign, ships built for fleet action were often used as fast transports.
+
+The lessons of the Shiranagi class shaped later Japanese designs. These included the Agano-class light cruisers, which had more conservative hull construction and better stability margins.
+
+= = Wreck = =
+
+The wreck of Shiranagi has not been formally surveyed. In 2009, a survey vessel working for a regional fisheries agency reported a large sonar contact at a depth of about 1,300 metres (4,300 ft) near the recorded sinking position. Its size and outline were consistent with a cruiser lying upside down. No visual confirmation has been made.
+
+A memorial to the crew stands in the grounds of a shrine in Maizuru, where the ship was built. It was set up in 1968 by an association of surviving crew members and their families. A memorial service is held there each February on the anniversary of the sinking.

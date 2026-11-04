@@ -1,0 +1,107 @@
+Lantern Moth
+
+Lantern Moth is a 1983 arcade action game developed and published by Kessler-Orme Amusements, a small American coin-operated machine manufacturer based in Sunnyvale, California. The player controls a moth that must collect light from a series of street lamps while avoiding bats, spiders, and other nocturnal predators across a scrolling city skyline. The game was designed by Margaret Hollis and programmed by Dennis Achterberg, with music and sound effects by Ray Okonkwo.
+
+Lantern Moth received a limited release in North America in the autumn of 1983. Distribution suffered from the video game crash of 1983 and from its manufacturer's financial difficulties. Fewer than 2,000 dedicated cabinets are believed to have been produced. Reviewers at the time praised its visual style and its unusual "light meter" mechanic, but it was a commercial failure, and Kessler-Orme stopped manufacturing arcade hardware the following year. The game later gained a cult following among collectors. It is often cited as an early example of a game built around resource management under time pressure.
+
+= = Gameplay = =
+
+Lantern Moth is a single-screen action game with limited horizontal scrolling, played with an eight-way joystick and one button. The player controls a moth flying through a nighttime urban landscape made up of rooftops, telephone wires, chimneys, and rows of street lamps. The moth carries a "glow" stored in a light meter shown at the top of the screen. The meter drains steadily over time. If it empties, the moth fades from view and the player loses a life.
+
+To refill the meter, the player must touch lit street lamps. Each lamp holds a limited amount of light, shown by the brightness of its bulb. Once drained, a lamp goes dark and stays dark for the rest of the stage. A level is complete when every lamp in the area has been drained. The surrounding cityscape then dims, and the screen scrolls to a new district.
+
+Pressing the button makes the moth release a "flare," a short burst of stored light. Flares stun nearby enemies and reveal hidden objects, but each one costs part of the light meter. The design therefore forces a trade-off between defense and survival. Players have to decide when the safety of a flare is worth losing reserve light. Hollis later called this tension "the whole game."
+
+= = = Enemies = = =
+
+Several types of enemy appear, each with its own behavior:
+
+* Bats fly in long, swooping arcs. They are drawn toward the moth when its light meter is high, so a well-fed moth is more visible and more vulnerable.
+* Spiders lower themselves on threads from wires and gutters. Their webs stay on screen as obstacles that slow the moth if touched.
+* Nighthawks appear from the fourth stage onward. They fly straight across the screen at high speed, with a brief audio cue before each pass.
+* The Lamplighter is a human figure who walks along the street and relights drained lamps. Relit lamps must be drained again before the stage can be finished. The Lamplighter cannot harm the moth, but he can greatly lengthen a stage. A flare will send him walking in the other direction for a few seconds.
+
+Contact with a bat, spider, or nighthawk costs the player one life. The player starts with three lives and earns an extra one at 20,000 points, then every 50,000 points after that. Operators could change these thresholds with DIP switches.
+
+= = = Scoring and stages = = =
+
+Points come from draining lamps, stunning enemies with flares, and finishing a stage with light left in the meter. A bonus multiplier rises when the player drains several lamps in a row without being hit. It resets when the moth loses a life or when the player uses a flare.
+
+The game has eight districts, each with its own color palette and layout. Examples include the "Harbor," lit by orange sodium lamps, and the "Theater Row," where flashing marquee signs work as decoy light sources that drain the meter instead of filling it. After the eighth district, the game loops back to the first with faster enemies and a quicker drain rate. Because of a programming oversight, the drain rate stops rising after the fifth loop. This made extended play possible for skilled players, and it became a feature of later high-score competitions.
+
+= = History = =
+
+= = = Development = = =
+
+Kessler-Orme Amusements was founded in 1979 by Walter Kessler and Edwin Orme. Both had previously worked as field engineers for a larger coin-operated machine distributor. The company first refurbished and converted existing cabinets. In 1981 it released its first original title, a modest maze game called Gopher Run. Gopher Run sold steadily in regional markets, and that income allowed the company to hire a small in-house development team in early 1982.
+
+Margaret Hollis had a background in industrial design and had worked on cabinet artwork for Gopher Run. She proposed Lantern Moth in the spring of 1982. According to a 2004 interview with a collectors' magazine, the idea came to her while watching insects gather around a porch light at her family's home in Fresno. "They were completely helpless around it," she said. "They needed the light, but it was also the thing that got them eaten. I thought that was a game."
+
+The first prototype was programmed by Dennis Achterberg, who had joined Kessler-Orme from a university computing laboratory. In it the moth simply avoided enemies while collecting light, with no flare mechanic. Internal playtesters found it too passive. Achterberg suggested letting the moth spend its light as a weapon. The flare was added in the summer of 1982 and soon became the game's central feature. The Lamplighter came later still. Hollis added him in response to testers who had learned to clear stages too quickly by following a fixed route.
+
+The game ran on a custom board built around a Zilog Z80 processor, with a secondary Z80 for sound. Achterberg wrote a palette-cycling routine that let lamp bulbs dim gradually without redrawing their sprites. This allowed the soft lighting effects that reviewers later singled out for praise. The routine took up much of the available processing time, and the team had to limit the screen to six moving enemies at once.
+
+= = = Audio = = =
+
+Ray Okonkwo, a session musician who had done jingle work for local radio stations, wrote the game's sound. Rather than continuous background music, Lantern Moth uses a low, pulsing tone whose pitch follows the moth's light meter. The tone rises when the meter is full and drops as it drains. Okonkwo said he wanted players to "hear their own heartbeat slowing down." A short melodic phrase plays when a stage is cleared, and a descending chime plays when a lamp goes dark.
+
+The nighthawk's warning cue was originally a recorded bird call. It was replaced with a synthesized screech because the sampled sound took up too much of the sound board's memory.
+
+= = = Release = = =
+
+Lantern Moth was shown to operators at a regional amusement trade show in March 1983, and production started that summer. It came in a standard upright cabinet with side art painted by Hollis, showing a moth silhouetted against a large gas lamp. A cocktail-table version was announced but apparently made only in very small numbers. Collectors have documented just three surviving examples.
+
+The release coincided with a sharp downturn in the North American video game industry. Many arcade operators cut back on new purchases during the second half of 1983, and Kessler-Orme lacked the distribution networks of larger competitors. The company relied mainly on independent distributors in California, Oregon, and Washington. Shipments to the Midwest and the East Coast were late and inconsistent. Contemporary trade reports estimated total production at between 1,500 and 1,900 units, though no official figures were ever published.
+
+A licensing agreement for a Japanese release was reportedly discussed with a Tokyo-based distributor in late 1983, but it was never signed. No official home versions were released during the game's commercial life.
+
+= = = Decline of Kessler-Orme = = =
+
+Low sales of Lantern Moth, together with the wider collapse of the market, left Kessler-Orme in serious financial trouble. A follow-up project, a racing game provisionally titled Midnight Freight, was cancelled in early 1984 after a single prototype board was made. In mid-1984 the company left the arcade business. It returned to refurbishment work and later to vending machine repair. It was dissolved in 1991.
+
+Hollis left the company in 1984 and went on to a career in product packaging design. Achterberg moved into business software development. Okonkwo continued to work as a session musician and occasionally composed for television.
+
+= = Reception = =
+
+Contemporary reviews were generally positive, though few in number because of the limited distribution. A reviewer for a West Coast amusement trade newsletter called it "the best-looking game to come out of a small shop this year." The reviewer praised its "moody, almost painterly" palette but warned that its difficulty curve might put off casual players. A hobbyist computing magazine described the light meter as "a clever idea that makes every decision count." It criticized the Theater Row stage as "unfair until memorized."
+
+Operators who reported earnings to trade publications described the game as solid but unremarkable. It held players' interest well in college towns but did poorly in high-traffic locations such as shopping malls. Some operators said the dark visuals were hard to see under bright arcade lighting. Kessler-Orme answered with a service bulletin recommending a higher monitor brightness setting.
+
+Later assessments have been more favorable. In a 1999 retrospective on lesser-known arcade games of the early 1980s, a British gaming magazine placed Lantern Moth among "the great lost games of the crash era." The magazine argued that its central mechanic, a single resource used both to survive and to fight, anticipated design ideas that became common in later decades. Game design writers have also discussed the Lamplighter as an early example of a non-hostile antagonist whose role is to undo the player's progress rather than to cause harm directly.
+
+= = Legacy = =
+
+= = = Collecting and preservation = = =
+
+Because few units were made, original Lantern Moth cabinets are rare and command high prices among arcade collectors. Many surviving machines were converted to other games by operators in the mid-1980s, a common practice at the time. Cabinets with original side art are especially sought after. A collectors' registry kept by enthusiasts listed about 140 known surviving dedicated cabinets as of 2015, plus a larger number of loose circuit boards.
+
+The game's program code was archived by preservation groups in the late 1990s, which made it possible to play the game through emulation. An early dump contained a corrupted sound ROM that produced a distorted version of the pulsing heartbeat tone. A correct dump was obtained in 2003 from a board donated by a former Kessler-Orme employee.
+
+= = = Competitive play = = =
+
+Lantern Moth developed a small competitive scene in the 2000s. It centered on marathon sessions made possible by the drain-rate cap after the fifth loop. High-score records are tracked by an independent scoring organization. By the mid-2010s, top scores were above four million points from sessions lasting more than nine hours. Competitive players developed several named techniques. "Shadowing" means following the Lamplighter closely so that relit lamps are drained at once. "Ember banking" means deliberately keeping the meter low to reduce attention from bats.
+
+In 2011, a player discovered that firing a flare on the exact frame a stage ends gives the stage-clear bonus without the cost of the flare. This trick, known as the "last flare" exploit, was later confirmed through examination of the game's code. It is permitted under standard competition rules.
+
+= = = Re-releases = = =
+
+The rights to Lantern Moth passed through several hands after Kessler-Orme was dissolved, and for many years their ownership was unclear. In 2017, a small independent publisher acquired the rights from Walter Kessler's estate. The following year it released an emulated version for personal computers and home consoles. This edition included the original game, a "museum" mode with scans of the cabinet art, operator manuals, and Hollis's original design sketches, and a recorded interview with Hollis and Achterberg. Achterberg died in 2019, and the re-release was among the last projects he took part in.
+
+The re-release introduced the game to a new audience and was well received by critics. One reviewer called it "a forty-year-old game that feels like it was designed last week." Another praised the publisher's decision to keep the original difficulty without changes.
+
+= = = Influence = = =
+
+Several independent game developers have named Lantern Moth as an influence, usually for its resource-management design or its use of sound as a gameplay indicator. Hollis has said she is surprised by the game's later reputation. In the interview recorded for the re-release, she said she "always assumed it had vanished with the company." She added: "It's strange to find out that the moth made it out of the dark after all."
+
+= = See also = =
+
+* Video game crash of 1983
+* List of arcade video games
+* Golden age of arcade video games
+
+= = References = =
+
+* Hollis, Margaret. Interview. Coin-Op Collector Quarterly, no. 22 (2004).
+* "New Equipment Roundup." Pacific Amusement Operator Newsletter, April 1983.
+* "Lost Games of the Crash." Retro Arcade Monthly, issue 41 (1999).
+* Achterberg, Dennis, and Margaret Hollis. Recorded interview. Lantern Moth (2018 re-release), museum mode.

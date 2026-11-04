@@ -1,0 +1,35 @@
+\begin{tabular}{llccc}
+\toprule
+Setting & Probe text & Ref.\ content & Content ratio & Net ratio \\
+\midrule
+Pythia 70M$\to$160M (main) & Real text & 1.06 & 0.99 [0.94, 1.03] & 1.00 [0.97, 1.04] \\
+ & LLM text &  & 0.82 [0.79, 0.85] & 0.72 [0.68, 0.76] \\
+ & Self-samples &  & 0.44 [0.42, 0.47] & 0.31 [0.29, 0.33] \\
+\addlinespace
+Pythia 410M$\to$160M & Real text & 1.06 & 1.02 [0.98, 1.06] & 0.99 [0.96, 1.03] \\
+ & LLM text &  & 0.89 [0.86, 0.92] & 0.70 [0.67, 0.73] \\
+ & Self-samples &  & 0.55 [0.45, 0.65] & 0.31 [0.22, 0.40] \\
+\addlinespace
+Pythia 160M$\to$410M & Real text & 1.51 & 0.85 [0.79, 0.91] & 0.87 [0.82, 0.92] \\
+ & LLM text &  & 0.77 [0.75, 0.80] & 0.69 [0.67, 0.72] \\
+ & Self-samples &  & 0.27 [0.24, 0.34] & 0.14 [0.09, 0.17] \\
+\addlinespace
+GPT-2$\to$Pythia 160M & Real text & 1.05 & 1.02 [0.98, 1.05] & 1.00 [0.97, 1.03] \\
+ & LLM text &  & 0.87 [0.78, 0.93] & 0.70 [0.61, 0.76] \\
+ & Self-samples &  & 0.70 [0.66, 0.74] & 0.54 [0.51, 0.58] \\
+\addlinespace
+GPT-2$\to$Qwen2.5 0.5B & Real text & 1.58 & 0.50 [0.25, 0.76] & 0.62 [0.44, 0.80] \\
+ & LLM text &  & 0.57 [0.46, 0.67] & 0.43 [0.34, 0.52] \\
+\addlinespace
+OPT 125M$\to$GPT-2 & Real text & 1.40 & 0.28 [0.26, 0.30] & 0.65 [0.60, 0.71] \\
+ & LLM text &  & 0.28 [0.25, 0.31] & 0.27 [0.22, 0.32] \\
+\addlinespace
+Code (70M$\to$160M) & Real text & 1.26 & 0.31 [0.26, 0.34] & 0.03 [$-$0.03, 0.10] \\
+ & LLM text &  & 0.30 [0.27, 0.32] & $-$0.10 [$-$0.16, $-$0.03] \\
+ & Self-samples &  & 0.30 [0.28, 0.31] & 0.21 [0.19, 0.24] \\
+\addlinespace
+Reviews (70M$\to$160M) & Real text & 0.43 & 0.81 [0.76, 0.87] & 0.71 [0.65, 0.76] \\
+ & LLM text &  & 0.73 [0.70, 0.76] & 0.63 [0.60, 0.67] \\
+ & Self-samples &  & 0.46 [0.43, 0.50] & 0.46 [0.42, 0.50] \\
+\bottomrule
+\end{tabular}

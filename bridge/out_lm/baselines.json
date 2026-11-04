@@ -1,0 +1,50 @@
+{
+ "A_alone": {
+  "acc": 0.6284,
+  "loss": 1.4418
+ },
+ "B_alone": {
+  "acc": 0.6356,
+  "loss": 1.4043
+ },
+ "random": {
+  "acc": 0.0602,
+  "loss": 5.3256
+ },
+ "embed-anchor LSQ (data-free)": {
+  "acc": 0.1044,
+  "loss": 4.7882
+ },
+ "embed+unembed LSQ (data-free)": {
+  "acc": 0.1566,
+  "loss": 4.655
+ },
+ "data-fit ridge (upper bound)": {
+  "acc": 0.3993,
+  "loss": 2.5429
+ },
+ "task-loss fit on real text (upper bound)": {
+  "acc": 0.5571,
+  "loss": 1.7041
+ },
+ "task-loss fit on Claude-written probe text (no corpus)": {
+  "acc": 0.4972,
+  "loss": 2.0217
+ },
+ "task-loss fit on shuffled probe characters (control)": {
+  "acc": 0.2682,
+  "loss": 3.3428
+ },
+ "Claude sandbox, designs everything, no corpus (r0)": {
+  "acc": 0.5502,
+  "loss": 1.7449
+ },
+ "Claude sandbox, designs everything, no corpus (r1)": {
+  "acc": 0.5572,
+  "loss": 1.7022
+ },
+ "task-loss fit on text sampled from A and B themselves (no corpus, no LLM)": {
+  "acc": 0.5489,
+  "loss": 1.7436
+ }
+}
