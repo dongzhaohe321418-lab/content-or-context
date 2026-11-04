@@ -1,6 +1,6 @@
 \section{Receiver-state reference versus injection depth}
 \label{app:ceiling}
-We inject $B$'s own layer-$L_B$ prefix states, computed with $B$ reading the prefix alone, into $B$'s suffix pass at the same layer (128 test windows; a diagnostic, not used for any selection; script \texttt{pb\_ceiling.py}, output \texttt{ceiling.txt}).
+We compute $B$'s own layer-$L_B$ prefix states by running $B$ on the prefix alone. We inject these states into $B$'s suffix pass at the same layer. This diagnostic uses 128 test windows and is not used for any selection. The script is \texttt{pb\_ceiling.py}, and the output is \texttt{ceiling.txt}.
 
 \begin{table}[h]
 \centering\small
@@ -51,7 +51,7 @@ Real-text bridge (comm) & 5.233 & 5.294 & 5.286 & 5.200 & 5.004 & 4.717 & 4.434 
 LLM-text bridge (comm) & 5.205 & 5.320 & 5.390 & 5.369 & 5.258 & 5.080 & 4.871 & 4.137 \\
 \bottomrule
 \end{tabular}}
-\caption{Short latent messages are worse than no context in absolute terms, including $B$'s own states (reference, $K\le 8$). A message of $K<P$ positions places a mid-document state at sequence position 0, where Pythia normally sees the start of a text, and the bridges were fitted only with 128-position messages. We have not isolated which of these causes the drop, and the content contrasts in Figure~\ref{fig:comm}c, which compare matched and other-article messages of the same length, may also be affected.}
+\caption{Short latent messages are worse than no context in absolute terms, including $B$'s own states (reference, $K\le 8$). A message of $K<P$ positions places a mid-document state at sequence position 0, where Pythia normally sees the start of a text, and the bridges were fitted only with 128-position messages. We have not isolated which of these causes the drop. The content contrasts in Figure~\ref{fig:comm}c compare matched and other-article messages of the same length and may also be affected.}
 \end{table}
 
 \input{sec_appendix_rest}
