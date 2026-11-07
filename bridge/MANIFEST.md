@@ -557,13 +557,13 @@ Code domain input: Python 3.12.14 standard library, 165 top-level .py files, SHA
 | `../paper/figs/fig_comm.tiff` | `4b3384bb55f66fbef04bbd050baa632414e5be6707f3700b60001791e2e2963f` |
 | `../paper/figs/make_fig_comm.py` | `342f365b7b6a2c5bc54a17a8430c686c2b1534e4ade5b76f0d59e929dfd1732a` |
 | `../paper/figs/requirements-fig-lock.txt` | `119252489c872920ee91a3ff3c7468720e82f2ce04e2b26b5f576320491530c0` |
-| `../paper/main.pdf` | `dbb9b62af47d296cffb4ab759ce38d7944b993df47bb84595dc4e838304dce43` |
+| `../paper/main.pdf` | `f449abde1b804e90d5e554fb96be7848c76cf3569447a73a1cfde449c94e62c4` |
 | `../paper/main.tex` | `cde191d9c441cfb2b9dffb4d3c17964314170bcae536488224287c75bfb7dc4f` |
 | `../paper/math_commands.tex` | `90473c4d0542070db244cea73ef962d6cddc5b2a746757e6a40ddf5fdfb90ba9` |
 | `../paper/natbib.sty` | `88bc70c0e48461934cab5b2accef06b74a8b3ac45ad03ccd3f2a6b7e0d6d530d` |
 | `../paper/placeholders.tex` | `6599bbed2b9146dd97d9d19c778ed206d75eebcb61b3aa151586f7983fab3302` |
-| `../paper/refs.bib` | `537b6cdc07fe0364fd114b72dc20de53063e4f1886aba9a6d5040f6a9bb34ed8` |
-| `../paper/sec_abstract_intro.tex` | `8c510891fa960c5999b5a098b3b919cf4dd4974e1dd91b80f22c0802883ea21c` |
+| `../paper/refs.bib` | `2c4371e42b2ab6fedac00b9ce3e9b443e527bbfb982353291f1628e4fd05fa7d` |
+| `../paper/sec_abstract_intro.tex` | `7d4944a778c8218d997902f0c485329a99c14b5155406fc0160666b2fc49c64b` |
 | `../paper/sec_appendix.tex` | `2c0db7100d6e266eab8ae1db02783df949bd53218692b18c062349a38ca3cb80` |
 | `../paper/sec_appendix_rest.tex` | `7bab0ec0ff860c1b36039bfba92d81dd5a2a16bd33b73b4baa70e183e7f073db` |
 | `../paper/sec_appendix_small.tex` | `661b2f110699a0bd45223f9b2bf2ee554893beda8e274d53a80ba75107e20870` |
@@ -571,7 +571,7 @@ Code domain input: Python 3.12.14 standard library, 165 top-level .py files, SHA
 | `../paper/sec_diag.tex` | `1b78520743efdb981a4c7175e503192b49772bdb10fe67d2b7e538547ab2b985` |
 | `../paper/sec_discussion.tex` | `ce145eeec8776def92ddd16ec729e917cb1eb5f1d5e341ae8d6c4720b59971a8` |
 | `../paper/sec_general.tex` | `d894e25cf68894d2aaa9555e623e617aa6f3dae233ba01c13abca4cf6ee7cda6` |
-| `../paper/sec_related_method.tex` | `0150c0ac2d0552bb822c75a24c959f4893c4f7e620ecccb12882a2e160a5e830` |
+| `../paper/sec_related_method.tex` | `848d6140674c20108f8f90034e8d195b8a6e935a141076d43367fbaeca5c8eb0` |
 | `../paper/sec_results.tex` | `55a6c71e66c0d3a3d5f157cd7b02a48bc45cb2760431c96a581b69e76db21bec` |
 | `../paper/sec_results_rest.tex` | `97f14c8776db13866777f84727cca11cc1992aa3c2972de1b2af288760304712` |
 | `../paper/tab_comm70.tex` | `ff5e5ab53a82c6e2c821c7e37d7e78dcd68bf42794bc2af36e2bd5c3e612d1a6` |
